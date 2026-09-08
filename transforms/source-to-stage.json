@@ -162,5 +162,35 @@
     "landmarks": [],
     "review_status": "automatic same-donor surface registration (pelvis p95 4.7 mm); anatomy unreviewed",
     "evidence": "generated/nlm-ct-registration.json"
+  },
+  "dhcp-native-to-stage": {
+    "type": "source NIfTI qform millimetres to metres",
+    "from": "dHCP GA40 common atlas space",
+    "to": "dHCP GA40 viewer stage",
+    "matrix_row_major": [
+      0.001,
+      0,
+      0,
+      0,
+      0,
+      0.001,
+      0,
+      0,
+      0,
+      0,
+      0.001,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "units": "metres",
+    "canonical_registration": false,
+    "review_status": "header-derived; local mesh conversion unreviewed",
+    "evidence": "data/raw/dhcp-neonatal/download-manifest.json",
+    "landmarks": [],
+    "rms": null,
+    "hausdorff": null
   }
 }

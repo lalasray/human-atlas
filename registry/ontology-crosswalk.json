@@ -23798,5 +23798,600 @@
     "source_term": "NLMCT:VHF:costal_cartilages",
     "canonical_id": "UBERON:0002236",
     "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:1",
+    "source_term": "DHCP:GA40:1",
+    "canonical_id": "DHCP:GA40:1|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:2",
+    "source_term": "DHCP:GA40:2",
+    "canonical_id": "DHCP:GA40:2|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:3",
+    "source_term": "DHCP:GA40:3",
+    "canonical_id": "DHCP:GA40:3|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:4",
+    "source_term": "DHCP:GA40:4",
+    "canonical_id": "DHCP:GA40:4|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:5",
+    "source_term": "DHCP:GA40:5",
+    "canonical_id": "DHCP:GA40:5|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:6",
+    "source_term": "DHCP:GA40:6",
+    "canonical_id": "DHCP:GA40:6|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:7",
+    "source_term": "DHCP:GA40:7",
+    "canonical_id": "DHCP:GA40:7|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:8",
+    "source_term": "DHCP:GA40:8",
+    "canonical_id": "DHCP:GA40:8|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:9",
+    "source_term": "DHCP:GA40:9",
+    "canonical_id": "DHCP:GA40:9|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:10",
+    "source_term": "DHCP:GA40:10",
+    "canonical_id": "DHCP:GA40:10|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:11",
+    "source_term": "DHCP:GA40:11",
+    "canonical_id": "DHCP:GA40:11|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:12",
+    "source_term": "DHCP:GA40:12",
+    "canonical_id": "DHCP:GA40:12|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:13",
+    "source_term": "DHCP:GA40:13",
+    "canonical_id": "DHCP:GA40:13|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:14",
+    "source_term": "DHCP:GA40:14",
+    "canonical_id": "DHCP:GA40:14|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:15",
+    "source_term": "DHCP:GA40:15",
+    "canonical_id": "DHCP:GA40:15|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:16",
+    "source_term": "DHCP:GA40:16",
+    "canonical_id": "DHCP:GA40:16|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:17",
+    "source_term": "DHCP:GA40:17",
+    "canonical_id": "DHCP:GA40:17|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:18",
+    "source_term": "DHCP:GA40:18",
+    "canonical_id": "DHCP:GA40:18|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:19",
+    "source_term": "DHCP:GA40:19",
+    "canonical_id": "DHCP:GA40:19|midline",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:20",
+    "source_term": "DHCP:GA40:20",
+    "canonical_id": "DHCP:GA40:20|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:21",
+    "source_term": "DHCP:GA40:21",
+    "canonical_id": "DHCP:GA40:21|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:22",
+    "source_term": "DHCP:GA40:22",
+    "canonical_id": "DHCP:GA40:22|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:23",
+    "source_term": "DHCP:GA40:23",
+    "canonical_id": "DHCP:GA40:23|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:24",
+    "source_term": "DHCP:GA40:24",
+    "canonical_id": "DHCP:GA40:24|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:25",
+    "source_term": "DHCP:GA40:25",
+    "canonical_id": "DHCP:GA40:25|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:26",
+    "source_term": "DHCP:GA40:26",
+    "canonical_id": "DHCP:GA40:26|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:27",
+    "source_term": "DHCP:GA40:27",
+    "canonical_id": "DHCP:GA40:27|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:28",
+    "source_term": "DHCP:GA40:28",
+    "canonical_id": "DHCP:GA40:28|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:29",
+    "source_term": "DHCP:GA40:29",
+    "canonical_id": "DHCP:GA40:29|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:30",
+    "source_term": "DHCP:GA40:30",
+    "canonical_id": "DHCP:GA40:30|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:31",
+    "source_term": "DHCP:GA40:31",
+    "canonical_id": "DHCP:GA40:31|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:32",
+    "source_term": "DHCP:GA40:32",
+    "canonical_id": "DHCP:GA40:32|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:33",
+    "source_term": "DHCP:GA40:33",
+    "canonical_id": "DHCP:GA40:33|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:34",
+    "source_term": "DHCP:GA40:34",
+    "canonical_id": "DHCP:GA40:34|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:35",
+    "source_term": "DHCP:GA40:35",
+    "canonical_id": "DHCP:GA40:35|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:36",
+    "source_term": "DHCP:GA40:36",
+    "canonical_id": "DHCP:GA40:36|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:37",
+    "source_term": "DHCP:GA40:37",
+    "canonical_id": "DHCP:GA40:37|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:38",
+    "source_term": "DHCP:GA40:38",
+    "canonical_id": "DHCP:GA40:38|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:39",
+    "source_term": "DHCP:GA40:39",
+    "canonical_id": "DHCP:GA40:39|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:40",
+    "source_term": "DHCP:GA40:40",
+    "canonical_id": "DHCP:GA40:40|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:41",
+    "source_term": "DHCP:GA40:41",
+    "canonical_id": "DHCP:GA40:41|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:42",
+    "source_term": "DHCP:GA40:42",
+    "canonical_id": "DHCP:GA40:42|midline",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:43",
+    "source_term": "DHCP:GA40:43",
+    "canonical_id": "DHCP:GA40:43|midline",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:44",
+    "source_term": "DHCP:GA40:44",
+    "canonical_id": "DHCP:GA40:44|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:45",
+    "source_term": "DHCP:GA40:45",
+    "canonical_id": "DHCP:GA40:45|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:46",
+    "source_term": "DHCP:GA40:46",
+    "canonical_id": "DHCP:GA40:46|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:47",
+    "source_term": "DHCP:GA40:47",
+    "canonical_id": "DHCP:GA40:47|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:48",
+    "source_term": "DHCP:GA40:48",
+    "canonical_id": "DHCP:GA40:48|midline",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:49",
+    "source_term": "DHCP:GA40:49",
+    "canonical_id": "DHCP:GA40:49|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:50",
+    "source_term": "DHCP:GA40:50",
+    "canonical_id": "DHCP:GA40:50|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:51",
+    "source_term": "DHCP:GA40:51",
+    "canonical_id": "DHCP:GA40:51|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:52",
+    "source_term": "DHCP:GA40:52",
+    "canonical_id": "DHCP:GA40:52|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:53",
+    "source_term": "DHCP:GA40:53",
+    "canonical_id": "DHCP:GA40:53|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:54",
+    "source_term": "DHCP:GA40:54",
+    "canonical_id": "DHCP:GA40:54|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:55",
+    "source_term": "DHCP:GA40:55",
+    "canonical_id": "DHCP:GA40:55|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:56",
+    "source_term": "DHCP:GA40:56",
+    "canonical_id": "DHCP:GA40:56|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:57",
+    "source_term": "DHCP:GA40:57",
+    "canonical_id": "DHCP:GA40:57|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:58",
+    "source_term": "DHCP:GA40:58",
+    "canonical_id": "DHCP:GA40:58|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:59",
+    "source_term": "DHCP:GA40:59",
+    "canonical_id": "DHCP:GA40:59|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:60",
+    "source_term": "DHCP:GA40:60",
+    "canonical_id": "DHCP:GA40:60|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:61",
+    "source_term": "DHCP:GA40:61",
+    "canonical_id": "DHCP:GA40:61|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:62",
+    "source_term": "DHCP:GA40:62",
+    "canonical_id": "DHCP:GA40:62|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:63",
+    "source_term": "DHCP:GA40:63",
+    "canonical_id": "DHCP:GA40:63|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:64",
+    "source_term": "DHCP:GA40:64",
+    "canonical_id": "DHCP:GA40:64|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:65",
+    "source_term": "DHCP:GA40:65",
+    "canonical_id": "DHCP:GA40:65|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:66",
+    "source_term": "DHCP:GA40:66",
+    "canonical_id": "DHCP:GA40:66|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:67",
+    "source_term": "DHCP:GA40:67",
+    "canonical_id": "DHCP:GA40:67|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:68",
+    "source_term": "DHCP:GA40:68",
+    "canonical_id": "DHCP:GA40:68|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:69",
+    "source_term": "DHCP:GA40:69",
+    "canonical_id": "DHCP:GA40:69|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:70",
+    "source_term": "DHCP:GA40:70",
+    "canonical_id": "DHCP:GA40:70|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:71",
+    "source_term": "DHCP:GA40:71",
+    "canonical_id": "DHCP:GA40:71|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:72",
+    "source_term": "DHCP:GA40:72",
+    "canonical_id": "DHCP:GA40:72|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:73",
+    "source_term": "DHCP:GA40:73",
+    "canonical_id": "DHCP:GA40:73|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:74",
+    "source_term": "DHCP:GA40:74",
+    "canonical_id": "DHCP:GA40:74|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:75",
+    "source_term": "DHCP:GA40:75",
+    "canonical_id": "DHCP:GA40:75|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:76",
+    "source_term": "DHCP:GA40:76",
+    "canonical_id": "DHCP:GA40:76|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:77",
+    "source_term": "DHCP:GA40:77",
+    "canonical_id": "DHCP:GA40:77|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:78",
+    "source_term": "DHCP:GA40:78",
+    "canonical_id": "DHCP:GA40:78|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:79",
+    "source_term": "DHCP:GA40:79",
+    "canonical_id": "DHCP:GA40:79|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:80",
+    "source_term": "DHCP:GA40:80",
+    "canonical_id": "DHCP:GA40:80|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:81",
+    "source_term": "DHCP:GA40:81",
+    "canonical_id": "DHCP:GA40:81|right",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:82",
+    "source_term": "DHCP:GA40:82",
+    "canonical_id": "DHCP:GA40:82|left",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:83",
+    "source_term": "DHCP:GA40:83",
+    "canonical_id": "DHCP:GA40:83|midline",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:86",
+    "source_term": "DHCP:GA40:86",
+    "canonical_id": "DHCP:GA40:86|midline",
+    "method": "identifier-format-normalization; explicit-name-laterality"
+  },
+  {
+    "source": "dhcp-neonatal",
+    "source_asset": "DHCP:GA40:87",
+    "source_term": "DHCP:GA40:87",
+    "canonical_id": "DHCP:GA40:87|midline",
+    "method": "identifier-format-normalization; explicit-name-laterality"
   }
 ]

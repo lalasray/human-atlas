@@ -358,5 +358,29 @@
     "access_restrictions": "research weights may be NC or have additional terms",
     "priority": "3",
     "notes": "Derived geometry must track input scan and exact model release; not measured coverage by itself"
+  },
+  {
+    "id": "dhcp-neonatal",
+    "name": "dHCP morphological atlas of neonatal brain development",
+    "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise",
+    "paper": "https://doi.org/10.1101/251512",
+    "license": "CC-BY-4.0",
+    "license_url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/src/master/LICENSE.md",
+    "redistributable": "true",
+    "commercial_use": "true",
+    "derivatives": "true",
+    "modality": "aggregate neonatal MRI atlas",
+    "sex": "mixed",
+    "donor_id": "dhcp-ga40-aggregate",
+    "same_as_vhf": "false",
+    "body_region": "brain",
+    "structures_count": "87",
+    "ontology": "",
+    "format": "NIfTI;MIRTK segment table",
+    "resolution": "0.5 mm isotropic",
+    "download_size": "about 420 KB hard segmentation",
+    "access_restrictions": "public direct download",
+    "priority": "5",
+    "notes": "40 weeks post-menstrual age; aggregate atlas from 275 structurally normal neonatal MRI scans; brain only, not a whole-body infant atlas; pinned revision d699540b1820d8224a07db3c1d727d0c747218dc"
   }
 ]

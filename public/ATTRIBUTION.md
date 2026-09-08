@@ -15,6 +15,29 @@ Source OBJ comments mention an older CC BY-SA 2.1 Japan license. The official cu
 
 BodyParts3D represents an adult male reference anatomy based on TARO MRI and anatomical illustration refinements. It is not a complete model of every possible human anatomical structure or variation. This interface is educational and is not a clinical tool.
 
+## dHCP neonatal brain atlas
+
+The Infant model derives from the *Morphological atlas of neonatal brain development*
+produced by the Developing Human Connectome Project and BioMedIA, Imperial College London.
+The selected source time point is 40 weeks post-menstrual age from repository revision
+`d699540b1820d8224a07db3c1d727d0c747218dc`.
+
+- Dataset DOI: https://doi.org/10.12751/g-node.d2b353
+- Source: https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise
+- Atlas publication: Schuh et al., *Unbiased construction of a temporally consistent morphological atlas of neonatal brain development*, https://doi.org/10.1101/251512
+- Segmentation method: Draw-EM; see Makropoulos et al. 2018, https://doi.org/10.1016/j.neuroimage.2018.01.054
+- License: Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/
+
+The source atlas was constructed from 275 structurally normal neonatal T1/T2 MRI scans
+resampled to 0.5 mm isotropic resolution. Adaptations: the 40-week hard segmentation was
+converted from NIfTI qform millimetres to metres, two non-anatomical background labels
+were excluded, each of the remaining 85 labels was converted with marching cubes,
+geometry was simplified with a 0.2% relative-error limit, normals were quantized, and
+meshes were packed and compressed for web delivery. The source common atlas frame is
+preserved; the MIRTK global age-size transform was not applied. This is a mixed-sex,
+aggregate, brain-only neonatal reference—not a whole-body infant, individual donor, or
+clinical model. Local mesh conversion has not received anatomical review.
+
 ## Female reference assets (restored in this local fork)
 
 Female reference anatomy: Kristen Browne and Heidi Schlehlein, Human Reference Atlas / HuBMAP, *3D Reference Organ Set for Female v1.5* (2023). CC BY 4.0. Geometry adapted for this viewer. Restored from human-atlas revision `d72b4f6db42e41a8db84b1c19ff6d86ee7b65284`.

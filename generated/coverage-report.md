@@ -2,8 +2,8 @@
 
 | Metric | Count |
 | --- | ---: |
-| canonical_catalog_entries | 4315 |
-| source_meshes | 3400 |
+| canonical_catalog_entries | 4400 |
+| source_meshes | 3485 |
 | female_measured | 128 |
 | registered_female | 231 |
 | female_ct_same_donor | 114 |

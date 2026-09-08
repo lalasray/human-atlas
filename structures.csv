@@ -4314,3 +4314,88 @@ NLMCT:VHF:group:rib_9,Rib 9 (both sides),,NLMCT:VHF:group:rib_9,,aggregate,unspe
 NLMCT:VHF:group:rib_10,Rib 10 (both sides),,NLMCT:VHF:group:rib_10,,aggregate,unspecified,source-hierarchy-concept
 NLMCT:VHF:group:rib_11,Rib 11 (both sides),,NLMCT:VHF:group:rib_11,,aggregate,unspecified,source-hierarchy-concept
 NLMCT:VHF:group:rib_12,Rib 12 (both sides),,NLMCT:VHF:group:rib_12,,aggregate,unspecified,source-hierarchy-concept
+DHCP:GA40:1|left,Left hippocampus left,,,,nervous,left,direct-source-geometry
+DHCP:GA40:2|right,Right hippocampus right,,,,nervous,right,direct-source-geometry
+DHCP:GA40:3|left,Left amygdala left,,,,nervous,left,direct-source-geometry
+DHCP:GA40:4|right,Right amygdala right,,,,nervous,right,direct-source-geometry
+DHCP:GA40:5|left,"Left anterior temporal lobe, medial part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:6|right,"Right anterior temporal lobe, medial part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:7|left,"Left anterior temporal lobe, lateral part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:8|right,"Right anterior temporal lobe, lateral part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:9|left,Left gyri parahippocampalis et ambiens anterior part left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:10|right,Right gyri parahippocampalis et ambiens anterior part right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:11|left,"Left superior temporal gyrus, middle part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:12|right,"Right superior temporal gyrus, middle part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:13|left,Left medial and inferior temporal gyri anterior part left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:14|right,Right medial and inferior temporal gyri anterior part right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:15|left,"Left lateral occipitotemporal gyrus, gyrus fusiformis anterior part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:16|right,"Right lateral occipitotemporal gyrus, gyrus fusiformis anterior part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:17|left,Left cerebellum left,,,,nervous,left,direct-source-geometry
+DHCP:GA40:18|right,Right cerebellum right,,,,nervous,right,direct-source-geometry
+DHCP:GA40:19|midline,"Brainstem, spans the midline",,,,nervous,midline,direct-source-geometry
+DHCP:GA40:20|right,Right insula right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:21|left,Left insula left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:22|right,Right occipital lobe right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:23|left,Left occipital lobe left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:24|right,Right gyri parahippocampalis et ambiens posterior part right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:25|left,Left gyri parahippocampalis et ambiens posterior part left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:26|right,"Right lateral occipitotemporal gyrus, gyrus fusiformis posterior part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:27|left,"Left lateral occipitotemporal gyrus, gyrus fusiformis posterior part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:28|right,Right medial and inferior temporal gyri posterior part right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:29|left,Left medial and inferior temporal gyri posterior part left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:30|right,"Right superior temporal gyrus, posterior part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:31|left,"Left superior temporal gyrus, posterior part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:32|right,"Right cingulate gyrus, anterior part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:33|left,"Left cingulate gyrus, anterior part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:34|right,"Right cingulate gyrus, posterior part right GM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:35|left,"Left cingulate gyrus, posterior part left GM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:36|right,Right frontal lobe right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:37|left,Left frontal lobe left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:38|right,Right parietal lobe right GM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:39|left,Left parietal lobe left GM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:40|right,Right caudate nucleus right,,,,nervous,right,direct-source-geometry
+DHCP:GA40:41|left,Left caudate nucleus left,,,,nervous,left,direct-source-geometry
+DHCP:GA40:42|midline,"Thalamus right, high intensity part in T2",,,,nervous,midline,direct-source-geometry
+DHCP:GA40:43|midline,"Thalamus left, high intensity part in T2",,,,nervous,midline,direct-source-geometry
+DHCP:GA40:44|right,Right subthalamic nucleus right,,,,nervous,right,direct-source-geometry
+DHCP:GA40:45|left,Left subthalamic nucleus left,,,,nervous,left,direct-source-geometry
+DHCP:GA40:46|right,Right lentiform Nucleus right,,,,nervous,right,direct-source-geometry
+DHCP:GA40:47|left,Left lentiform Nucleus left,,,,nervous,left,direct-source-geometry
+DHCP:GA40:48|midline,Corpus Callosum,,,,nervous,midline,direct-source-geometry
+DHCP:GA40:49|left,Left lateral Ventricle left,,,,nervous,left,direct-source-geometry
+DHCP:GA40:50|right,Right lateral Ventricle right,,,,nervous,right,direct-source-geometry
+DHCP:GA40:51|left,"Left anterior temporal lobe, medial part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:52|right,"Right anterior temporal lobe, medial part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:53|left,"Left anterior temporal lobe, lateral part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:54|right,"Right anterior temporal lobe, lateral part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:55|left,Left gyri parahippocampalis et ambiens anterior part left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:56|right,Right gyri parahippocampalis et ambiens anterior part right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:57|left,"Left superior temporal gyrus, middle part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:58|right,"Right superior temporal gyrus, middle part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:59|left,Left medial and inferior temporal gyri anterior part left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:60|right,Right medial and inferior temporal gyri anterior part right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:61|left,"Left lateral occipitotemporal gyrus, gyrus fusiformis anterior part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:62|right,"Right lateral occipitotemporal gyrus, gyrus fusiformis anterior part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:63|right,Right insula right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:64|left,Left insula left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:65|right,Right occipital lobe right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:66|left,Left occipital lobe left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:67|right,Right gyri parahippocampalis et ambiens posterior part right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:68|left,Left gyri parahippocampalis et ambiens posterior part left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:69|right,"Right lateral occipitotemporal gyrus, gyrus fusiformis posterior part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:70|left,"Left lateral occipitotemporal gyrus, gyrus fusiformis posterior part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:71|right,Right medial and inferior temporal gyri posterior part right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:72|left,Left medial and inferior temporal gyri posterior part left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:73|right,"Right superior temporal gyrus, posterior part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:74|left,"Left superior temporal gyrus, posterior part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:75|right,"Right cingulate gyrus, anterior part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:76|left,"Left cingulate gyrus, anterior part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:77|right,"Right cingulate gyrus, posterior part right WM",,,,nervous,right,direct-source-geometry
+DHCP:GA40:78|left,"Left cingulate gyrus, posterior part left WM",,,,nervous,left,direct-source-geometry
+DHCP:GA40:79|right,Right frontal lobe right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:80|left,Left frontal lobe left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:81|right,Right parietal lobe right WM,,,,nervous,right,direct-source-geometry
+DHCP:GA40:82|left,Left parietal lobe left WM,,,,nervous,left,direct-source-geometry
+DHCP:GA40:83|midline,CSF,,,,nervous,midline,direct-source-geometry
+DHCP:GA40:86|midline,"Thalamus right, low intensity part in T2",,,,nervous,midline,direct-source-geometry
+DHCP:GA40:87|midline,"Thalamus left, low intensity part in T2",,,,nervous,midline,direct-source-geometry

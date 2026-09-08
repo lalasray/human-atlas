@@ -19,6 +19,7 @@ Candidate status is not proof of import. Detailed metadata, verification dates a
 | [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy) | male | multiple-or-unknown | CC-BY-SA-4.0 | 7 |
 | [AnatomyTOOL Open3Dmodel](https://anatomytool.org/) | unknown | unknown | PER-ASSET | 8 |
 | [CADS](https://github.com/murong-xu/CADS/releases) | not-applicable | not-applicable | PER-MODEL | 3 |
+| [dHCP morphological atlas of neonatal brain development](https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise) | mixed | dhcp-ga40-aggregate | CC-BY-4.0 | 5 |
 
 Imported: HRA female, BodyParts3D male, TCIA 003 published segmentations, the Denver VHF final STL models (128 lower-limb meshes) and the
 TotalSegmentator labels of the NLM Visible Human Female fresh CT (same donor as Denver). BMFToolkit is compared locally but not shipped (data licence

@@ -6,7 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 records = {}
 for source, filename in [('hra-female', 'atlas-female.json'), ('bodyparts3d', 'atlas.json'), ('tcia', 'atlas-tcia-female.json'),
-                         ('denver-vhf', 'atlas-denver-female.json'), ('nlm-vhf-ct', 'atlas-nlm-vhf-ct.json')]:
+                         ('denver-vhf', 'atlas-denver-female.json'), ('nlm-vhf-ct', 'atlas-nlm-vhf-ct.json'),
+                         ('dhcp-neonatal', 'atlas-dhcp-neonatal.json')]:
     if not (ROOT / 'public/models' / filename).exists():
         continue
     original = json.loads((ROOT / 'public/models' / filename).read_text())
@@ -26,6 +27,12 @@ for source, filename in [('hra-female', 'atlas-female.json'), ('bodyparts3d', 'a
         elif source == 'nlm-vhf-ct':
             assert record['canonical_space'] == 'VHF-image-2022' and record['registration']['transform_id'] == 'nlm-ct-to-vhf'
             assert record['registration']['canonical_registration'] is True and record['source_donor'] == 'VHF'
+        elif source == 'dhcp-neonatal':
+            assert original['region'] == 'brain' and original['developmental_stage'] == 'neonatal'
+            assert original['reference_age'] == '40 weeks post-menstrual age'
+            assert record['source_sex'] == 'mixed-aggregate' and record['source_donor'] == 'dhcp-ga40-aggregate'
+            assert record['canonical_space'] is None and record['registration']['transform_id'] is None
+            assert record['registration']['canonical_registration'] is False
         else:
             assert record['canonical_space'] is None and record['registration']['transform_id'] is None
             assert record['registration']['canonical_registration'] is False

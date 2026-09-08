@@ -36,6 +36,12 @@ OMP_NUM_THREADS=20 .venv-seg/bin/TotalSegmentator -i data/derived/nlm-vhf/vhf-fr
 node scripts/optimize-anatomy.mjs atlas-nlm-vhf-ct.json nlm-vhf-ct-lod
 node scripts/compress-models.mjs atlas-nlm-vhf-ct.json
 
+# dHCP brain-only neonatal reference at 40 weeks PMA
+.venv/bin/python scripts/fetch-dhcp-neonatal.py
+.venv/bin/python scripts/ingest-dhcp-neonatal.py
+node scripts/optimize-anatomy.mjs atlas-dhcp-neonatal.json dhcp-neonatal-lod
+node scripts/compress-models.mjs atlas-dhcp-neonatal.json
+
 # Ontology crosswalk (OLS evidence), registry, landmarks, composition, QA, reports
 .venv/bin/python scripts/build-crosswalk.py          # add --offline to reuse generated/ols-cache.json
 python3 scripts/build-registry.py
@@ -108,6 +114,14 @@ the NLM image headers in axes and units.
 the canonical stage (voxel -> CT RAS -> `nlm-ct-to-vhf` -> `denver-image-to-stage`), with
 the label value, model, registration and hashes in every source record.
 
+`fetch-dhcp-neonatal.py` pins revision `d699540b1820d8224a07db3c1d727d0c747218dc`
+of the CC BY 4.0 dHCP morphological neonatal brain atlas and records hashes for the
+40-week PMA hard segmentation, 87-label table, age records, scale transform, license and
+README. `ingest-dhcp-neonatal.py` converts 85 anatomical labels to metric web meshes; the
+two source background labels are excluded. The output is an aggregate, mixed-sex,
+brain-only reference. It is not registered to either adult atlas, and the optional MIRTK
+global age-size transform is retained as evidence but not applied.
+
 ## Bounded NLM female cryosection preparation
 
 The full-color source is approximately 40 GB. Inventory it without downloading image
@@ -171,6 +185,7 @@ node scripts/validate-atlas.mjs atlas-female.json
 node scripts/validate-atlas.mjs atlas-tcia-female.json
 node scripts/validate-atlas.mjs atlas-denver-female.json
 node scripts/validate-atlas.mjs atlas-nlm-vhf-ct.json
+node scripts/validate-atlas.mjs atlas-dhcp-neonatal.json
 node --experimental-strip-types scripts/validate-interactions.mjs
 python3 scripts/validate-provenance.py
 .venv/bin/python scripts/validate-composition.py

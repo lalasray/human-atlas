@@ -37,5 +37,16 @@
       "Body Mass Index [Kg/m2]": 20.3607
     },
     "evidence": "data/raw/tcia/demographics.xlsx"
+  },
+  {
+    "id": "dhcp-ga40-aggregate",
+    "sex": "mixed-aggregate",
+    "single_donor": false,
+    "developmental_stage": "term-equivalent neonatal",
+    "reference_age": "40 weeks post-menstrual age",
+    "evidence": [
+      "https://doi.org/10.12751/g-node.d2b353",
+      "https://doi.org/10.1101/251512"
+    ]
   }
 ]

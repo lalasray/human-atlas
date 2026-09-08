@@ -23,7 +23,7 @@ export interface Part {id:string;name:string;conceptId:string;system:SystemId;ch
 export interface Concept {id:string;name:string;elements:string[]}
 export interface LandmarkPair {landmark:string;side:string;source_point_m:number[];target_point_m:number[];residual_mm:number;source_assets?:string[];target_assets?:string[]}
 export interface RegistrationTransform {id:string;type?:string;from?:string;to?:string;matrix_row_major:number[];rms_mm?:number|null;max_residual_mm?:number;scale?:number;landmarks?:LandmarkPair[];review_status?:string;landmark_selection?:string}
-export interface Atlas {version:string;sex?:'male'|'female';source?:string;scope?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number;canonical_space?:string;registration_report?:{transforms:RegistrationTransform[]}}
+export interface Atlas {version:string;sex?:'male'|'female';source?:string;scope?:string;region?:'whole-body'|'brain';developmental_stage?:string;reference_age?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number;canonical_space?:string;registration_report?:{transforms:RegistrationTransform[]}}
 export type View = 'three-quarter'|'front'|'back'|'side';
 /** `landmarks`: draw the registration landmark pairs of the unified female model. */
 export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number;landmarks?:boolean}

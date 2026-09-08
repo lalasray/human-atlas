@@ -1,6 +1,6 @@
 {
-  "canonical_catalog_entries": 4315,
-  "source_meshes": 3400,
+  "canonical_catalog_entries": 4400,
+  "source_meshes": 3485,
   "female_measured": 128,
   "registered_female": 231,
   "female_segmented_unreviewed": 139,
@@ -91,6 +91,19 @@
         "/models/nlm-vhf-ct-lod-4.bin": "d0824438122890c478bcfd73385734b35e3c766a1d64772130d08fa5107105b4",
         "/models/nlm-vhf-ct-lod-5.bin": "63d13cc5cee60416f2ec3a50d7fdb402d7c31b3e7483348446fbd94d8047e9f1",
         "/models/nlm-vhf-ct-lod-6.bin": "65920e644997899d5e3d95744b931d5621bc462914ed25932b9ccc473bfea2ca"
+      }
+    },
+    {
+      "source": "dhcp-neonatal",
+      "meshes": 85,
+      "source_concepts": 85,
+      "triangles": 1016926,
+      "chunk_hashes": {
+        "/models/dhcp-neonatal-lod-0.bin": "43e5d5d19f1f4ffe4d1c845af5127232936968a7cb3f2d07172f331e3dcce17d",
+        "/models/dhcp-neonatal-lod-1.bin": "46de80d95b387817da13a394e93c3c35a82dadba2dbd29ad77c31bea47e21b7f",
+        "/models/dhcp-neonatal-lod-2.bin": "1df5cdbe5f6812011bb4398693e342e8feb8919fd58a38af2a01141b93dd552f",
+        "/models/dhcp-neonatal-lod-3.bin": "4cdc3869e3fd0bd3c92ca535d4113651ca967dc490294f6336c1d552fd06c9c1",
+        "/models/dhcp-neonatal-lod-4.bin": "0651303dda66519783887609807f1139ed51a3d50388fab54df4eb8c2a641661"
       }
     }
   ],

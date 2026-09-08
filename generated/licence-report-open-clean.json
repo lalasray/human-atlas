@@ -1,6 +1,6 @@
 {
   "target": "open-clean",
-  "mesh_references": 4415,
+  "mesh_references": 4500,
   "errors": [],
   "records": [
     {
@@ -23801,6 +23801,601 @@
       "structure": "NLMCT:VHF:costal_cartilages",
       "source": "nlm-vhf-ct",
       "license": "NLM-Terms-and-Conditions",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:1",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:2",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:3",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:4",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:5",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:6",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:7",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:8",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:9",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:10",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:11",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:12",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:13",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:14",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:15",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:16",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:17",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:18",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:19",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:20",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:21",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:22",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:23",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:24",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:25",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:26",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:27",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:28",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:29",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:30",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:31",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:32",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:33",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:34",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:35",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:36",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:37",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:38",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:39",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:40",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:41",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:42",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:43",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:44",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:45",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:46",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:47",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:48",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:49",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:50",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:51",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:52",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:53",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:54",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:55",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:56",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:57",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:58",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:59",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:60",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:61",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:62",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:63",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:64",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:65",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:66",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:67",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:68",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:69",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:70",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:71",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:72",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:73",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:74",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:75",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:76",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:77",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:78",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:79",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:80",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:81",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:82",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:83",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:86",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
+      "eligible": true
+    },
+    {
+      "atlas": "dhcp-neonatal",
+      "structure": "DHCP:GA40:87",
+      "source": "dhcp-neonatal",
+      "license": "CC-BY-4.0",
       "eligible": true
     },
     {

@@ -46,6 +46,9 @@ crosswalk_lookup = {(e['source'], e['source_label']): e for e in crosswalk_entri
 def resolve_term(source_id, part):
     """Return (canonical term, ontology label, laterality, granularity, crosswalk entry) for a source part."""
     meta = part.get('source_metadata', {})
+    if source_id == 'dhcp-neonatal':
+        meta = part['source_metadata']
+        return part['conceptId'], meta['source_label'], meta['laterality'], 'individual', None
     if source_id == 'denver-vhf':
         key = f"{meta['tissue_class']}_{meta['source_label']}"
         side = meta['laterality'] if meta['laterality'] in ('left', 'right') else 'unspecified'
@@ -163,6 +166,21 @@ if nlm_path.exists():
             donor['datasets'] = sorted(set(donor.get('datasets', [])) | {'denver-vhf', 'nlm-vhf-ct'})
             donor['evidence'] = sorted(set(donor.get('evidence', [])) | {'data/raw/nlm-vhf/download-manifest.json', 'https://www.nlm.nih.gov/research/visible/visible_human.html'})
     write_json('registry/donors.json', donors)
+dhcp_path = ROOT / 'public/models/atlas-dhcp-neonatal.json'
+if dhcp_path.exists():
+    dhcp = json.loads(dhcp_path.read_text())
+    transforms['dhcp-native-to-stage'] = {
+        'type': 'source NIfTI qform millimetres to metres', 'from': 'dHCP GA40 common atlas space',
+        'to': 'dHCP GA40 viewer stage', 'matrix_row_major': [0.001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0, 1],
+        'units': 'metres', 'canonical_registration': False, 'review_status': 'header-derived; local mesh conversion unreviewed',
+        'evidence': 'data/raw/dhcp-neonatal/download-manifest.json', 'landmarks': [], 'rms': None, 'hausdorff': None,
+    }
+    configs.append(('dhcp-neonatal', 'atlas-dhcp-neonatal.json', 'dhcp-native-to-stage', dhcp['source_revision']))
+    donors = json.loads((ROOT / 'registry/donors.json').read_text())
+    donors.append({'id': 'dhcp-ga40-aggregate', 'sex': 'mixed-aggregate', 'single_donor': False,
+                   'developmental_stage': 'term-equivalent neonatal', 'reference_age': '40 weeks post-menstrual age',
+                   'evidence': ['https://doi.org/10.12751/g-node.d2b353', 'https://doi.org/10.1101/251512']})
+    write_json('registry/donors.json', donors)
 write_json('transforms/source-to-stage.json', transforms)
 all_records = []
 catalog = {}
@@ -199,7 +217,7 @@ for source_id, filename, transform, revision in configs:
             'source_chunk': atlas['chunks'][part['chunk']]['url'],
             'source_chunk_sha256': hashes[atlas['chunks'][part['chunk']]['url']],
             'source_sex': 'male' if source_id == 'bodyparts3d' else 'unknown-per-component',
-            'reference_sex': atlas['sex'],
+            'reference_sex': atlas.get('sex', part.get('source_metadata', {}).get('reference_sex', 'mixed')),
             'source_donor': 'TARO' if source_id == 'bodyparts3d' else 'hra-female-assembly',
             'geometry_type': 'reference_template' if source_id == 'bodyparts3d' else 'reference_assembly',
             'canonical_space': 'VHF-image-2022' if source_id in ('denver-vhf', 'nlm-vhf-ct') else None, 'display_space': transforms[transform]['to'],
@@ -222,6 +240,14 @@ for source_id, filename, transform, revision in configs:
             else 'Female reference assembly; component donor and biological sex are not established by the assembly label.',
         }
         record.update(part.get('source_metadata', {}))
+        if source_id == 'dhcp-neonatal':
+            record.update({'source_sex': 'mixed-aggregate', 'reference_sex': 'mixed', 'source_donor': 'dhcp-ga40-aggregate',
+                           'geometry_type': 'derived_group_atlas_segmentation', 'canonical_space': None,
+                           'display_space': 'dHCP GA40 viewer stage',
+                           'registration': {'type': 'source NIfTI qform only; not registered to adult atlas', 'display_transform_id': transform,
+                                            'transform_id': None, 'canonical_registration': False, 'review_status': 'local mesh conversion unreviewed'},
+                           'license': 'CC-BY-4.0', 'license_url': source['license_url'],
+                           'qa_status': 'source-hash-and-buffer-checked; upstream atlas methodology; local mesh conversion unreviewed'})
         if (source_id, part['id']) in qa_records:
             record['geometry_qa'] = qa_records[(source_id, part['id'])]
         records.append(record)

@@ -1,4 +1,4 @@
-# Female Open Human Atlas
+# Human Anatomy Atlas
 
 Local fork of [ashemag/human-atlas](https://github.com/ashemag/human-atlas), combining
 open anatomical sources with a source record for every mesh. The original
@@ -8,16 +8,13 @@ checks and an interactive coverage table.
 
 **Work in progress. The atlas is not anatomically validated or complete.**
 
-| View | Included geometry | Interpretation |
+| Public model | Included geometry | Interpretation |
 | --- | --- | --- |
-| HRA Female v1.5 | 888 source meshes | Female reference assembly; per-component donors unresolved. |
-| TCIA female 003 | 36 published CT segmentation labels | Female donor, 26 years; automatic and unreviewed; many labels group structures. |
-| Denver VHF lower limb | 128 final STL meshes | Female donor VHF, manual cryosection segmentation, pelvis to toes: bones, muscles, cartilage, ligaments. Native aligned VHF image frame. Smoothed and overclosure-corrected by the source; not reviewed here. |
-| NLM VHF CT segmentation | 114 TotalSegmentator labels | Same female donor VHF, fresh CT (NLM, 1993) segmented here with TotalSegmentator `total` (Apache-2.0); placed in the canonical space by a rigid same-donor pelvis registration (rotation 2.2 deg, scale 1.001, p95 4.7 mm). Automatic labels, unreviewed. |
-| Unified experimental composition 0.5 | 1,015 meshes, 933 canonical concepts | Canonical space VHF-image-2022, verified against the NLM CT headers. Exact duplicate structures select one source: Denver VHF, then same-donor NLM CT, then HRA reference detail. Multi-piece structures remain one selectable concept; TCIA stays a different-donor alternative. 229 meshes come from the VHF donor and 786 from the HRA assembly. Landmarks and anatomy remain unreviewed. |
-| BodyParts3D 4.0 | 2,234 source meshes | Male reference for comparison, not included in the female composition. |
+| Female | 1,015 meshes, 933 canonical concepts | Unified experimental adult female composition. Exact duplicates use Denver VHF, then same-donor NLM CT, then HRA reference detail. Anatomy remains unreviewed. |
+| Male | 2,234 meshes, 3,432 concepts | BodyParts3D 4.0 adult male reference anatomy. |
+| Infant | 85 brain regions | Brain-only dHCP aggregate neonatal reference at 40 weeks post-menstrual age, derived from 275 structurally normal neonatal MRI scans. Mixed-sex population; not a whole-body infant model. |
 
-The 4,315 catalog entries are the imported source union, not a complete anatomical
+The 4,400 catalog entries are the imported source union, not a complete anatomical
 ontology. Dataset-local labels and lateralized FMA identifiers resolve to UBERON/FMA
 through a crosswalk with Ontology Lookup Service evidence (1,712 meshes; anatomist review
 pending), so 248 entries now list several sources. Current reports separately identify 128
@@ -37,9 +34,9 @@ npm ci
 npm run dev -- --port 3017
 ```
 
-Open http://localhost:3017. The source selector switches reference frames; the
-experimental composition also has a direct URL:
-http://localhost:3017/?source=composed.
+Open http://localhost:3017. The model selector offers Female, Male, and Infant.
+The Infant choice is intentionally brain-only because no comparable openly redistributable
+whole-body infant atlas was identified.
 
 ## Rebuild the data
 
@@ -66,9 +63,8 @@ includes source asset, source revision or input hash, chunk SHA-256, donor evide
 geometry type, applied display transform, licence and review status. Confidence is
 unassessed unless evidence establishes it. The composite is expressed in canonical
 space VHF-image-2022; the same-donor CT placement is a rigid surface fit and the HRA
-placement an experimental proxy fit, not reviewed anatomical registrations. The viewer
-exposes a donor filter, a registration review panel (landmark pairs in 3D, decisions
-exported for `registry/landmark-review.json`) and a side-by-side comparison of sources.
+placement an experimental proxy fit, not reviewed anatomical registrations. The neonatal
+brain remains in its own dHCP atlas frame and is not merged with either adult model.
 
 ```bash
 npx tsc --noEmit

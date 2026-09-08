@@ -1,0 +1,767 @@
+[
+  {
+    "label_value": 1,
+    "name": "Hippocampus left",
+    "voxels": 5399,
+    "vertices": 3348,
+    "triangles": 6692,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 2,
+    "name": "Hippocampus right",
+    "voxels": 6444,
+    "vertices": 3778,
+    "triangles": 7552,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 3,
+    "name": "Amygdala left",
+    "voxels": 3802,
+    "vertices": 1998,
+    "triangles": 3992,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 4,
+    "name": "Amygdala right",
+    "voxels": 4096,
+    "vertices": 2084,
+    "triangles": 4164,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 5,
+    "name": "Anterior temporal lobe, medial part left GM",
+    "voxels": 6634,
+    "vertices": 6061,
+    "triangles": 12130,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 6,
+    "name": "Anterior temporal lobe, medial part right GM",
+    "voxels": 7414,
+    "vertices": 6451,
+    "triangles": 12910,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 7,
+    "name": "Anterior temporal lobe, lateral part left GM",
+    "voxels": 7774,
+    "vertices": 7017,
+    "triangles": 14042,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 8,
+    "name": "Anterior temporal lobe, lateral part right GM",
+    "voxels": 7574,
+    "vertices": 6747,
+    "triangles": 13522,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 9,
+    "name": "Gyri parahippocampalis et ambiens anterior part left GM",
+    "voxels": 9477,
+    "vertices": 7854,
+    "triangles": 15748,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 10,
+    "name": "Gyri parahippocampalis et ambiens anterior part right GM",
+    "voxels": 8311,
+    "vertices": 6923,
+    "triangles": 13886,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 11,
+    "name": "Superior temporal gyrus, middle part left GM",
+    "voxels": 21623,
+    "vertices": 15518,
+    "triangles": 31068,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 12,
+    "name": "Superior temporal gyrus, middle part right GM",
+    "voxels": 22183,
+    "vertices": 15987,
+    "triangles": 31994,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 13,
+    "name": "Medial and inferior temporal gyri anterior part left GM",
+    "voxels": 17711,
+    "vertices": 14114,
+    "triangles": 28388,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 14,
+    "name": "Medial and inferior temporal gyri anterior part right GM",
+    "voxels": 18414,
+    "vertices": 15513,
+    "triangles": 31154,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 15,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis anterior part left GM",
+    "voxels": 5212,
+    "vertices": 5357,
+    "triangles": 10746,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 16,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis anterior part right GM",
+    "voxels": 5594,
+    "vertices": 5769,
+    "triangles": 11578,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 17,
+    "name": "Cerebellum left",
+    "voxels": 94859,
+    "vertices": 18114,
+    "triangles": 36228,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 18,
+    "name": "Cerebellum right",
+    "voxels": 93023,
+    "vertices": 17659,
+    "triangles": 35342,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 19,
+    "name": "Brainstem, spans the midline",
+    "voxels": 51551,
+    "vertices": 14016,
+    "triangles": 28024,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 20,
+    "name": "Insula right GM",
+    "voxels": 13886,
+    "vertices": 11593,
+    "triangles": 23202,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 21,
+    "name": "Insula left GM",
+    "voxels": 13457,
+    "vertices": 11597,
+    "triangles": 23202,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 22,
+    "name": "Occipital lobe right GM",
+    "voxels": 91407,
+    "vertices": 49548,
+    "triangles": 99280,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 23,
+    "name": "Occipital lobe left GM",
+    "voxels": 93077,
+    "vertices": 48796,
+    "triangles": 97692,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 24,
+    "name": "Gyri parahippocampalis et ambiens posterior part right GM",
+    "voxels": 6422,
+    "vertices": 5847,
+    "triangles": 11730,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 25,
+    "name": "Gyri parahippocampalis et ambiens posterior part left GM",
+    "voxels": 6243,
+    "vertices": 5883,
+    "triangles": 11770,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 26,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis posterior part right GM",
+    "voxels": 7121,
+    "vertices": 7175,
+    "triangles": 14418,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 27,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis posterior part left GM",
+    "voxels": 6557,
+    "vertices": 6247,
+    "triangles": 12566,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 28,
+    "name": "Medial and inferior temporal gyri posterior part right GM",
+    "voxels": 29735,
+    "vertices": 17666,
+    "triangles": 35388,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 29,
+    "name": "Medial and inferior temporal gyri posterior part left GM",
+    "voxels": 31918,
+    "vertices": 17406,
+    "triangles": 34856,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 30,
+    "name": "Superior temporal gyrus, posterior part right GM",
+    "voxels": 8598,
+    "vertices": 6604,
+    "triangles": 13228,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 31,
+    "name": "Superior temporal gyrus, posterior part left GM",
+    "voxels": 8074,
+    "vertices": 6072,
+    "triangles": 12144,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 32,
+    "name": "Cingulate gyrus, anterior part right GM",
+    "voxels": 11399,
+    "vertices": 9034,
+    "triangles": 18080,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 33,
+    "name": "Cingulate gyrus, anterior part left GM",
+    "voxels": 10735,
+    "vertices": 9247,
+    "triangles": 18510,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 34,
+    "name": "Cingulate gyrus, posterior part right GM",
+    "voxels": 12480,
+    "vertices": 9717,
+    "triangles": 19474,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 35,
+    "name": "Cingulate gyrus, posterior part left GM",
+    "voxels": 12806,
+    "vertices": 9584,
+    "triangles": 19172,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 36,
+    "name": "Frontal lobe right GM",
+    "voxels": 198573,
+    "vertices": 118545,
+    "triangles": 237154,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 37,
+    "name": "Frontal lobe left GM",
+    "voxels": 198250,
+    "vertices": 119424,
+    "triangles": 238948,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 38,
+    "name": "Parietal lobe right GM",
+    "voxels": 137512,
+    "vertices": 80800,
+    "triangles": 161884,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 39,
+    "name": "Parietal lobe left GM",
+    "voxels": 145322,
+    "vertices": 83421,
+    "triangles": 167102,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 40,
+    "name": "Caudate nucleus right",
+    "voxels": 14141,
+    "vertices": 6441,
+    "triangles": 12894,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 41,
+    "name": "Caudate nucleus left",
+    "voxels": 14767,
+    "vertices": 6743,
+    "triangles": 13486,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 42,
+    "name": "Thalamus right, high intensity part in T2",
+    "voxels": 31179,
+    "vertices": 11147,
+    "triangles": 22446,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 43,
+    "name": "Thalamus left, high intensity part in T2",
+    "voxels": 31342,
+    "vertices": 10799,
+    "triangles": 21742,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 44,
+    "name": "Subthalamic nucleus right",
+    "voxels": 1791,
+    "vertices": 1382,
+    "triangles": 2760,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 45,
+    "name": "Subthalamic nucleus left",
+    "voxels": 1617,
+    "vertices": 1306,
+    "triangles": 2608,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 46,
+    "name": "Lentiform Nucleus right",
+    "voxels": 24739,
+    "vertices": 7456,
+    "triangles": 14908,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 47,
+    "name": "Lentiform Nucleus left",
+    "voxels": 25333,
+    "vertices": 7562,
+    "triangles": 15120,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 48,
+    "name": "Corpus Callosum",
+    "voxels": 21577,
+    "vertices": 14229,
+    "triangles": 28670,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 49,
+    "name": "Lateral Ventricle left",
+    "voxels": 19256,
+    "vertices": 14286,
+    "triangles": 28592,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 50,
+    "name": "Lateral Ventricle right",
+    "voxels": 18533,
+    "vertices": 14277,
+    "triangles": 28578,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 51,
+    "name": "Anterior temporal lobe, medial part left WM",
+    "voxels": 4562,
+    "vertices": 3142,
+    "triangles": 6288,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 52,
+    "name": "Anterior temporal lobe, medial part right WM",
+    "voxels": 4770,
+    "vertices": 3257,
+    "triangles": 6530,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 53,
+    "name": "Anterior temporal lobe, lateral part left WM",
+    "voxels": 4313,
+    "vertices": 3403,
+    "triangles": 6822,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 54,
+    "name": "Anterior temporal lobe, lateral part right WM",
+    "voxels": 3958,
+    "vertices": 3254,
+    "triangles": 6516,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 55,
+    "name": "Gyri parahippocampalis et ambiens anterior part left WM",
+    "voxels": 4219,
+    "vertices": 3711,
+    "triangles": 7454,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 56,
+    "name": "Gyri parahippocampalis et ambiens anterior part right WM",
+    "voxels": 4015,
+    "vertices": 3552,
+    "triangles": 7112,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 57,
+    "name": "Superior temporal gyrus, middle part left WM",
+    "voxels": 20730,
+    "vertices": 11127,
+    "triangles": 22278,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 58,
+    "name": "Superior temporal gyrus, middle part right WM",
+    "voxels": 21559,
+    "vertices": 11803,
+    "triangles": 23614,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 59,
+    "name": "Medial and inferior temporal gyri anterior part left WM",
+    "voxels": 23916,
+    "vertices": 10073,
+    "triangles": 20154,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 60,
+    "name": "Medial and inferior temporal gyri anterior part right WM",
+    "voxels": 24340,
+    "vertices": 10732,
+    "triangles": 21476,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 61,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis anterior part left WM",
+    "voxels": 6401,
+    "vertices": 4207,
+    "triangles": 8426,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 62,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis anterior part right WM",
+    "voxels": 6707,
+    "vertices": 4573,
+    "triangles": 9166,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 63,
+    "name": "Insula right WM",
+    "voxels": 21123,
+    "vertices": 11226,
+    "triangles": 22484,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 64,
+    "name": "Insula left WM",
+    "voxels": 20624,
+    "vertices": 11206,
+    "triangles": 22436,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 65,
+    "name": "Occipital lobe right WM",
+    "voxels": 50982,
+    "vertices": 29424,
+    "triangles": 58964,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 66,
+    "name": "Occipital lobe left WM",
+    "voxels": 50183,
+    "vertices": 29112,
+    "triangles": 58416,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 67,
+    "name": "Gyri parahippocampalis et ambiens posterior part right WM",
+    "voxels": 4964,
+    "vertices": 4054,
+    "triangles": 8140,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 68,
+    "name": "Gyri parahippocampalis et ambiens posterior part left WM",
+    "voxels": 4491,
+    "vertices": 3814,
+    "triangles": 7632,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 69,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis posterior part right WM",
+    "voxels": 10122,
+    "vertices": 5219,
+    "triangles": 10454,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 70,
+    "name": "Lateral occipitotemporal gyrus, gyrus fusiformis posterior part left WM",
+    "voxels": 9186,
+    "vertices": 5024,
+    "triangles": 10056,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 71,
+    "name": "Medial and inferior temporal gyri posterior part right WM",
+    "voxels": 27135,
+    "vertices": 11675,
+    "triangles": 23366,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 72,
+    "name": "Medial and inferior temporal gyri posterior part left WM",
+    "voxels": 26260,
+    "vertices": 12144,
+    "triangles": 24324,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 73,
+    "name": "Superior temporal gyrus, posterior part right WM",
+    "voxels": 9885,
+    "vertices": 5549,
+    "triangles": 11118,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 74,
+    "name": "Superior temporal gyrus, posterior part left WM",
+    "voxels": 8530,
+    "vertices": 4962,
+    "triangles": 9932,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 75,
+    "name": "Cingulate gyrus, anterior part right WM",
+    "voxels": 9925,
+    "vertices": 5554,
+    "triangles": 11120,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 76,
+    "name": "Cingulate gyrus, anterior part left WM",
+    "voxels": 9319,
+    "vertices": 5820,
+    "triangles": 11636,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 77,
+    "name": "Cingulate gyrus, posterior part right WM",
+    "voxels": 10619,
+    "vertices": 5720,
+    "triangles": 11444,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 78,
+    "name": "Cingulate gyrus, posterior part left WM",
+    "voxels": 9755,
+    "vertices": 5499,
+    "triangles": 11006,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 79,
+    "name": "Frontal lobe right WM",
+    "voxels": 231757,
+    "vertices": 73744,
+    "triangles": 147556,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 80,
+    "name": "Frontal lobe left WM",
+    "voxels": 233282,
+    "vertices": 73526,
+    "triangles": 147096,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 81,
+    "name": "Parietal lobe right WM",
+    "voxels": 132934,
+    "vertices": 52145,
+    "triangles": 104474,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 82,
+    "name": "Parietal lobe left WM",
+    "voxels": 135670,
+    "vertices": 52548,
+    "triangles": 105196,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 83,
+    "name": "CSF",
+    "voxels": 599151,
+    "vertices": 439606,
+    "triangles": 883092,
+    "watertight": false,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 86,
+    "name": "Thalamus right, low intensity part in T2",
+    "voxels": 3706,
+    "vertices": 2657,
+    "triangles": 5314,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  },
+  {
+    "label_value": 87,
+    "name": "Thalamus left, low intensity part in T2",
+    "voxels": 3511,
+    "vertices": 2472,
+    "triangles": 4940,
+    "watertight": true,
+    "anatomical_review": "upstream atlas methodology; local conversion unreviewed"
+  }
+]

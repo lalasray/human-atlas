@@ -103,5 +103,12 @@
     "redistributable": "unknown",
     "commercial_use": "unknown",
     "review_status": "pending-per-asset-review"
+  },
+  "dhcp-neonatal": {
+    "license": "CC-BY-4.0",
+    "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/src/master/LICENSE.md",
+    "redistributable": "true",
+    "commercial_use": "true",
+    "review_status": "recorded-source-declaration"
   }
 }
