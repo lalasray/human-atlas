@@ -25,10 +25,9 @@ export interface LandmarkPair {landmark:string;side:string;source_point_m:number
 export interface RegistrationTransform {id:string;type?:string;from?:string;to?:string;matrix_row_major:number[];rms_mm?:number|null;max_residual_mm?:number;scale?:number;landmarks?:LandmarkPair[];review_status?:string;landmark_selection?:string}
 export interface Atlas {version:string;sex?:'male'|'female';source?:string;scope?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number;canonical_space?:string;registration_report?:{transforms:RegistrationTransform[]}}
 export type View = 'three-quarter'|'front'|'back'|'side';
-/** `donors`: null shows every donor; otherwise only parts whose provenance donor is listed. `landmarks`: draw the registration landmark pairs of the composite. */
-export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number;donors?:string[]|null;landmarks?:boolean}
-export function donorOf(part:Part){return part.provenance?.source_donor??'unknown';}
-export function partVisible(part:Part,state:SceneState){const selected=state.selected.includes(part.id);if(state.isolate)return selected;if(state.donors&&!state.donors.includes(donorOf(part)))return selected;return state.visible.includes(part.system)||selected;}
+/** `landmarks`: draw the registration landmark pairs of the unified female model. */
+export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number;landmarks?:boolean}
+export function partVisible(part:Part,state:SceneState){const selected=state.selected.includes(part.id);if(state.isolate)return selected;return state.visible.includes(part.system)||selected;}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
 export const EXPLANATIONS:Record<string,string> = {
  'uterus':'A muscular organ in the pelvis whose lining changes through the menstrual cycle and can support implantation and pregnancy.',
