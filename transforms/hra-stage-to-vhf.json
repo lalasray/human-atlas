@@ -4,18 +4,18 @@
   "from": "HRA viewer stage",
   "to": "VHF-image-2022 canonical stage",
   "matrix_row_major": [
-    0.9940803670456807,
-    -0.02498852538593484,
-    0.0029367268032832574,
-    0.03594042523498678,
-    0.024960971048861406,
-    0.994044459623057,
-    0.00902159231835558,
+    0.994080367045681,
+    -0.024988525385935007,
+    0.002936726803282965,
+    0.03594042523498692,
+    0.024960971048861455,
+    0.9940444596230569,
+    0.00902159231835557,
     0.07191171404300434,
-    -0.0031623866902269404,
-    -0.008944987573899216,
-    0.9943534650307608,
-    0.07252986305573572,
+    -0.0031623866902263514,
+    -0.008944987573899148,
+    0.9943534650307606,
+    0.07252986305573562,
     0.0,
     0.0,
     0.0,
@@ -62,7 +62,7 @@
         1.3118917346000671,
         -0.0005236342549324036
       ],
-      "residual_mm": 10.30933432350511
+      "residual_mm": 10.309334323505293
     },
     {
       "landmark": "bounding-box centre",
@@ -112,7 +112,7 @@
         1.2004122138023376,
         -0.004935890436172485
       ],
-      "residual_mm": 7.11229155285373
+      "residual_mm": 7.112291552853549
     },
     {
       "landmark": "bounding-box centre",
@@ -141,7 +141,7 @@
         1.198419988155365,
         -0.04988845530897379
       ],
-      "residual_mm": 5.530011659580624
+      "residual_mm": 5.530011659580614
     },
     {
       "landmark": "bounding-box centre",
@@ -217,7 +217,7 @@
         1.0935534238815308,
         -0.03546977473888546
       ],
-      "residual_mm": 5.487652661786895
+      "residual_mm": 5.48765266178672
     },
     {
       "landmark": "bounding-box centre",
@@ -247,7 +247,7 @@
         0.8695380985736847,
         0.030327720218338072
       ],
-      "residual_mm": 8.601828585984233
+      "residual_mm": 8.601828585984247
     },
     {
       "landmark": "bounding-box centre",
@@ -289,11 +289,11 @@
         0.91675865650177,
         -0.021817896515130997
       ],
-      "residual_mm": 6.231892169529298
+      "residual_mm": 6.231892169529274
     }
   ],
-  "rms_mm": 7.420583546835626,
-  "max_residual_mm": 10.30933432350511,
+  "rms_mm": 7.4205835468356165,
+  "max_residual_mm": 10.309334323505293,
   "landmark_selection": "bounding-box centres of six organ/pelvis proxies (targets: NLM VHF CT labels of the Denver donor)",
   "review_status": "experimental-unreviewed",
   "canonical_registration": true,
@@ -311,17 +311,17 @@
       "to": "VHF-image-2022 canonical stage",
       "matrix_row_major": [
         0.9632180933350486,
-        0.007836388402615344,
-        -0.03563391523306279,
-        0.0009338855483341236,
-        -0.008057872275066127,
-        0.9638574435707811,
-        -0.005846314534662319,
-        0.08996475162507866,
-        0.03558448527704831,
-        0.006140009449735516,
-        0.9632322279271838,
-        0.06112061191176492,
+        0.007836388402615316,
+        -0.0356339152330628,
+        0.0009338855483341469,
+        -0.008057872275066087,
+        0.963857443570781,
+        -0.005846314534662446,
+        0.08996475162507878,
+        0.035584485277048314,
+        0.0061400094497354426,
+        0.9632322279271837,
+        0.061120611911764974,
         0.0,
         0.0,
         0.0,
@@ -351,7 +351,7 @@
             0.8735356232145426,
             0.013074227110055209
           ],
-          "residual_mm": 5.8795200521595605
+          "residual_mm": 5.879520052159556
         },
         {
           "landmark": "anterior_superior_iliac_spine",
@@ -372,7 +372,7 @@
             0.947183738152186,
             0.06520642039545796
           ],
-          "residual_mm": 5.556775114117717
+          "residual_mm": 5.556775114117788
         },
         {
           "landmark": "ischial_tuberosity",
@@ -393,7 +393,7 @@
             0.8108121969483115,
             -0.01551738378798796
           ],
-          "residual_mm": 3.6257191413961287
+          "residual_mm": 3.6257191413962264
         },
         {
           "landmark": "iliac_crest_apex",
@@ -435,7 +435,7 @@
             0.8493824993895593,
             0.036309826614282954
           ],
-          "residual_mm": 3.969416093542873
+          "residual_mm": 3.9694160935429337
         },
         {
           "landmark": "femoral_head_centre",
@@ -477,7 +477,7 @@
             0.9438544802887495,
             0.05579743291749511
           ],
-          "residual_mm": 7.176462994102551
+          "residual_mm": 7.176462994102649
         },
         {
           "landmark": "ischial_tuberosity",
@@ -498,7 +498,7 @@
             0.8116326011637206,
             -0.02242595007422791
           ],
-          "residual_mm": 2.987826819250407
+          "residual_mm": 2.9878268192504014
         },
         {
           "landmark": "iliac_crest_apex",
@@ -519,7 +519,7 @@
             1.0220872304018807,
             -0.031949617391248714
           ],
-          "residual_mm": 8.703881437182625
+          "residual_mm": 8.703881437182623
         },
         {
           "landmark": "pubic_symphysis_facet",
@@ -540,11 +540,11 @@
             0.8452654331922531,
             0.03303427364383089
           ],
-          "residual_mm": 1.6776155894645561
+          "residual_mm": 1.6776155894645577
         }
       ],
-      "rms_mm": 5.421361802509134,
-      "max_residual_mm": 8.703881437182625,
+      "rms_mm": 5.421361802509165,
+      "max_residual_mm": 8.703881437182623,
       "used_in_composition": false,
       "landmark_selection": "pelvic: anterior_superior_iliac_spine, iliac_crest_apex, ischial_tuberosity, pubic_symphysis_facet, femoral_head_centre",
       "landmark_provenance": {
@@ -563,24 +563,24 @@
           "ct_labels": [
             "heart"
           ],
-          "organ_fit_offset_mm": 10.309334323505285,
-          "direct_pelvic_offset_mm": 33.252037558714015
+          "organ_fit_offset_mm": 10.309334323505293,
+          "direct_pelvic_offset_mm": 33.25203755871419
         },
         {
           "proxy": "HRA:VH_F_liver",
           "ct_labels": [
             "liver"
           ],
-          "organ_fit_offset_mm": 7.112291552853538,
-          "direct_pelvic_offset_mm": 10.596032528368918
+          "organ_fit_offset_mm": 7.112291552853549,
+          "direct_pelvic_offset_mm": 10.596032528368903
         },
         {
           "proxy": "HRA:VH_F_spleen",
           "ct_labels": [
             "spleen"
           ],
-          "organ_fit_offset_mm": 5.530011659580624,
-          "direct_pelvic_offset_mm": 19.451271170781787
+          "organ_fit_offset_mm": 5.530011659580614,
+          "direct_pelvic_offset_mm": 19.451271170781578
         },
         {
           "proxy": "HRA:VH_F_kidney",
@@ -588,15 +588,15 @@
             "kidney_left",
             "kidney_right"
           ],
-          "organ_fit_offset_mm": 5.487652661786719,
-          "direct_pelvic_offset_mm": 11.231116348879501
+          "organ_fit_offset_mm": 5.48765266178672,
+          "direct_pelvic_offset_mm": 11.231116348879493
         },
         {
           "proxy": "HRA:VH_F_urinary_bladder",
           "ct_labels": [
             "urinary_bladder"
           ],
-          "organ_fit_offset_mm": 8.601828585984283,
+          "organ_fit_offset_mm": 8.601828585984247,
           "direct_pelvic_offset_mm": 16.0060921660302
         },
         {
@@ -606,8 +606,8 @@
             "hip_right",
             "sacrum"
           ],
-          "organ_fit_offset_mm": 6.231892169529296,
-          "direct_pelvic_offset_mm": 3.493597780216019
+          "organ_fit_offset_mm": 6.231892169529274,
+          "direct_pelvic_offset_mm": 3.493597780215912
         }
       ],
       "interpretation": "HRA pelvic landmarks fit the Denver pelvis closely (the HRA VH_F skeleton derives from the Visible Human Female), but the direct pelvic fit places HRA trunk organs away from the same-donor CT organs by the offsets listed; the organ-proxy fit is used for the composite."

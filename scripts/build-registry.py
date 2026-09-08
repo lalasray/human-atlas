@@ -18,7 +18,7 @@ def write_json(path, data):
 
 def write_csv(path, fields, rows):
     with (ROOT / path).open('w', newline='') as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction='ignore')
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction='ignore', lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
 
@@ -27,8 +27,12 @@ def normalize(term):
     return re.sub(r'^(FMA|UBERON):?(\d+)$', r'\1:\2', term)
 
 
-def laterality(name):
-    sides = [side for side in ('left', 'right') if re.search(r'\b' + side + r'\b', name, re.I)]
+def laterality(name, source_asset=''):
+    text = f'{name} {source_asset}'
+    sides = [side for side, patterns in {
+        'left': (r'\bleft\b', r'(?:^|[_-])L(?:$|[_-])'),
+        'right': (r'\bright\b', r'(?:^|[_-])R(?:$|[_-])'),
+    }.items() if any(re.search(pattern, text, re.I if 'left' in pattern or 'right' in pattern else 0) for pattern in patterns)]
     return sides[0] if len(sides) == 1 else 'unspecified'
 
 
@@ -53,11 +57,11 @@ def resolve_term(source_id, part):
         side = meta['laterality'] if meta['laterality'] in ('left', 'right') else 'unspecified'
     else:
         key = normalize(part['conceptId'])
-        side = laterality(part['name'])
+        side = laterality(part['name'], part['id'] if source_id == 'hra-female' else '')
     entry = crosswalk_lookup.get((source_id, key))
     if entry is None:
         return normalize(part['conceptId']), None, side, 'individual', None
-    if source_id == 'hra-female':
+    if source_id == 'hra-female' and entry['laterality'] in ('left', 'right'):
         side = entry['laterality']
     return entry['canonical_term'], entry['term']['label'], side, entry.get('granularity', 'individual'), entry
 

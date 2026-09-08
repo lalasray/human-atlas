@@ -1,4 +1,4 @@
-"""Build an auditable experimental female composition in the canonical VHF space (composition 0.4).
+"""Build an auditable unified female composition in the canonical VHF space (composition 0.5).
 
 Canonical space `VHF-image-2022` is the aligned Visible Human Female image frame of the Denver 2022
 release, shown through the Denver viewer stage (axis permutation and mm -> m only). Sources:
@@ -14,6 +14,10 @@ release, shown through the Denver viewer stage (axis permutation and mm -> m onl
   term is already covered by a CT label of the same donor are left out.
 - TCIA 003 (another female donor): not composed. Its pelvic-landmark similarity onto Denver is kept
   as evidence and as the registration of the alternative source.
+
+Exact canonical duplicates select one source in donor-aware order (Denver, NLM CT, HRA). Multiple
+fragments from the winning source remain as one selectable canonical concept; left and right anatomy
+remain distinct.
 
 All fits are automatic and unreviewed: landmarks are geometric rules or bounding boxes, not anatomist
 picks; CT labels are model output.
@@ -362,44 +366,77 @@ def transform_geometry(matrix, pos, normals):
     return pos, np.asarray(np.clip(normal_vectors * 32767, -32767, 32767), dtype='<i2')
 
 
-def term_of(part):
-    return part['provenance']['structure_id'].split('|')[0]
+def structure_of(part):
+    return part['provenance']['structure_id']
 
 
 DENVER_REPLACES_CT = {'hip_left', 'hip_right', 'sacrum', 'femur_left', 'femur_right', 'gluteus_maximus_left', 'gluteus_maximus_right', 'gluteus_medius_left', 'gluteus_medius_right',
                       'gluteus_minimus_left', 'gluteus_minimus_right', 'iliopsoas_left', 'iliopsoas_right'}
-ct_included_terms = {term_of(p) for p in nlm['parts'] if p['source_metadata']['label_name'] not in DENVER_REPLACES_CT and not term_of(p).startswith('NLMCT:')}
-for atlas, buffers, source_id in [(hra, hra_buffers, 'hra-female'), (nlm, nlm_buffers, 'nlm-vhf-ct'), (denver, denver_buffers, 'denver-vhf'), (tcia, tcia_buffers, 'tcia')]:
+SOURCE_PRECEDENCE = {'denver-vhf': 0, 'nlm-vhf-ct': 1, 'hra-female': 2}
+
+
+def baseline_decision(source_id, part):
+    if source_id == 'hra-female':
+        include = part['system'] != 'skeletal' and part['id'] != 'VH_F_skin'
+        reason = 'Female reference detail not covered by a preferred same-donor representation.'
+        if include and part['system'] == 'muscular' and part['bounds'][1][1] < 1.05:
+            include = False
+            reason = 'Lower-limb reference muscle replaced by Denver VHF manual segmentation.'
+        return include, reason
+    if source_id == 'nlm-vhf-ct':
+        include = part['source_metadata']['label_name'] not in DENVER_REPLACES_CT
+        return include, ('Same-donor automatic CT representation.' if include else
+                         'CT representation replaced by Denver VHF manual segmentation.')
+    if source_id == 'denver-vhf':
+        return True, 'Native same-donor manual cryosection representation.'
+    return False, 'Different-donor TCIA geometry remains an alternative source, not part of the unified body.'
+
+
+source_entries = [(hra, hra_buffers, 'hra-female'), (nlm, nlm_buffers, 'nlm-vhf-ct'),
+                  (denver, denver_buffers, 'denver-vhf'), (tcia, tcia_buffers, 'tcia')]
+decisions = {}
+forced_sources = {}
+for atlas, _, source_id in source_entries:
+    for original in atlas['parts']:
+        include, reason = baseline_decision(source_id, original)
+        override = overrides.get(original['provenance']['id'])
+        if override is not None:
+            include = override
+            reason = 'Explicit per-structure composition override.'
+            if override:
+                key = structure_of(original)
+                previous = forced_sources.setdefault(key, source_id)
+                assert previous == source_id, f'Conflicting true overrides for {key}: {previous}, {source_id}'
+        decisions[original['provenance']['id']] = {'eligible': include, 'reason': reason}
+
+winners = {}
+for atlas, _, source_id in source_entries:
+    if source_id not in SOURCE_PRECEDENCE:
+        continue
+    for original in atlas['parts']:
+        if not decisions[original['provenance']['id']]['eligible']:
+            continue
+        key = structure_of(original)
+        candidate = forced_sources.get(key, source_id)
+        if candidate != source_id:
+            continue
+        if key not in winners or SOURCE_PRECEDENCE[source_id] < SOURCE_PRECEDENCE[winners[key]]:
+            winners[key] = source_id
+
+for atlas, buffers, source_id in source_entries:
     id_map = {}
     for original in atlas['parts']:
-        if source_id == 'hra-female':
-            include = original['system'] != 'skeletal' and original['id'] != 'VH_F_skin'
-            reason = 'Detailed female reference anatomy absent from the same-donor CT labels; CT skeleton replaces the HRA skeleton; mismatched-pose skin excluded.'
-            if include and original['system'] == 'muscular' and original['bounds'][1][1] < 1.05:
-                include = False
-                reason = 'Lower-limb reference muscle replaced by the Denver VHF manual segmentation (priority 1 female donor geometry).'
-            if include and term_of(original) in ct_included_terms:
-                include = False
-                reason = 'Reference organ replaced by the same-donor NLM VHF CT label with the same reviewed ontology term.'
-        elif source_id == 'nlm-vhf-ct':
-            include = original['source_metadata']['label_name'] not in DENVER_REPLACES_CT
-            reason = 'Same-donor automatic CT label (trunk, upper limb, head); rigid pelvis registration to the Denver frame.'
-            if not include:
-                reason = 'CT label replaced by the Denver VHF manual segmentation of the same donor (bones and gluteal/iliopsoas muscles).'
-        elif source_id == 'denver-vhf':
-            include = True
-            reason = 'Denver VHF lower-limb bones, muscles, cartilage and ligaments: measured female geometry in the canonical frame, best available source for the region.'
-        else:
-            include = False
-            reason = 'TCIA 003 is another donor; since composition 0.4 the same-donor NLM CT labels provide the trunk. Kept as an alternative source with its own experimental registration.'
-        if original['provenance']['id'] in overrides:
-            include = overrides[original['provenance']['id']]
-            reason = 'Explicit per-structure composition override'
+        decision = decisions[original['provenance']['id']]
+        include = decision['eligible'] and winners.get(structure_of(original)) == source_id
+        reason = decision['reason']
+        if decision['eligible'] and not include:
+            reason = f"Duplicate canonical representation replaced by preferred source {winners.get(structure_of(original))}."
         recipe.append({'source': source_id, 'source_asset': original['id'], 'included': include, 'reason': reason})
         if not include:
             continue
         part = copy.deepcopy(original)
         part['id'] = part['provenance']['id']
+        part['conceptId'] = structure_of(original)
         id_map[original['id']] = part['id']
         pos, normals, indices = geometry(atlas, buffers, original)
         record = part['provenance']
@@ -434,11 +471,13 @@ for atlas, buffers, source_id in [(hra, hra_buffers, 'hra-female'), (nlm, nlm_bu
         part.update({'chunk': len(chunks), 'positions': append(pos), 'normals': append(normals), 'indices': append(indices),
                      'bounds': [pos.min(axis=0).tolist(), pos.max(axis=0).tolist()]})
         parts.append(part)
-        concepts.append({'id': part['id'], 'name': part['name'], 'elements': [part['id']]})
-    for concept in atlas['concepts']:
-        if len(concept['elements']) > 1 and all(i in id_map for i in concept['elements']):
-            concepts.append({'id': source_id + ':' + concept['id'], 'name': concept['name'], 'elements': [id_map[i] for i in concept['elements']]})
 flush()
+concept_groups = {}
+for part in parts:
+    key = part['provenance']['structure_id']
+    group = concept_groups.setdefault(key, {'id': key, 'name': part['name'], 'elements': []})
+    group['elements'].append(part['id'])
+concepts = sorted(concept_groups.values(), key=lambda concept: (concept['name'].lower(), concept['id']))
 for part in parts:
     part['provenance']['derived_chunk_sha256'] = chunks[part['chunk']]['sha256']
 by_source = {}
@@ -448,9 +487,10 @@ by_donor = {}
 for part in parts:
     by_donor[part['provenance']['source_donor']] = by_donor.get(part['provenance']['source_donor'], 0) + 1
 report = {'canonical_space': canonical_space, 'transforms': [hra_transform, nlm_transform, denver_transform, tcia_transform], 'acceptance': acceptance,
-          'composition': {'meshes_by_source': by_source, 'meshes_by_donor': by_donor}}
-composed = {'version': 'Female composition 0.4 experimental', 'sex': 'female', 'source': 'Denver VHF + NLM VHF CT + HRA',
-            'scope': 'Experimental multi-source assembly in canonical space VHF-image-2022: one donor (VHF) for the skeleton, lower limb and trunk organs, HRA reference detail registered experimentally; automatic labels and fits, unreviewed',
+          'composition': {'meshes_by_source': by_source, 'meshes_by_donor': by_donor, 'canonical_structures': len(concepts),
+                          'source_precedence': ['denver-vhf', 'nlm-vhf-ct', 'hra-female'], 'duplicate_policy': 'one winning source per exact canonical structure; all fragments from that source form one concept'}}
+composed = {'version': 'Female composition 0.5 unified experimental', 'sex': 'female', 'source': 'Denver VHF + NLM VHF CT + HRA',
+            'scope': 'Unified experimental female assembly in canonical space VHF-image-2022. Exact duplicate structures use one preferred source (Denver, then same-donor NLM CT, then HRA); multi-piece structures remain one selectable concept. HRA reference detail is registered experimentally; automatic labels and fits remain unreviewed.',
             'parts': parts, 'concepts': concepts, 'chunks': chunks, 'triangles': sum(p['indexCount'] // 3 for p in parts),
             'canonical_space': CANONICAL, 'registration_report': report}
 (ROOT / 'public/atlases/composed.json').write_text(json.dumps(composed, indent=2) + '\n')

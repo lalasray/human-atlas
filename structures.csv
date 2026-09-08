@@ -1,16 +1,20 @@
 canonical_id,name,uberon,fma,ta2,system,laterality,scope
 UBERON:0002097,skin of body,UBERON:0002097,,,integumentary,unspecified,direct-source-geometry
 FMA:58070|left,Left interlobar adipose tissue of mammary gland,,FMA:58070,,integumentary,left,direct-source-geometry
-UBERON:0011828,areolar tubercle,UBERON:0011828,,,integumentary,unspecified,direct-source-geometry
+UBERON:0011828|left,areolar tubercle,UBERON:0011828,,,integumentary,left,direct-source-geometry
 UBERON:0013772|left,left nipple,UBERON:0013772,,,integumentary,left,direct-source-geometry
 FMA:223675|left,Left areola of female breast,,FMA:223675,,integumentary,left,direct-source-geometry
-UBERON:0018140,mammary lobe,UBERON:0018140,,,integumentary,unspecified,direct-source-geometry
-UBERON:0015134,main lactiferous duct,UBERON:0015134,,,integumentary,unspecified,direct-source-geometry
-FMA:58088,Lactiferous sinus,,FMA:58088,,integumentary,unspecified,direct-source-geometry
+UBERON:0018140|left,mammary lobe,UBERON:0018140,,,integumentary,left,direct-source-geometry
+UBERON:0015134|left,main lactiferous duct,UBERON:0015134,,,integumentary,left,direct-source-geometry
+FMA:58088|left,Lactiferous sinus,,FMA:58088,,integumentary,left,direct-source-geometry
 UBERON:0012103|left,Left suspensory ligament of breast,UBERON:0012103,FMA:58040,,integumentary,left,direct-source-geometry
 FMA:58070|right,Right interlobar adipose tissue of mammary gland,,FMA:58070,,integumentary,right,direct-source-geometry
+UBERON:0011828|right,areolar tubercle,UBERON:0011828,,,integumentary,right,direct-source-geometry
 UBERON:0013773|right,right nipple,UBERON:0013773,,,integumentary,right,direct-source-geometry
 FMA:223675|right,Right areola of female breast,,FMA:223675,,integumentary,right,direct-source-geometry
+FMA:58088|right,Lactiferous sinus,,FMA:58088,,integumentary,right,direct-source-geometry
+UBERON:0015134|right,main lactiferous duct,UBERON:0015134,,,integumentary,right,direct-source-geometry
+UBERON:0018140|right,mammary lobe,UBERON:0018140,,,integumentary,right,direct-source-geometry
 UBERON:0012103|right,Right suspensory ligament of breast,UBERON:0012103,FMA:58040,,integumentary,right,direct-source-geometry
 UBERON:0000966|right,Right retina,UBERON:0000966,FMA:58301,,sensory,right,direct-source-geometry
 UBERON:0001786|right,Right fovea centralis,UBERON:0001786,FMA:58658,,sensory,right,direct-source-geometry
@@ -21,7 +25,7 @@ FMA:59027|right,Right palpebral conjunctiva of lower eyelid,,FMA:59027,,sensory,
 UBERON:0001773|right,Right sclera,UBERON:0001773,FMA:58269,,sensory,right,direct-source-geometry
 UBERON:0001776|right,Right optic choroid,UBERON:0001776,FMA:58298,,sensory,right,direct-source-geometry
 UBERON:0010224|right,right pupil,UBERON:0010224,,,sensory,right,direct-source-geometry
-UBERON:0010427,ciliary processes,UBERON:0010427,,,sensory,unspecified,direct-source-geometry
+UBERON:0010427|right,ciliary processes,UBERON:0010427,,,sensory,right,direct-source-geometry
 UBERON:0006762|right,Right suspensory ligament of lens,UBERON:0006762,FMA:58838,,sensory,right,direct-source-geometry
 UBERON:0011221|right,Right ora serrata of retina,UBERON:0011221,FMA:58600,,sensory,right,direct-source-geometry
 UBERON:0006761|right,Right corneo-scleral junction,UBERON:0006761,FMA:58342,,sensory,right,direct-source-geometry
@@ -30,7 +34,7 @@ UBERON:0004029|right,Right canal of Schlemm,UBERON:0004029,FMA:51873,,sensory,ri
 FMA:58820|right,Aqueous humor of right eyeball,,FMA:58820,,sensory,right,direct-source-geometry
 UBERON:0001775|right,Right ciliary body,UBERON:0001775,FMA:58295,,sensory,right,direct-source-geometry
 UBERON:0001605|right,Right ciliary muscle,UBERON:0001605,FMA:49151,,sensory,right,direct-source-geometry
-UBERON:0005969,eye trabecular meshwork,UBERON:0005969,,,sensory,unspecified,direct-source-geometry
+UBERON:0005969|right,eye trabecular meshwork,UBERON:0005969,,,sensory,right,direct-source-geometry
 UBERON:0001769|right,Right iris,UBERON:0001769,FMA:58235,,sensory,right,direct-source-geometry
 UBERON:0010306|right,Right bulbar conjunctiva,UBERON:0010306,FMA:59024,,sensory,right,direct-source-geometry
 UBERON:0000964|right,Right cornea,UBERON:0000964,FMA:58238,,sensory,right,direct-source-geometry
@@ -45,6 +49,7 @@ FMA:261238|left,Humor of left vitreous body,,FMA:261238,,sensory,left,direct-sou
 UBERON:0000964|left,Left cornea,UBERON:0000964,FMA:58238,,sensory,left,direct-source-geometry
 UBERON:0010306|left,Left bulbar conjunctiva,UBERON:0010306,FMA:59024,,sensory,left,direct-source-geometry
 UBERON:0001769|left,Left iris,UBERON:0001769,FMA:58235,,sensory,left,direct-source-geometry
+UBERON:0005969|left,eye trabecular meshwork,UBERON:0005969,,,sensory,left,direct-source-geometry
 UBERON:0001775|left,Left ciliary body,UBERON:0001775,FMA:58295,,sensory,left,direct-source-geometry
 UBERON:0001605|left,Left ciliary muscle,UBERON:0001605,FMA:49151,,sensory,left,direct-source-geometry
 FMA:58821|left,Aqueous humor of left eyeball,,FMA:58821,,sensory,left,direct-source-geometry
@@ -53,6 +58,7 @@ UBERON:0000965|left,Left lens of camera-type eye,UBERON:0000965,FMA:58241,,senso
 UBERON:0006761|left,Left corneo-scleral junction,UBERON:0006761,FMA:58342,,sensory,left,direct-source-geometry
 UBERON:0011221|left,Left ora serrata of retina,UBERON:0011221,FMA:58600,,sensory,left,direct-source-geometry
 UBERON:0006762|left,Left suspensory ligament of lens,UBERON:0006762,FMA:58838,,sensory,left,direct-source-geometry
+UBERON:0010427|left,ciliary processes,UBERON:0010427,,,sensory,left,direct-source-geometry
 UBERON:0010223|left,left pupil,UBERON:0010223,,,sensory,left,direct-source-geometry
 UBERON:0001776|left,Left optic choroid,UBERON:0001776,FMA:58298,,sensory,left,direct-source-geometry
 UBERON:0001773|left,Left sclera,UBERON:0001773,FMA:58269,,sensory,left,direct-source-geometry
@@ -60,9 +66,9 @@ UBERON:0002363,dura mater,UBERON:0002363,,,sensory,unspecified,direct-source-geo
 UBERON:0000941|right,Right cranial nerve II,UBERON:0000941,FMA:50863,,sensory,right,direct-source-geometry
 UBERON:0000941|left,Left cranial nerve II,UBERON:0000941,FMA:50863,,sensory,left,direct-source-geometry
 UBERON:0000959,optic chiasma,UBERON:0000959,,,sensory,unspecified,direct-source-geometry
-UBERON:0002264,olfactory bulb,UBERON:0002264,,,nervous,unspecified,direct-source-geometry
-UBERON:0002266,anterior olfactory nucleus,UBERON:0002266,,,nervous,unspecified,direct-source-geometry
-UBERON:0004725,piriform cortex,UBERON:0004725,,,nervous,unspecified,direct-source-geometry
+UBERON:0002264|left,olfactory bulb,UBERON:0002264,,,nervous,left,direct-source-geometry
+UBERON:0002266|left,anterior olfactory nucleus,UBERON:0002266,,,nervous,left,direct-source-geometry
+UBERON:0004725|left,piriform cortex,UBERON:0004725,,,nervous,left,direct-source-geometry
 HRA:Allen_frontal_agranular_insular_cortex_area_Fl_L|left,frontal agranular insular cortex area Fl (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_temporal_agranular_insular_cortex_area_Tl_L|left,temporal agranular insular cortex area Tl (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_head_of_caudate_L|left,head of caudate (left),,,,nervous,left,direct-source-geometry
@@ -102,63 +108,63 @@ HRA:Allen_medial_geniculate_nuclei_L|left,medial geniculate nuclei (left),,,,ner
 HRA:Allen_centromedian_nucleus_of_thalamus_L|left,centromedian nucleus of thalamus (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_parafascicular_nucleus_of_thalamus_L|left,parafascicular nucleus of thalamus (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_habenular_nuclei_L|left,habenular nuclei (left),,,,nervous,left,direct-source-geometry
-UBERON:0001905,pineal body,UBERON:0001905,,,nervous,unspecified,direct-source-geometry
+UBERON:0001905|left,pineal body,UBERON:0001905,,,nervous,left,direct-source-geometry
 HRA:Allen_zona_incerta_L|left,zona incerta (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_supraoptic_region_of_HTH_L|left,supraoptic region of HTH (left),,,,sensory,left,direct-source-geometry
 HRA:Allen_preoptic_region_of_HTH_L|left,preoptic region of HTH (left),,,,sensory,left,direct-source-geometry
 HRA:Allen_tuberal_region_of_HTH_L|left,tuberal region of HTH (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_white_matter_of_forebrain_L|left,white matter of forebrain (left),,,,nervous,left,direct-source-geometry
-UBERON:0000935,anterior commissure,UBERON:0000935,,,nervous,unspecified,direct-source-geometry
-UBERON:0002336,corpus callosum,UBERON:0002336,,,nervous,unspecified,direct-source-geometry
-UBERON:0000052,fornix of brain,UBERON:0000052,,,nervous,unspecified,direct-source-geometry
+UBERON:0000935|left,anterior commissure,UBERON:0000935,,,nervous,left,direct-source-geometry
+UBERON:0002336|left,corpus callosum,UBERON:0002336,,,nervous,left,direct-source-geometry
+UBERON:0000052|left,fornix of brain,UBERON:0000052,,,nervous,left,direct-source-geometry
 HRA:Allen_mammillothalamic_tract_L|left,mammillothalamic tract (left),,,,nervous,left,direct-source-geometry
-UBERON:0001908,optic tract,UBERON:0001908,,,sensory,unspecified,direct-source-geometry
+UBERON:0001908|left,optic tract,UBERON:0001908,,,sensory,left,direct-source-geometry
 HRA:Allen_anterior_horn_of_lateral_ventricle_L|left,anterior horn of lateral ventricle (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_body_of_lateral_ventricle_L|left,body of lateral ventricle (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_posterior_horn_of_lateral_ventricle_L|left,posterior horn of lateral ventricle (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_inferior_horn_of_lateral_ventricle_L|left,inferior horn of lateral ventricle (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_third_ventricle_L|left,third ventricle (left),,,,nervous,left,direct-source-geometry
-UBERON:0004720,cerebellar vermis,UBERON:0004720,,,nervous,unspecified,direct-source-geometry
+UBERON:0004720|left,cerebellar vermis,UBERON:0004720,,,nervous,left,direct-source-geometry
 HRA:Allen_cerebellar_deep_nuclei_L|left,cerebellar deep nuclei (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_white_matter_of_hindbrain_L|left,white matter of hindbrain (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_olfactory_tract_L|left,olfactory tract (left),,,,nervous,left,direct-source-geometry
-UBERON:0002703,precentral gyrus,UBERON:0002703,,,nervous,unspecified,direct-source-geometry
-UBERON:0002661,superior frontal gyrus,UBERON:0002661,,,nervous,unspecified,direct-source-geometry
-UBERON:0002702,middle frontal gyrus,UBERON:0002702,,,nervous,unspecified,direct-source-geometry
-UBERON:0002629,triangular part of inferior frontal gyrus,UBERON:0002629,,,nervous,unspecified,direct-source-geometry
-UBERON:0002980,opercular part of inferior frontal gyrus,UBERON:0002980,,,nervous,unspecified,direct-source-geometry
-UBERON:0004671,gyrus rectus,UBERON:0004671,,,nervous,unspecified,direct-source-geometry
-UBERON:0002570,medial orbital gyrus,UBERON:0002570,,,nervous,unspecified,direct-source-geometry
-UBERON:0002644,intermediate orbital gyrus,UBERON:0002644,,,nervous,unspecified,direct-source-geometry
-UBERON:0002564,lateral orbital gyrus,UBERON:0002564,,,nervous,unspecified,direct-source-geometry
-UBERON:0035932,anterior segment of paracentral lobule,UBERON:0035932,,,nervous,unspecified,direct-source-geometry
-UBERON:0002947,frontal operculum,UBERON:0002947,,,nervous,unspecified,direct-source-geometry
-UBERON:0002581,postcentral gyrus,UBERON:0002581,,,nervous,unspecified,direct-source-geometry
+UBERON:0002703|left,precentral gyrus,UBERON:0002703,,,nervous,left,direct-source-geometry
+UBERON:0002661|left,superior frontal gyrus,UBERON:0002661,,,nervous,left,direct-source-geometry
+UBERON:0002702|left,middle frontal gyrus,UBERON:0002702,,,nervous,left,direct-source-geometry
+UBERON:0002629|left,triangular part of inferior frontal gyrus,UBERON:0002629,,,nervous,left,direct-source-geometry
+UBERON:0002980|left,opercular part of inferior frontal gyrus,UBERON:0002980,,,nervous,left,direct-source-geometry
+UBERON:0004671|left,gyrus rectus,UBERON:0004671,,,nervous,left,direct-source-geometry
+UBERON:0002570|left,medial orbital gyrus,UBERON:0002570,,,nervous,left,direct-source-geometry
+UBERON:0002644|left,intermediate orbital gyrus,UBERON:0002644,,,nervous,left,direct-source-geometry
+UBERON:0002564|left,lateral orbital gyrus,UBERON:0002564,,,nervous,left,direct-source-geometry
+UBERON:0035932|left,anterior segment of paracentral lobule,UBERON:0035932,,,nervous,left,direct-source-geometry
+UBERON:0002947|left,frontal operculum,UBERON:0002947,,,nervous,left,direct-source-geometry
+UBERON:0002581|left,postcentral gyrus,UBERON:0002581,,,nervous,left,direct-source-geometry
 HRA:Allen_supraparietal_lobule_L|left,supraparietal lobule (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_supramarginal_gyrus_L|left,supramarginal gyrus (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_angular_gyrus_L|left,angular gyrus (left),,,,nervous,left,direct-source-geometry
-UBERON:0006093,precuneus cortex,UBERON:0006093,,,nervous,unspecified,direct-source-geometry
+UBERON:0006093|left,precuneus cortex,UBERON:0006093,,,nervous,left,direct-source-geometry
 HRA:Allen_paracentral_lobule_caudal_part_L|left,paracentral lobule caudal part (left),,,,nervous,left,direct-source-geometry
-UBERON:0002769,superior temporal gyrus,UBERON:0002769,,,nervous,unspecified,direct-source-geometry
-UBERON:0002771,middle temporal gyrus,UBERON:0002771,,,nervous,unspecified,direct-source-geometry
-UBERON:0002751,inferior temporal gyrus,UBERON:0002751,,,nervous,unspecified,direct-source-geometry
+UBERON:0002769|left,superior temporal gyrus,UBERON:0002769,,,nervous,left,direct-source-geometry
+UBERON:0002771|left,middle temporal gyrus,UBERON:0002771,,,nervous,left,direct-source-geometry
+UBERON:0002751|left,inferior temporal gyrus,UBERON:0002751,,,nervous,left,direct-source-geometry
 HRA:Allen_occipitotemporal_fusiform_gyrus_temporal_part_L|left,occipitotemporal fusiform gyrus temporal part (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_transverse_temporal_gyrus_Heschls_gyrus_L|left,transverse temporal gyrus Heschls gyrus (left),,,,nervous,left,direct-source-geometry
-UBERON:0022268,planum temporale,UBERON:0022268,,,nervous,unspecified,direct-source-geometry
-UBERON:0002576,temporal pole,UBERON:0002576,,,nervous,unspecified,direct-source-geometry
-UBERON:0023861,planum polare,UBERON:0023861,,,nervous,unspecified,direct-source-geometry
-UBERON:0002902,occipital pole,UBERON:0002902,,,nervous,unspecified,direct-source-geometry
-UBERON:0006092,cuneus cortex,UBERON:0006092,,,nervous,unspecified,direct-source-geometry
-UBERON:0002943,lingual gyrus,UBERON:0002943,,,nervous,unspecified,direct-source-geometry
-UBERON:0022364,occipital fusiform gyrus,UBERON:0022364,,,nervous,unspecified,direct-source-geometry
-UBERON:0014608,inferior occipital gyrus,UBERON:0014608,,,nervous,unspecified,direct-source-geometry
-UBERON:0002948,superior occipital gyrus,UBERON:0002948,,,nervous,unspecified,direct-source-geometry
-UBERON:0002756,anterior cingulate gyrus,UBERON:0002756,,,nervous,unspecified,direct-source-geometry
-UBERON:0002740,posterior cingulate gyrus,UBERON:0002740,,,nervous,unspecified,direct-source-geometry
-UBERON:0002738,isthmus of cingulate gyrus,UBERON:0002738,,,nervous,unspecified,direct-source-geometry
-UBERON:0003020,subcallosal area,UBERON:0003020,,,nervous,unspecified,direct-source-geometry
-UBERON:0022383,anterior parahippocampal gyrus,UBERON:0022383,,,nervous,unspecified,direct-source-geometry
-UBERON:0002657,posterior parahippocampal gyrus,UBERON:0002657,,,nervous,unspecified,direct-source-geometry
+UBERON:0022268|left,planum temporale,UBERON:0022268,,,nervous,left,direct-source-geometry
+UBERON:0002576|left,temporal pole,UBERON:0002576,,,nervous,left,direct-source-geometry
+UBERON:0023861|left,planum polare,UBERON:0023861,,,nervous,left,direct-source-geometry
+UBERON:0002902|left,occipital pole,UBERON:0002902,,,nervous,left,direct-source-geometry
+UBERON:0006092|left,cuneus cortex,UBERON:0006092,,,nervous,left,direct-source-geometry
+UBERON:0002943|left,lingual gyrus,UBERON:0002943,,,nervous,left,direct-source-geometry
+UBERON:0022364|left,occipital fusiform gyrus,UBERON:0022364,,,nervous,left,direct-source-geometry
+UBERON:0014608|left,inferior occipital gyrus,UBERON:0014608,,,nervous,left,direct-source-geometry
+UBERON:0002948|left,superior occipital gyrus,UBERON:0002948,,,nervous,left,direct-source-geometry
+UBERON:0002756|left,anterior cingulate gyrus,UBERON:0002756,,,nervous,left,direct-source-geometry
+UBERON:0002740|left,posterior cingulate gyrus,UBERON:0002740,,,nervous,left,direct-source-geometry
+UBERON:0002738|left,isthmus of cingulate gyrus,UBERON:0002738,,,nervous,left,direct-source-geometry
+UBERON:0003020|left,subcallosal area,UBERON:0003020,,,nervous,left,direct-source-geometry
+UBERON:0022383|left,anterior parahippocampal gyrus,UBERON:0022383,,,nervous,left,direct-source-geometry
+UBERON:0002657|left,posterior parahippocampal gyrus,UBERON:0002657,,,nervous,left,direct-source-geometry
 HRA:Allen_gyrus_ambiens_L|left,gyrus ambiens (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_head_of_hippocampus_L|left,head of hippocampus (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_body_of_hippocampus_L|left,body of hippocampus (left),,,,nervous,left,direct-source-geometry
@@ -167,25 +173,25 @@ HRA:Allen_long_insular_gyri_L|left,long insular gyri (left),,,,nervous,left,dire
 HRA:Allen_short_insular_gyri_L|left,short insular gyri (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_limen_insula_L|left,limen insula (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_pretectal_region_L|left,pretectal region (left),,,,nervous,left,direct-source-geometry
-UBERON:0002038,substantia nigra,UBERON:0002038,,,nervous,unspecified,direct-source-geometry
-UBERON:0001945,superior colliculus,UBERON:0001945,,,nervous,unspecified,direct-source-geometry
-UBERON:0002623,cerebral peduncle,UBERON:0002623,,,nervous,unspecified,direct-source-geometry
+UBERON:0002038|left,substantia nigra,UBERON:0002038,,,nervous,left,direct-source-geometry
+UBERON:0001945|left,superior colliculus,UBERON:0001945,,,nervous,left,direct-source-geometry
+UBERON:0002623|left,cerebral peduncle,UBERON:0002623,,,nervous,left,direct-source-geometry
 HRA:Allen_superior_cerebellar_peduncle_brachium_conjunctivum_L|left,superior cerebellar peduncle brachium conjunctivum (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_cerebral_aqueduct_L|left,cerebral aqueduct (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_paravermis_of_cerebellum_L|left,paravermis of cerebellum (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_lateral_hemisphere_of_cerebellum_L|left,lateral hemisphere of cerebellum (left),,,,nervous,left,direct-source-geometry
-UBERON:0002151,pontine nuclear group,UBERON:0002151,,,sensory,unspecified,direct-source-geometry
-UBERON:0003023,pontine tegmentum,UBERON:0003023,,,nervous,unspecified,direct-source-geometry
+UBERON:0002151|left,pontine nuclear group,UBERON:0002151,,,sensory,left,direct-source-geometry
+UBERON:0003023|left,pontine tegmentum,UBERON:0003023,,,nervous,left,direct-source-geometry
 HRA:Allen_pyramidal_part_of_medulla_oblongata_L|left,pyramidal part of medulla oblongata (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_tegmentum_of_medulla_oblongata_L|left,tegmentum of medulla oblongata (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_inferior_olive_L|left,inferior olive (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_middle_cerebellar_peduncle_L|left,middle cerebellar peduncle (left),,,,nervous,left,direct-source-geometry
-UBERON:0002422,fourth ventricle,UBERON:0002422,,,nervous,unspecified,direct-source-geometry
+UBERON:0002422|left,fourth ventricle,UBERON:0002422,,,nervous,left,direct-source-geometry
 HRA:Allen_central_canal_of_medulla_oblongata_L|left,central canal of medulla oblongata (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_midline_nuclear_complex_L|left,midline nuclear complex (left),,,,sensory,left,direct-source-geometry
 HRA:Allen_lateral_olfactory_gyrus_L|left,lateral olfactory gyrus (left),,,,nervous,left,direct-source-geometry
-UBERON:0002911,parietal operculum,UBERON:0002911,,,nervous,unspecified,direct-source-geometry
-UBERON:0022264,optic radiation,UBERON:0022264,,,sensory,unspecified,direct-source-geometry
+UBERON:0002911|left,parietal operculum,UBERON:0002911,,,nervous,left,direct-source-geometry
+UBERON:0022264|left,optic radiation,UBERON:0022264,,,sensory,left,direct-source-geometry
 HRA:Allen_posteroventral_putamen_L|left,posteroventral putamen (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_atrium_of_lateral_ventricle_L|left,atrium of lateral ventricle (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_paracingulate_gyrus_L|left,paracingulate gyrus (left),,,,nervous,left,direct-source-geometry
@@ -236,10 +242,15 @@ HRA:Allen_medial_geniculate_nuclei_R|right,medial geniculate nuclei (right),,,,n
 HRA:Allen_centromedian_nucleus_of_thalamus_R|right,centromedian nucleus of thalamus (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_parafascicular_nucleus_of_thalamus_R|right,parafascicular nucleus of thalamus (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_habenular_nuclei_R|right,habenular nuclei (right),,,,nervous,right,direct-source-geometry
+UBERON:0001905|right,pineal body,UBERON:0001905,,,nervous,right,direct-source-geometry
 HRA:Allen_zona_incerta_R|right,zona incerta (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_supraoptic_region_of_HTH_R|right,supraoptic region of HTH (right),,,,sensory,right,direct-source-geometry
 HRA:Allen_white_matter_of_forebrain_R|right,white matter of forebrain (right),,,,nervous,right,direct-source-geometry
+UBERON:0000935|right,anterior commissure,UBERON:0000935,,,nervous,right,direct-source-geometry
+UBERON:0002336|right,corpus callosum,UBERON:0002336,,,nervous,right,direct-source-geometry
+UBERON:0000052|right,fornix of brain,UBERON:0000052,,,nervous,right,direct-source-geometry
 HRA:Allen_mammillothalamic_tract_R|right,mammillothalamic tract (right),,,,nervous,right,direct-source-geometry
+UBERON:0001908|right,optic tract,UBERON:0001908,,,sensory,right,direct-source-geometry
 HRA:Allen_anterior_horn_of_lateral_ventricle_R|right,anterior horn of lateral ventricle (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_body_of_lateral_ventricle_R|right,body of lateral ventricle (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_posterior_horn_of_lateral_ventricle_R|right,posterior horn of lateral ventricle (right),,,,nervous,right,direct-source-geometry
@@ -249,12 +260,43 @@ HRA:Allen_cerebellar_vermis_R|right,cerebellar vermis (right),,,,nervous,right,d
 HRA:Allen_cerebellar_deep_nuclei_R|right,cerebellar deep nuclei (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_white_matter_of_hindbrain_R|right,white matter of hindbrain (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_olfactory_tract_R|right,olfactory tract (right),,,,nervous,right,direct-source-geometry
+UBERON:0002703|right,precentral gyrus,UBERON:0002703,,,nervous,right,direct-source-geometry
+UBERON:0002661|right,superior frontal gyrus,UBERON:0002661,,,nervous,right,direct-source-geometry
+UBERON:0002702|right,middle frontal gyrus,UBERON:0002702,,,nervous,right,direct-source-geometry
+UBERON:0002629|right,triangular part of inferior frontal gyrus,UBERON:0002629,,,nervous,right,direct-source-geometry
+UBERON:0002980|right,opercular part of inferior frontal gyrus,UBERON:0002980,,,nervous,right,direct-source-geometry
+UBERON:0004671|right,gyrus rectus,UBERON:0004671,,,nervous,right,direct-source-geometry
+UBERON:0002570|right,medial orbital gyrus,UBERON:0002570,,,nervous,right,direct-source-geometry
+UBERON:0002644|right,intermediate orbital gyrus,UBERON:0002644,,,nervous,right,direct-source-geometry
+UBERON:0002564|right,lateral orbital gyrus,UBERON:0002564,,,nervous,right,direct-source-geometry
+UBERON:0035932|right,anterior segment of paracentral lobule,UBERON:0035932,,,nervous,right,direct-source-geometry
+UBERON:0002947|right,frontal operculum,UBERON:0002947,,,nervous,right,direct-source-geometry
+UBERON:0002581|right,postcentral gyrus,UBERON:0002581,,,nervous,right,direct-source-geometry
 HRA:Allen_supraparietal_lobule_R|right,supraparietal lobule (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_supramarginal_gyrus_R|right,supramarginal gyrus (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_angular_gyrus_R|right,angular gyrus (right),,,,nervous,right,direct-source-geometry
+UBERON:0006093|right,precuneus cortex,UBERON:0006093,,,nervous,right,direct-source-geometry
 HRA:Allen_paracentral_lobule_caudal_part_R|right,paracentral lobule caudal part (right),,,,nervous,right,direct-source-geometry
+UBERON:0002769|right,superior temporal gyrus,UBERON:0002769,,,nervous,right,direct-source-geometry
+UBERON:0002771|right,middle temporal gyrus,UBERON:0002771,,,nervous,right,direct-source-geometry
+UBERON:0002751|right,inferior temporal gyrus,UBERON:0002751,,,nervous,right,direct-source-geometry
 HRA:Allen_occipitotemporal_fusiform_gyrus_temporal_part_R|right,occipitotemporal fusiform gyrus temporal part (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_transverse_temporal_gyrus_Heschls_gyrus_R|right,transverse temporal gyrus Heschls gyrus (right),,,,nervous,right,direct-source-geometry
+UBERON:0022268|right,planum temporale,UBERON:0022268,,,nervous,right,direct-source-geometry
+UBERON:0002576|right,temporal pole,UBERON:0002576,,,nervous,right,direct-source-geometry
+UBERON:0023861|right,planum polare,UBERON:0023861,,,nervous,right,direct-source-geometry
+UBERON:0002902|right,occipital pole,UBERON:0002902,,,nervous,right,direct-source-geometry
+UBERON:0006092|right,cuneus cortex,UBERON:0006092,,,nervous,right,direct-source-geometry
+UBERON:0002943|right,lingual gyrus,UBERON:0002943,,,nervous,right,direct-source-geometry
+UBERON:0022364|right,occipital fusiform gyrus,UBERON:0022364,,,nervous,right,direct-source-geometry
+UBERON:0014608|right,inferior occipital gyrus,UBERON:0014608,,,nervous,right,direct-source-geometry
+UBERON:0002948|right,superior occipital gyrus,UBERON:0002948,,,nervous,right,direct-source-geometry
+UBERON:0002756|right,anterior cingulate gyrus,UBERON:0002756,,,nervous,right,direct-source-geometry
+UBERON:0002740|right,posterior cingulate gyrus,UBERON:0002740,,,nervous,right,direct-source-geometry
+UBERON:0002738|right,isthmus of cingulate gyrus,UBERON:0002738,,,nervous,right,direct-source-geometry
+UBERON:0003020|right,subcallosal area,UBERON:0003020,,,nervous,right,direct-source-geometry
+UBERON:0022383|right,anterior parahippocampal gyrus,UBERON:0022383,,,nervous,right,direct-source-geometry
+UBERON:0002657|right,posterior parahippocampal gyrus,UBERON:0002657,,,nervous,right,direct-source-geometry
 HRA:Allen_gyrus_ambiens_R|right,gyrus ambiens (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_head_of_hippocampus_R|right,head of hippocampus (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_body_of_hippocampus_R|right,body of hippocampus (right),,,,nervous,right,direct-source-geometry
@@ -263,20 +305,28 @@ HRA:Allen_long_insular_gyri_R|right,long insular gyri (right),,,,nervous,right,d
 HRA:Allen_short_insular_gyri_R|right,short insular gyri (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_limen_insula_R|right,limen insula (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_pretectal_region_R|right,pretectal region (right),,,,nervous,right,direct-source-geometry
-UBERON:0001947,red nucleus,UBERON:0001947,,,nervous,unspecified,direct-source-geometry
-UBERON:0001946,inferior colliculus,UBERON:0001946,,,nervous,unspecified,direct-source-geometry
+UBERON:0001947|right,red nucleus,UBERON:0001947,,,nervous,right,direct-source-geometry
+UBERON:0002038|right,substantia nigra,UBERON:0002038,,,nervous,right,direct-source-geometry
+UBERON:0001945|right,superior colliculus,UBERON:0001945,,,nervous,right,direct-source-geometry
+UBERON:0001946|right,inferior colliculus,UBERON:0001946,,,nervous,right,direct-source-geometry
+UBERON:0002623|right,cerebral peduncle,UBERON:0002623,,,nervous,right,direct-source-geometry
 HRA:Allen_superior_cerebellar_peduncle_brachium_conjunctivum_R|right,superior cerebellar peduncle brachium conjunctivum (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_cerebral_aqueduct_R|right,cerebral aqueduct (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_paravermis_of_cerebellum_R|right,paravermis of cerebellum (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_lateral_hemisphere_of_cerebellum_R|right,lateral hemisphere of cerebellum (right),,,,nervous,right,direct-source-geometry
+UBERON:0002151|right,pontine nuclear group,UBERON:0002151,,,sensory,right,direct-source-geometry
+UBERON:0003023|right,pontine tegmentum,UBERON:0003023,,,nervous,right,direct-source-geometry
 HRA:Allen_pyramidal_part_of_medulla_oblongata_R|right,pyramidal part of medulla oblongata (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_tegmentum_of_medulla_oblongata_R|right,tegmentum of medulla oblongata (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_inferior_olive_R|right,inferior olive (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_inferior_cerebellar_peduncle_R|right,inferior cerebellar peduncle (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_middle_cerebellar_peduncle_R|right,middle cerebellar peduncle (right),,,,nervous,right,direct-source-geometry
+UBERON:0002422|right,fourth ventricle,UBERON:0002422,,,nervous,right,direct-source-geometry
 HRA:Allen_central_canal_of_medulla_oblongata_R|right,central canal of medulla oblongata (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_midline_nuclear_complex_R|right,midline nuclear complex (right),,,,sensory,right,direct-source-geometry
 HRA:Allen_lateral_olfactory_gyrus_R|right,lateral olfactory gyrus (right),,,,nervous,right,direct-source-geometry
+UBERON:0002911|right,parietal operculum,UBERON:0002911,,,nervous,right,direct-source-geometry
+UBERON:0022264|right,optic radiation,UBERON:0022264,,,sensory,right,direct-source-geometry
 HRA:Allen_posteroventral_putamen_R|right,posteroventral putamen (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_atrium_of_lateral_ventricle_R|right,atrium of lateral ventricle (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_paracingulate_gyrus_R|right,paracingulate gyrus (right),,,,nervous,right,direct-source-geometry
@@ -284,13 +334,16 @@ HRA:Allen_rostral_gyrus_R|right,rostral gyrus (right),,,,nervous,right,direct-so
 HRA:Allen_frontomarginal_gyrus_R|right,frontomarginal gyrus (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_frontal_pole_R|right,frontal pole (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_perirhinal_gyrus_rostral_part_of_FuGt_R|right,perirhinal gyrus rostral part of FuGt (right),,,,nervous,right,direct-source-geometry
-UBERON:0001898,hypothalamus,UBERON:0001898,,,nervous,unspecified,direct-source-geometry
+UBERON:0001898|left,hypothalamus,UBERON:0001898,,,nervous,left,direct-source-geometry
+UBERON:0001898|right,hypothalamus,UBERON:0001898,,,nervous,right,direct-source-geometry
 HRA:Allen_subthalamic_nucleus_R|right,subthalamic nucleus (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_mammillary_region_of_HTH_R|right,mammillary region of HTH (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_midbrain_tegmentum_R|right,midbrain tegmentum (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_tuberal_region_of_HTH_R|right,tuberal region of HTH (right),,,,nervous,right,direct-source-geometry
 HRA:Allen_preoptic_region_of_HTH_R|right,preoptic region of HTH (right),,,,sensory,right,direct-source-geometry
 HRA:Allen_midbrain_tegmentum_L|left,midbrain tegmentum (left),,,,nervous,left,direct-source-geometry
+UBERON:0001947|left,red nucleus,UBERON:0001947,,,nervous,left,direct-source-geometry
+UBERON:0001946|left,inferior colliculus,UBERON:0001946,,,nervous,left,direct-source-geometry
 HRA:Allen_mammillary_region_of_HTH_L|left,mammillary region of HTH (left),,,,nervous,left,direct-source-geometry
 HRA:Allen_subthalamic_nucleus_L|left,subthalamic nucleus (left),,,,nervous,left,direct-source-geometry
 UBERON:0006469,C1 segment of cervical spinal cord,UBERON:0006469,,,nervous,unspecified,direct-source-geometry
@@ -443,16 +496,25 @@ UBERON:0010373,uncinate process of pancreas,UBERON:0010373,,,digestive,unspecifi
 UBERON:0001069,head of pancreas,UBERON:0001069,,,digestive,unspecified,direct-source-geometry
 FMA:14517,Neck of pancreas,,FMA:14517,,digestive,unspecified,direct-source-geometry
 UBERON:0002110,gallbladder,UBERON:0002110,,,digestive,unspecified,direct-source-geometry
-UBERON:0002015,kidney capsule,UBERON:0002015,,,urinary,unspecified,direct-source-geometry
-UBERON:0008716,hilum of kidney,UBERON:0008716,,,urinary,unspecified,direct-source-geometry
-UBERON:0001228,renal papilla,UBERON:0001228,,,urinary,unspecified,direct-source-geometry
-UBERON:0004200,renal pyramid,UBERON:0004200,,,urinary,unspecified,direct-source-geometry
-UBERON:0001284,renal column,UBERON:0001284,,,urinary,unspecified,direct-source-geometry
-UBERON:0002189,outer cortex of kidney,UBERON:0002189,,,urinary,unspecified,direct-source-geometry
-UBERON:0001227,minor calyx,UBERON:0001227,,,urinary,unspecified,direct-source-geometry
-UBERON:0001226,major calyx,UBERON:0001226,,,urinary,unspecified,direct-source-geometry
-UBERON:0001224,renal pelvis,UBERON:0001224,,,urinary,unspecified,direct-source-geometry
+UBERON:0002015|left,kidney capsule,UBERON:0002015,,,urinary,left,direct-source-geometry
+UBERON:0008716|left,hilum of kidney,UBERON:0008716,,,urinary,left,direct-source-geometry
+UBERON:0001228|left,renal papilla,UBERON:0001228,,,urinary,left,direct-source-geometry
+UBERON:0004200|left,renal pyramid,UBERON:0004200,,,urinary,left,direct-source-geometry
+UBERON:0001284|left,renal column,UBERON:0001284,,,urinary,left,direct-source-geometry
+UBERON:0002189|left,outer cortex of kidney,UBERON:0002189,,,urinary,left,direct-source-geometry
+UBERON:0002015|right,kidney capsule,UBERON:0002015,,,urinary,right,direct-source-geometry
+UBERON:0008716|right,hilum of kidney,UBERON:0008716,,,urinary,right,direct-source-geometry
+UBERON:0002189|right,outer cortex of kidney,UBERON:0002189,,,urinary,right,direct-source-geometry
+UBERON:0001284|right,renal column,UBERON:0001284,,,urinary,right,direct-source-geometry
+UBERON:0001228|right,renal papilla,UBERON:0001228,,,urinary,right,direct-source-geometry
+UBERON:0004200|right,renal pyramid,UBERON:0004200,,,urinary,right,direct-source-geometry
+UBERON:0001227|right,minor calyx,UBERON:0001227,,,urinary,right,direct-source-geometry
+UBERON:0001226|right,major calyx,UBERON:0001226,,,urinary,right,direct-source-geometry
+UBERON:0001224|right,renal pelvis,UBERON:0001224,,,urinary,right,direct-source-geometry
 UBERON:0001222|right,right ureter,UBERON:0001222,,,urinary,right,direct-source-geometry
+UBERON:0001227|left,minor calyx,UBERON:0001227,,,urinary,left,direct-source-geometry
+UBERON:0001226|left,major calyx,UBERON:0001226,,,urinary,left,direct-source-geometry
+UBERON:0001224|left,renal pelvis,UBERON:0001224,,,urinary,left,direct-source-geometry
 UBERON:0001223|left,left ureter,UBERON:0001223,,,urinary,left,direct-source-geometry
 UBERON:0006082,fundus of urinary bladder,UBERON:0006082,,,urinary,unspecified,direct-source-geometry
 UBERON:0004230,urinary bladder neck smooth muscle,UBERON:0004230,,,urinary,unspecified,direct-source-geometry
@@ -477,17 +539,19 @@ UBERON:0002493|left,Left uterine artery,UBERON:0002493,FMA:18829,,arterial,left,
 UBERON:0002493|right,Right uterine artery,UBERON:0002493,FMA:18829,,arterial,right,direct-source-geometry
 UBERON:8600058|left,Left uterine vein,UBERON:8600058,FMA:18896,,venous,left,direct-source-geometry
 UBERON:8600058|right,Right uterine vein,UBERON:8600058,FMA:18896,,venous,right,direct-source-geometry
-UBERON:0011191,ophthalmic vein,UBERON:0011191,,,venous,unspecified,direct-source-geometry
+UBERON:0011191|left,ophthalmic vein,UBERON:0011191,,,venous,left,direct-source-geometry
 UBERON:0011192|left,Left superior ophthalmic vein,UBERON:0011192,FMA:51246,,venous,left,direct-source-geometry
 UBERON:0011193|left,Left inferior ophthalmic vein,UBERON:0011193,FMA:51247,,venous,left,direct-source-geometry
 UBERON:0001673|left,Left central retinal vein,UBERON:0001673,FMA:51799,,venous,left,direct-source-geometry
+UBERON:0011191|right,ophthalmic vein,UBERON:0011191,,,venous,right,direct-source-geometry
 UBERON:0011192|right,Right superior ophthalmic vein,UBERON:0011192,FMA:51246,,venous,right,direct-source-geometry
 UBERON:0011193|right,Right inferior ophthalmic vein,UBERON:0011193,FMA:51247,,venous,right,direct-source-geometry
 UBERON:0001673|right,Right central retinal vein,UBERON:0001673,FMA:51799,,venous,right,direct-source-geometry
 FMA:49955|left,Left long posterior ciliary artery,,FMA:49955,,arterial,left,direct-source-geometry
-UBERON:0001619,ophthalmic artery,UBERON:0001619,,,arterial,unspecified,direct-source-geometry
+UBERON:0001619|left,ophthalmic artery,UBERON:0001619,,,arterial,left,direct-source-geometry
 UBERON:0001620|left,Left central retinal artery,UBERON:0001620,FMA:49879,,arterial,left,direct-source-geometry
 FMA:49955|right,Right long posterior ciliary artery,,FMA:49955,,arterial,right,direct-source-geometry
+UBERON:0001619|right,ophthalmic artery,UBERON:0001619,,,arterial,right,direct-source-geometry
 UBERON:0001620|right,Right central retinal artery,UBERON:0001620,FMA:49879,,arterial,right,direct-source-geometry
 UBERON:0001185|right,right renal artery,UBERON:0001185,,,arterial,right,direct-source-geometry
 UBERON:0001186|left,left renal artery,UBERON:0001186,,,arterial,left,direct-source-geometry
@@ -501,9 +565,12 @@ FMA:15394|left,Left colic vein,,FMA:15394,,venous,left,direct-source-geometry
 FMA:15407|right,Right colic vein,,FMA:15407,,venous,right,direct-source-geometry
 UBERON:0001219,ileocolic vein,UBERON:0001219,,,venous,unspecified,direct-source-geometry
 UBERON:0001218,middle colic vein,UBERON:0001218,,,venous,unspecified,direct-source-geometry
-FMA:21242,Inferior rectal vein,,FMA:21242,,venous,unspecified,direct-source-geometry
-UBERON:0001317,internal iliac vein,UBERON:0001317,,,venous,unspecified,direct-source-geometry
-UBERON:0018252,internal pudendal vein,UBERON:0018252,,,venous,unspecified,direct-source-geometry
+FMA:21242|left,Inferior rectal vein,,FMA:21242,,venous,left,direct-source-geometry
+FMA:21242|right,Inferior rectal vein,,FMA:21242,,venous,right,direct-source-geometry
+UBERON:0001317|left,internal iliac vein,UBERON:0001317,,,venous,left,direct-source-geometry
+UBERON:0001317|right,internal iliac vein,UBERON:0001317,,,venous,right,direct-source-geometry
+UBERON:0018252|left,internal pudendal vein,UBERON:0018252,,,venous,left,direct-source-geometry
+UBERON:0018252|right,internal pudendal vein,UBERON:0018252,,,venous,right,direct-source-geometry
 UBERON:8600057|left,Left middle hemorrhoidal vein,UBERON:8600057,FMA:18893,,venous,left,direct-source-geometry
 UBERON:8600057|right,Right middle hemorrhoidal vein,UBERON:8600057,FMA:18893,,venous,right,direct-source-geometry
 FMA:15395,sigmoid vein,,FMA:15395,,venous,unspecified,direct-source-geometry
@@ -536,9 +603,9 @@ UBERON:0001143|right,Right hepatic vein,UBERON:0001143,FMA:14337,,venous,right,d
 HRA:VH_F_right_branch_of_portal_vein|right,right branch of portal vein,,,,venous,right,direct-source-geometry
 HRA:VH_F_left_branch_of_portal_vein|left,left branch of portal vein,,,,venous,left,direct-source-geometry
 FMA:49916|left,left superior pulmonary vein,,FMA:49916,,venous,left,direct-source-geometry
-FMA:49913|left,left inferior pulmonary vein,,FMA:49913,,venous,left,direct-source-geometry
+FMA:49913,left inferior pulmonary vein,,FMA:49913,,venous,unspecified,direct-source-geometry
 FMA:49914|right,right superior pulmonary vein,,FMA:49914,,venous,right,direct-source-geometry
-FMA:49911|right,right inferior pulmonary vein,,FMA:49911,,venous,right,direct-source-geometry
+FMA:49911,right inferior pulmonary vein,,FMA:49911,,venous,unspecified,direct-source-geometry
 UBERON:0005438,coronary sinus,UBERON:0005438,,,venous,unspecified,direct-source-geometry
 UBERON:0006958,great vein of heart,UBERON:0006958,,,venous,unspecified,direct-source-geometry
 UBERON:0009687,middle cardiac vein,UBERON:0009687,,,venous,unspecified,direct-source-geometry
@@ -603,8 +670,8 @@ UBERON:0002177|right,Right Main Bronchus,UBERON:0002177,,,respiratory,right,dire
 UBERON:0001102|right,Right cartilage of main bronchus,UBERON:0001102,FMA:13117,,respiratory,right,direct-source-geometry
 UBERON:0002178|left,Left Main Bronchus,UBERON:0002178,,,respiratory,left,direct-source-geometry
 UBERON:0001102|left,Left cartilage of main bronchus,UBERON:0001102,FMA:13117,,respiratory,left,direct-source-geometry
-FMA:62659,Cartilage of lobar bronchus,,FMA:62659,,respiratory,unspecified,direct-source-geometry
-FMA:62662,Cartilage of segmental bronchus,,FMA:62662,,respiratory,unspecified,direct-source-geometry
+FMA:62659|left,Cartilage of lobar bronchus,,FMA:62659,,respiratory,left,direct-source-geometry
+FMA:62662|left,Cartilage of segmental bronchus,,FMA:62662,,respiratory,left,direct-source-geometry
 UBERON:0012065|left,lobar bronchus of left lung upper lobe,UBERON:0012065,,,respiratory,left,direct-source-geometry
 UBERON:0012066|left,lobar bronchus of left lung lower lobe,UBERON:0012066,,,respiratory,left,direct-source-geometry
 FMA:13276|left,Left anterior basal segmental bronchus,,FMA:13276,,respiratory,left,direct-source-geometry
@@ -617,6 +684,8 @@ FMA:13271|left,Left anterior segmental bronchus,,FMA:13271,,respiratory,left,dir
 FMA:13272|left,Left posterior segmental bronchus,,FMA:13272,,respiratory,left,direct-source-geometry
 FMA:13269|left,Left lateral basal segmental bronchus,,FMA:13269,,respiratory,left,direct-source-geometry
 FMA:7431,Inferior lingular bronchus,,FMA:7431,,respiratory,unspecified,direct-source-geometry
+FMA:62659|right,Cartilage of lobar bronchus,,FMA:62659,,respiratory,right,direct-source-geometry
+FMA:62662|right,Cartilage of segmental bronchus,,FMA:62662,,respiratory,right,direct-source-geometry
 FMA:7401,Middle lobar bronchus,,FMA:7401,,respiratory,unspecified,direct-source-geometry
 FMA:13428|right,Right superior lobar bronchus,,FMA:13428,,respiratory,right,direct-source-geometry
 FMA:13429|right,Right inferior lobar bronchus,,FMA:13429,,respiratory,right,direct-source-geometry
@@ -646,22 +715,24 @@ UBERON:0010417,lymph node T cell domain,UBERON:0010417,,,lymphatic,unspecified,d
 UBERON:0004536,Lymph vasculature,UBERON:0004536,,,lymphatic,unspecified,direct-source-geometry
 UBERON:0003690,fused sacrum,UBERON:0003690,,,skeletal,unspecified,direct-source-geometry
 UBERON:0001350,coccyx,UBERON:0001350,,,skeletal,unspecified,direct-source-geometry
-UBERON:0002483,trabecular bone tissue,UBERON:0002483,,,skeletal,unspecified,direct-source-geometry
-UBERON:0001439,compact bone tissue,UBERON:0001439,,,skeletal,unspecified,direct-source-geometry
+UBERON:0002483|left,trabecular bone tissue,UBERON:0002483,,,skeletal,left,direct-source-geometry
+UBERON:0002483|right,trabecular bone tissue,UBERON:0002483,,,skeletal,right,direct-source-geometry
+UBERON:0001439|right,compact bone tissue,UBERON:0001439,,,skeletal,right,direct-source-geometry
+UBERON:0001439|left,compact bone tissue,UBERON:0001439,,,skeletal,left,direct-source-geometry
 FMA:44600|right,Right tibial collateral ligament,,FMA:44600,,skeletal,right,direct-source-geometry
 UBERON:0003671|right,Right anterior cruciate ligament of knee joint,UBERON:0003671,FMA:44614,,skeletal,right,direct-source-geometry
 UBERON:0003680|right,Right posterior cruciate ligament of knee joint,UBERON:0003680,FMA:44617,,skeletal,right,direct-source-geometry
-UBERON:0014899,anterolateral ligament of knee,UBERON:0014899,,,skeletal,unspecified,direct-source-geometry
+UBERON:0014899|right,anterolateral ligament of knee,UBERON:0014899,,,skeletal,right,direct-source-geometry
 FMA:9660|right,Right fibular collateral ligament,,FMA:9660,,skeletal,right,direct-source-geometry
 UBERON:0003676|right,Right patellar ligament,UBERON:0003676,FMA:44581,,skeletal,right,direct-source-geometry
-FMA:64019,Articular disk of knee joint,,FMA:64019,,skeletal,unspecified,direct-source-geometry
+FMA:64019|right,Articular disk of knee joint,,FMA:64019,,skeletal,right,direct-source-geometry
 UBERON:0000981|right,Right femur,UBERON:0000981,FMA:9611,,skeletal,right,direct-source-geometry
 FMA:43745|right,Right patellar surface of femur,,FMA:43745,,skeletal,right,direct-source-geometry
 HRA:VH_F_medial_perichondular_surface_R|right,medial perichondular surface (right),,,,skeletal,right,direct-source-geometry
 FMA:33188|right,Right articular cartilage of distal epiphysis of femur,,FMA:33188,,skeletal,right,direct-source-geometry
 UBERON:0009984|right,Right medial condyle of femur,UBERON:0009984,FMA:32858,,skeletal,right,direct-source-geometry
 UBERON:0009985|right,Right lateral condyle of femur,UBERON:0009985,FMA:32859,,skeletal,right,direct-source-geometry
-UBERON:7500033,distal-most point of medial condyle of femur,UBERON:7500033,,,skeletal,unspecified,direct-source-geometry
+UBERON:7500033|right,distal-most point of medial condyle of femur,UBERON:7500033,,,skeletal,right,direct-source-geometry
 FMA:43748|right,Right intercondylar fossa of femur,,FMA:43748,,skeletal,right,direct-source-geometry
 HRA:VH_F_posterior_cruciate_enthesis_R|right,posterior cruciate enthesis (right),,,,skeletal,right,direct-source-geometry
 HRA:VH_F_anterior_cruciate_enthesis_R|right,anterior cruciate enthesis (right),,,,skeletal,right,direct-source-geometry
@@ -671,11 +742,13 @@ HRA:VH_F_medial_epicondylar_enthesis_R|right,medial epicondylar enthesis (right)
 UBERON:0000979|right,Right tibia,UBERON:0000979,FMA:24476,,skeletal,right,direct-source-geometry
 UBERON:0001446|right,Right fibula,UBERON:0001446,FMA:24479,,skeletal,right,direct-source-geometry
 UBERON:0002446|right,Right patella,UBERON:0002446,FMA:24485,,skeletal,right,direct-source-geometry
+UBERON:0014899|left,anterolateral ligament of knee,UBERON:0014899,,,skeletal,left,direct-source-geometry
 FMA:9660|left,Left fibular collateral ligament,,FMA:9660,,skeletal,left,direct-source-geometry
 UBERON:0003676|left,Left patellar ligament,UBERON:0003676,FMA:44581,,skeletal,left,direct-source-geometry
 FMA:44600|left,Left tibial collateral ligament,,FMA:44600,,skeletal,left,direct-source-geometry
 UBERON:0003671|left,Left anterior cruciate ligament of knee joint,UBERON:0003671,FMA:44614,,skeletal,left,direct-source-geometry
 UBERON:0003680|left,Left posterior cruciate ligament of knee joint,UBERON:0003680,FMA:44617,,skeletal,left,direct-source-geometry
+FMA:64019|left,Articular disk of knee joint,,FMA:64019,,skeletal,left,direct-source-geometry
 UBERON:0000981|left,Left femur,UBERON:0000981,FMA:9611,,skeletal,left,direct-source-geometry
 FMA:43748|left,Left intercondylar fossa of femur,,FMA:43748,,skeletal,left,direct-source-geometry
 HRA:VH_F_anterior_cruciate_enthesis_L|left,anterior cruciate enthesis (left),,,,skeletal,left,direct-source-geometry
@@ -688,6 +761,7 @@ HRA:VH_F_medial_perichondular_surface_L|left,medial perichondular surface (left)
 FMA:33188|left,Left articular cartilage of distal epiphysis of femur,,FMA:33188,,skeletal,left,direct-source-geometry
 UBERON:0009984|left,Left medial condyle of femur,UBERON:0009984,FMA:32858,,skeletal,left,direct-source-geometry
 UBERON:0009985|left,Left lateral condyle of femur,UBERON:0009985,FMA:32859,,skeletal,left,direct-source-geometry
+UBERON:7500033|left,distal-most point of medial condyle of femur,UBERON:7500033,,,skeletal,left,direct-source-geometry
 UBERON:0002446|left,Left patella,UBERON:0002446,FMA:24485,,skeletal,left,direct-source-geometry
 UBERON:0000979|left,Left tibia,UBERON:0000979,FMA:24476,,skeletal,left,direct-source-geometry
 UBERON:0001446|left,Left fibula,UBERON:0001446,FMA:24479,,skeletal,left,direct-source-geometry
@@ -1229,8 +1303,6 @@ FMA:50365|right,Right sphenoid part of middle cerebral artery,,FMA:50365,,arteri
 FMA:50365|left,Left sphenoid part of middle cerebral artery,,FMA:50365,,arterial,left,direct-source-geometry
 FMA:50466|right,Right middle temporal branch of middle cerebral artery,,FMA:50466,,arterial,right,direct-source-geometry
 FMA:50466|left,Left middle temporal branch of middle cerebral artery,,FMA:50466,,arterial,left,direct-source-geometry
-UBERON:0001619|right,Right ophthalmic artery,UBERON:0001619,FMA:49868,,arterial,right,direct-source-geometry
-UBERON:0001619|left,Left ophthalmic artery,UBERON:0001619,FMA:49868,,arterial,left,direct-source-geometry
 FMA:50336|right,Right paracentral branch of callosomarginal artery,,FMA:50336,,arterial,right,direct-source-geometry
 FMA:50336|left,Left paracentral branch of callosomarginal artery,,FMA:50336,,arterial,left,direct-source-geometry
 FMA:50337|right,Right pericallosal artery,,FMA:50337,,arterial,right,direct-source-geometry
@@ -1286,8 +1358,6 @@ FMA:86464,Corpus callosum,,FMA:86464,,nervous,unspecified,direct-source-geometry
 FMA:62032,Habenula,,FMA:62032,,nervous,unspecified,direct-source-geometry
 UBERON:0002998|left,Left inferior frontal gyrus,UBERON:0002998,FMA:61860,,nervous,left,direct-source-geometry
 UBERON:0002998|right,Right inferior frontal gyrus,UBERON:0002998,FMA:61860,,nervous,right,direct-source-geometry
-UBERON:0002751|left,Left inferior temporal gyrus,UBERON:0002751,FMA:61907,,nervous,left,direct-source-geometry
-UBERON:0002751|right,Right inferior temporal gyrus,UBERON:0002751,FMA:61907,,nervous,right,direct-source-geometry
 UBERON:0002022|left,Left insula,UBERON:0002022,FMA:67329,,nervous,left,direct-source-geometry
 UBERON:0002022|right,Right insula,UBERON:0002022,FMA:67329,,nervous,right,direct-source-geometry
 UBERON:0001887|left,Left internal capsule of telencephalon,UBERON:0001887,FMA:61950,,nervous,left,direct-source-geometry
@@ -1302,7 +1372,6 @@ FMA:260794|left,White matter of left cerebral hemisphere,,FMA:260794,,nervous,le
 UBERON:0001954|left,Left ammon's horn,UBERON:0001954,FMA:62493,,nervous,left,direct-source-geometry
 FMA:62008,Hypothalamus,,FMA:62008,,nervous,unspecified,direct-source-geometry
 UBERON:0003025|left,Left brachium of inferior colliculus,UBERON:0003025,FMA:71114,,nervous,left,direct-source-geometry
-UBERON:0001946|left,Left inferior colliculus,UBERON:0001946,FMA:62404,,nervous,left,direct-source-geometry
 FMA:83740,Interpeduncular fossa,,FMA:83740,,nervous,unspecified,direct-source-geometry
 FMA:61975,Lamina terminalis,,FMA:61975,,nervous,unspecified,direct-source-geometry
 UBERON:0001926|left,Left lateral geniculate body,UBERON:0001926,FMA:62209,,nervous,left,direct-source-geometry
@@ -1311,13 +1380,11 @@ FMA:74877,Mammillary body,,FMA:74877,,nervous,unspecified,direct-source-geometry
 FMA:62004,Medulla oblongata,,FMA:62004,,nervous,unspecified,direct-source-geometry
 FMA:61993,Midbrain,,FMA:61993,,nervous,unspecified,direct-source-geometry
 FMA:62045,Optic chiasm,,FMA:62045,,nervous,unspecified,direct-source-geometry
-UBERON:0001908|left,Left optic tract,UBERON:0001908,FMA:62046,,nervous,left,direct-source-geometry
 FMA:62394,Peduncle of midbrain,,FMA:62394,,nervous,unspecified,direct-source-geometry
 FMA:67943,Pons,,FMA:67943,,nervous,unspecified,direct-source-geometry
 UBERON:0001874|left,Left putamen,UBERON:0001874,FMA:61834,,nervous,left,direct-source-geometry
 UBERON:0006086|left,Left stria medullaris,UBERON:0006086,FMA:62080,,nervous,left,direct-source-geometry
 UBERON:0003029|left,Left stria terminalis,UBERON:0003029,FMA:61974,,nervous,left,direct-source-geometry
-UBERON:0001945|left,Left superior colliculus,UBERON:0001945,FMA:62403,,nervous,left,direct-source-geometry
 FMA:62327,Tuber cinereum,,FMA:62327,,nervous,unspecified,direct-source-geometry
 FMA:67944,Cerebellum,,FMA:67944,,nervous,unspecified,direct-source-geometry
 UBERON:0004703|left,Left dorsal thalamus,UBERON:0004703,FMA:62007,,nervous,left,direct-source-geometry
@@ -1325,41 +1392,28 @@ UBERON:0002766|left,Left fusiform gyrus,UBERON:0002766,FMA:61908,,nervous,left,d
 UBERON:0002766|right,Right fusiform gyrus,UBERON:0002766,FMA:61908,,nervous,right,direct-source-geometry
 UBERON:0002973|left,Left parahippocampal gyrus,UBERON:0002973,FMA:61918,,nervous,left,direct-source-geometry
 UBERON:0002973|right,Right parahippocampal gyrus,UBERON:0002973,FMA:61918,,nervous,right,direct-source-geometry
-UBERON:0002702|left,Left middle frontal gyrus,UBERON:0002702,FMA:61859,,nervous,left,direct-source-geometry
-UBERON:0002702|right,Right middle frontal gyrus,UBERON:0002702,FMA:61859,,nervous,right,direct-source-geometry
-UBERON:0002771|left,Left middle temporal gyrus,UBERON:0002771,FMA:61906,,nervous,left,direct-source-geometry
-UBERON:0002771|right,Right middle temporal gyrus,UBERON:0002771,FMA:61906,,nervous,right,direct-source-geometry
 UBERON:0002021|left,Left occipital lobe,UBERON:0002021,FMA:67325,,nervous,left,direct-source-geometry
 UBERON:0002021|right,Right occipital lobe,UBERON:0002021,FMA:67325,,nervous,right,direct-source-geometry
 FMA:256194,Orbital gyrus,,FMA:256194,,nervous,unspecified,direct-source-geometry
 FMA:62033,Pineal body,,FMA:62033,,endocrine,unspecified,direct-source-geometry
 FMA:13889,Pituitary gland,,FMA:13889,,endocrine,unspecified,direct-source-geometry
-UBERON:0002581|left,Left postcentral gyrus,UBERON:0002581,FMA:61896,,nervous,left,direct-source-geometry
-UBERON:0002581|right,Right postcentral gyrus,UBERON:0002581,FMA:61896,,nervous,right,direct-source-geometry
 FMA:62072,Posterior commissure,,FMA:62072,,nervous,unspecified,direct-source-geometry
-UBERON:0002703|left,Left precentral gyrus,UBERON:0002703,FMA:61894,,nervous,left,direct-source-geometry
-UBERON:0002703|right,Right precentral gyrus,UBERON:0002703,FMA:61894,,nervous,right,direct-source-geometry
 UBERON:0001873|right,Right caudate nucleus,UBERON:0001873,FMA:61833,,nervous,right,direct-source-geometry
 FMA:61965|right,Right fornix of forebrain,,FMA:61965,,nervous,right,direct-source-geometry
 UBERON:0001875|right,Right globus pallidus,UBERON:0001875,FMA:61835,,nervous,right,direct-source-geometry
 FMA:260791|right,White matter of right cerebral hemisphere,,FMA:260791,,nervous,right,direct-source-geometry
 UBERON:0001954|right,Right ammon's horn,UBERON:0001954,FMA:62493,,nervous,right,direct-source-geometry
 UBERON:0003025|right,Right brachium of inferior colliculus,UBERON:0003025,FMA:71114,,nervous,right,direct-source-geometry
-UBERON:0001946|right,Right inferior colliculus,UBERON:0001946,FMA:62404,,nervous,right,direct-source-geometry
 UBERON:0001926|right,Right lateral geniculate body,UBERON:0001926,FMA:62209,,nervous,right,direct-source-geometry
 UBERON:0002285|right,Right telencephalic ventricle,UBERON:0002285,FMA:78448,,cardiac,right,direct-source-geometry
 UBERON:0001927|right,Right medial geniculate body,UBERON:0001927,FMA:62211,,nervous,right,direct-source-geometry
 UBERON:0001927|left,Left medial geniculate body,UBERON:0001927,FMA:62211,,nervous,left,direct-source-geometry
-UBERON:0001908|right,Right optic tract,UBERON:0001908,FMA:62046,,nervous,right,direct-source-geometry
 UBERON:0001874|right,Right putamen,UBERON:0001874,FMA:61834,,nervous,right,direct-source-geometry
 UBERON:0006086|right,Right stria medullaris,UBERON:0006086,FMA:62080,,nervous,right,direct-source-geometry
 FMA:61974,Stria terminalis,,FMA:61974,,nervous,unspecified,direct-source-geometry
-UBERON:0001945|right,Right superior colliculus,UBERON:0001945,FMA:62403,,nervous,right,direct-source-geometry
 UBERON:0004703|right,Right dorsal thalamus,UBERON:0004703,FMA:62007,,nervous,right,direct-source-geometry
 UBERON:0001876|right,Right amygdala,UBERON:0001876,FMA:61841,,nervous,right,direct-source-geometry
 FMA:61842,Septum of telencephalon,,FMA:61842,,nervous,unspecified,direct-source-geometry
-UBERON:0002661|left,Left superior frontal gyrus,UBERON:0002661,FMA:61857,,nervous,left,direct-source-geometry
-UBERON:0002661|right,Right superior frontal gyrus,UBERON:0002661,FMA:61857,,nervous,right,direct-source-geometry
 UBERON:0006094|left,Left superior parietal cortex,UBERON:0006094,FMA:61899,,nervous,left,direct-source-geometry
 UBERON:0006094|right,Right superior parietal cortex,UBERON:0006094,FMA:61899,,nervous,right,direct-source-geometry
 FMA:70701|left,Left anterior part of superior temporal gyrus,,FMA:70701,,nervous,left,direct-source-geometry
@@ -1840,6 +1894,7 @@ FMA:13442|left,Left anterior segmental vein,,FMA:13442,,venous,left,direct-sourc
 FMA:8669,Inferior lingular vein,,FMA:8669,,venous,unspecified,direct-source-geometry
 FMA:13444|left,Left apical segmental vein,,FMA:13444,,venous,left,direct-source-geometry
 FMA:8668,Superior lingular vein,,FMA:8668,,venous,unspecified,direct-source-geometry
+FMA:49913|left,Left inferior pulmonary vein,,FMA:49913,,venous,left,direct-source-geometry
 FMA:13292|left,Left posterior basal segmental vein,,FMA:13292,,venous,left,direct-source-geometry
 FMA:13291|left,Left lateral basal segmental vein,,FMA:13291,,venous,left,direct-source-geometry
 FMA:13290|left,Left anterior basal segmental vein,,FMA:13290,,venous,left,direct-source-geometry
@@ -1874,6 +1929,7 @@ FMA:68879|right,Right trunk of apical segmental vein,,FMA:68879,,venous,right,di
 FMA:68983,Inferior part of medial segmental vein,,FMA:68983,,venous,unspecified,direct-source-geometry
 FMA:68945,Anterior part of lateral segmental vein,,FMA:68945,,venous,unspecified,direct-source-geometry
 FMA:68944,Posterior part of lateral segmental vein,,FMA:68944,,venous,unspecified,direct-source-geometry
+FMA:49911|right,Right inferior pulmonary vein,,FMA:49911,,venous,right,direct-source-geometry
 FMA:13292|right,Right posterior basal segmental vein,,FMA:13292,,venous,right,direct-source-geometry
 FMA:68920|right,Right anterior part of apical segmental vein,,FMA:68920,,venous,right,direct-source-geometry
 FMA:13290|right,Right anterior basal segmental vein,,FMA:13290,,venous,right,direct-source-geometry
@@ -2217,7 +2273,6 @@ UBERON:0001191|left,Left common iliac artery,UBERON:0001191,FMA:14764,,arterial,
 UBERON:0001308|left,Left external iliac artery,UBERON:0001308,FMA:18805,,arterial,left,direct-source-geometry
 UBERON:0002056|left,Left inferior suprarenal artery,UBERON:0002056,FMA:69264,,arterial,left,direct-source-geometry
 UBERON:0001309|left,Left internal iliac artery,UBERON:0001309,FMA:18808,,arterial,left,direct-source-geometry
-UBERON:0001317|left,Left internal iliac vein,UBERON:0001317,FMA:18884,,venous,left,direct-source-geometry
 UBERON:0012173|left,Left middle suprarenal artery,UBERON:0012173,FMA:14754,,arterial,left,direct-source-geometry
 FMA:70488|left,Left posterior division of renal artery,,FMA:70488,,arterial,left,direct-source-geometry
 FMA:66362|left,Left trunk of renal artery,,FMA:66362,,arterial,left,direct-source-geometry
@@ -2241,7 +2296,6 @@ UBERON:0001354|left,Left inferior epigastric artery,UBERON:0001354,FMA:20686,,ar
 UBERON:0007154|left,Left inferior epigastric vein,UBERON:0007154,FMA:21162,,venous,left,direct-source-geometry
 FMA:18911|left,Left inferior gluteal vein,,FMA:18911,,venous,left,direct-source-geometry
 UBERON:0012255|left,Left inferior phrenic artery,UBERON:0012255,FMA:14734,,arterial,left,direct-source-geometry
-UBERON:0018252|left,Left internal pudendal vein,UBERON:0018252,FMA:18917,,venous,left,direct-source-geometry
 UBERON:8600056|left,Left lateral sacral vein,UBERON:8600056,FMA:18905,,venous,left,direct-source-geometry
 UBERON:0001321|left,Left obturator vein,UBERON:0001321,FMA:18914,,venous,left,direct-source-geometry
 UBERON:0034964|left,Left superficial epigastric artery,UBERON:0034964,FMA:20734,,arterial,left,direct-source-geometry
@@ -2263,7 +2317,6 @@ UBERON:0001191|right,Right common iliac artery,UBERON:0001191,FMA:14764,,arteria
 UBERON:0001308|right,Right external iliac artery,UBERON:0001308,FMA:18805,,arterial,right,direct-source-geometry
 UBERON:0001316|right,Right external iliac vein,UBERON:0001316,FMA:18883,,venous,right,direct-source-geometry
 UBERON:0001309|right,Right internal iliac artery,UBERON:0001309,FMA:18808,,arterial,right,direct-source-geometry
-UBERON:0001317|right,Right internal iliac vein,UBERON:0001317,FMA:18884,,venous,right,direct-source-geometry
 FMA:70488|right,Right posterior division of renal artery,,FMA:70488,,arterial,right,direct-source-geometry
 FMA:66362|right,Right trunk of renal artery,,FMA:66362,,arterial,right,direct-source-geometry
 UBERON:0001140|right,Right renal vein,UBERON:0001140,FMA:14334,,venous,right,direct-source-geometry
@@ -2285,7 +2338,6 @@ UBERON:0001320|right,Right iliolumbar vein,UBERON:0001320,FMA:18902,,venous,righ
 UBERON:0001354|right,Right inferior epigastric artery,UBERON:0001354,FMA:20686,,arterial,right,direct-source-geometry
 UBERON:0007154|right,Right inferior epigastric vein,UBERON:0007154,FMA:21162,,venous,right,direct-source-geometry
 FMA:18911|right,Right inferior gluteal vein,,FMA:18911,,venous,right,direct-source-geometry
-UBERON:0018252|right,Right internal pudendal vein,UBERON:0018252,FMA:18917,,venous,right,direct-source-geometry
 UBERON:8600056|right,Right lateral sacral vein,UBERON:8600056,FMA:18905,,venous,right,direct-source-geometry
 UBERON:0001321|right,Right obturator vein,UBERON:0001321,FMA:18914,,venous,right,direct-source-geometry
 UBERON:0034964|right,Right superficial epigastric artery,UBERON:0034964,FMA:20734,,arterial,right,direct-source-geometry

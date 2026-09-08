@@ -13816,19 +13816,47 @@
     "status": "no-direct-geometry"
   },
   {
-    "canonical_id": "FMA:21242",
+    "canonical_id": "FMA:21242|left",
     "name": "Inferior rectal vein",
     "uberon": "",
     "fma": "FMA:21242",
     "ta2": "",
     "system": "venous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_inferior_rectal_vein_L",
     "candidates": [
-      "hra-female:VH_F_inferior_rectal_vein_L",
+      "hra-female:VH_F_inferior_rectal_vein_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "FMA:21242|right",
+    "name": "Inferior rectal vein",
+    "uberon": "",
+    "fma": "FMA:21242",
+    "ta2": "",
+    "system": "venous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_inferior_rectal_vein_R",
+    "candidates": [
       "hra-female:VH_F_inferior_rectal_vein_R"
     ],
     "grouped_candidates": [],
@@ -36110,8 +36138,37 @@
     "status": "no-direct-geometry"
   },
   {
-    "canonical_id": "FMA:49911|right",
+    "canonical_id": "FMA:49911",
     "name": "right inferior pulmonary vein",
+    "uberon": "",
+    "fma": "FMA:49911",
+    "ta2": "",
+    "system": "venous",
+    "laterality": "unspecified",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_pulmonary_vein_L_inf",
+    "candidates": [
+      "hra-female:VH_F_pulmonary_vein_L_inf"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "FMA:49911|right",
+    "name": "Right inferior pulmonary vein",
     "uberon": "",
     "fma": "FMA:49911",
     "ta2": "",
@@ -36120,14 +36177,41 @@
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:VH_F_pulmonary_vein_L_inf",
+    "best_available": "bodyparts3d:FJ3040",
     "candidates": [
-      "hra-female:VH_F_pulmonary_vein_L_inf",
       "bodyparts3d:FJ3040"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d",
+      "bodyparts3d"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": false,
+    "template_only": true,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "FMA:49913",
+    "name": "left inferior pulmonary vein",
+    "uberon": "",
+    "fma": "FMA:49913",
+    "ta2": "",
+    "system": "venous",
+    "laterality": "unspecified",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_pulmonary_vein_R_inf",
+    "candidates": [
+      "hra-female:VH_F_pulmonary_vein_R_inf"
+    ],
+    "grouped_candidates": [],
+    "sources": [
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -36142,7 +36226,7 @@
   },
   {
     "canonical_id": "FMA:49913|left",
-    "name": "left inferior pulmonary vein",
+    "name": "Left inferior pulmonary vein",
     "uberon": "",
     "fma": "FMA:49913",
     "ta2": "",
@@ -36151,24 +36235,22 @@
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:VH_F_pulmonary_vein_R_inf",
+    "best_available": "bodyparts3d:FJ2944",
     "candidates": [
-      "hra-female:VH_F_pulmonary_vein_R_inf",
       "bodyparts3d:FJ2944",
       "bodyparts3d:FJ2950",
       "bodyparts3d:FJ2955"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d",
-      "hra-female"
+      "bodyparts3d"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": true,
-    "template_only": false,
+    "female_reference": false,
+    "template_only": true,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
@@ -45698,19 +45780,47 @@
     "status": "no-direct-geometry"
   },
   {
-    "canonical_id": "FMA:58088",
+    "canonical_id": "FMA:58088|left",
     "name": "Lactiferous sinus",
     "uberon": "",
     "fma": "FMA:58088",
     "ta2": "",
     "system": "integumentary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_main_lactiferous_sinuses_L",
     "candidates": [
-      "hra-female:VH_F_main_lactiferous_sinuses_L",
+      "hra-female:VH_F_main_lactiferous_sinuses_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "FMA:58088|right",
+    "name": "Lactiferous sinus",
+    "uberon": "",
+    "fma": "FMA:58088",
+    "ta2": "",
+    "system": "integumentary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_main_lactiferous_sinuses_R",
+    "candidates": [
       "hra-female:VH_F_main_lactiferous_sinuses_R"
     ],
     "grouped_candidates": [],
@@ -50395,19 +50505,47 @@
     "status": "no-direct-geometry"
   },
   {
-    "canonical_id": "FMA:62659",
+    "canonical_id": "FMA:62659|left",
     "name": "Cartilage of lobar bronchus",
     "uberon": "",
     "fma": "FMA:62659",
     "ta2": "",
     "system": "respiratory",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_cartilage_of_lobar_bronchus_L",
     "candidates": [
-      "hra-female:VH_F_cartilage_of_lobar_bronchus_L",
+      "hra-female:VH_F_cartilage_of_lobar_bronchus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "FMA:62659|right",
+    "name": "Cartilage of lobar bronchus",
+    "uberon": "",
+    "fma": "FMA:62659",
+    "ta2": "",
+    "system": "respiratory",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_cartilage_of_lobar_bronchus_R",
+    "candidates": [
       "hra-female:VH_F_cartilage_of_lobar_bronchus_R"
     ],
     "grouped_candidates": [],
@@ -50425,19 +50563,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "FMA:62662",
+    "canonical_id": "FMA:62662|left",
     "name": "Cartilage of segmental bronchus",
     "uberon": "",
     "fma": "FMA:62662",
     "ta2": "",
     "system": "respiratory",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_cartilage_of_tertiary_bronchus_L",
     "candidates": [
-      "hra-female:VH_F_cartilage_of_tertiary_bronchus_L",
+      "hra-female:VH_F_cartilage_of_tertiary_bronchus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "FMA:62662|right",
+    "name": "Cartilage of segmental bronchus",
+    "uberon": "",
+    "fma": "FMA:62662",
+    "ta2": "",
+    "system": "respiratory",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_cartilage_of_tertiary_bronchus_R",
+    "candidates": [
       "hra-female:VH_F_cartilage_of_tertiary_bronchus_R"
     ],
     "grouped_candidates": [],
@@ -50612,20 +50778,48 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "FMA:64019",
+    "canonical_id": "FMA:64019|left",
     "name": "Articular disk of knee joint",
     "uberon": "",
     "fma": "FMA:64019",
     "ta2": "",
     "system": "skeletal",
-    "laterality": "unspecified",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_meniscus_L",
+    "candidates": [
+      "hra-female:VH_F_meniscus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "FMA:64019|right",
+    "name": "Articular disk of knee joint",
+    "uberon": "",
+    "fma": "FMA:64019",
+    "ta2": "",
+    "system": "skeletal",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_meniscus_R",
     "candidates": [
-      "hra-female:VH_F_meniscus_R",
-      "hra-female:VH_F_meniscus_L"
+      "hra-female:VH_F_meniscus_R"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -79025,19 +79219,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0000052",
+    "canonical_id": "UBERON:0000052|left",
     "name": "fornix of brain",
     "uberon": "UBERON:0000052",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_fornix_L",
     "candidates": [
-      "hra-female:Allen_fornix_L",
+      "hra-female:Allen_fornix_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0000052|right",
+    "name": "fornix of brain",
+    "uberon": "UBERON:0000052",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_fornix_R",
+    "candidates": [
       "hra-female:Allen_fornix_R"
     ],
     "grouped_candidates": [],
@@ -79647,19 +79869,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0000935",
+    "canonical_id": "UBERON:0000935|left",
     "name": "anterior commissure",
     "uberon": "UBERON:0000935",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_anterior_commissure_L",
     "candidates": [
-      "hra-female:Allen_anterior_commissure_L",
+      "hra-female:Allen_anterior_commissure_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0000935|right",
+    "name": "anterior commissure",
+    "uberon": "UBERON:0000935",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_anterior_commissure_R",
+    "candidates": [
       "hra-female:Allen_anterior_commissure_R"
     ],
     "grouped_candidates": [],
@@ -83455,19 +83705,18 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001224",
+    "canonical_id": "UBERON:0001224|left",
     "name": "renal pelvis",
     "uberon": "UBERON:0001224",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:VH_F_renal_pelvis_R",
+    "best_available": "hra-female:VH_F_renal_pelvis_L",
     "candidates": [
-      "hra-female:VH_F_renal_pelvis_R",
       "hra-female:VH_F_renal_pelvis_L"
     ],
     "grouped_candidates": [],
@@ -83485,21 +83734,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001224|right",
+    "name": "renal pelvis",
+    "uberon": "UBERON:0001224",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_renal_pelvis_R",
+    "candidates": [
+      "hra-female:VH_F_renal_pelvis_R"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001226|left",
     "name": "major calyx",
     "uberon": "UBERON:0001226",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:VH_F_major_calyx_R_a",
+    "best_available": "hra-female:VH_F_major_calyx_L_a",
     "candidates": [
-      "hra-female:VH_F_major_calyx_R_a",
-      "hra-female:VH_F_major_calyx_R_b",
-      "hra-female:VH_F_major_calyx_R_c",
       "hra-female:VH_F_major_calyx_L_a",
       "hra-female:VH_F_major_calyx_L_b",
       "hra-female:VH_F_major_calyx_L_c",
@@ -83520,28 +83795,49 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001226|right",
+    "name": "major calyx",
+    "uberon": "UBERON:0001226",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_major_calyx_R_a",
+    "candidates": [
+      "hra-female:VH_F_major_calyx_R_a",
+      "hra-female:VH_F_major_calyx_R_b",
+      "hra-female:VH_F_major_calyx_R_c"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001227|left",
     "name": "minor calyx",
     "uberon": "UBERON:0001227",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:VH_F_minor_calyx_R_a",
+    "best_available": "hra-female:VH_F_minor_calyx_L_a",
     "candidates": [
-      "hra-female:VH_F_minor_calyx_R_a",
-      "hra-female:VH_F_minor_calyx_R_b",
-      "hra-female:VH_F_minor_calyx_R_c",
-      "hra-female:VH_F_minor_calyx_R_d",
-      "hra-female:VH_F_minor_calyx_R_e",
-      "hra-female:VH_F_minor_calyx_R_f",
-      "hra-female:VH_F_minor_calyx_R_g",
-      "hra-female:VH_F_minor_calyx_R_h",
-      "hra-female:VH_F_minor_calyx_R_i",
-      "hra-female:VH_F_minor_calyx_R_j",
       "hra-female:VH_F_minor_calyx_L_a",
       "hra-female:VH_F_minor_calyx_L_b",
       "hra-female:VH_F_minor_calyx_L_c",
@@ -83568,13 +83864,51 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001227|right",
+    "name": "minor calyx",
+    "uberon": "UBERON:0001227",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_minor_calyx_R_a",
+    "candidates": [
+      "hra-female:VH_F_minor_calyx_R_a",
+      "hra-female:VH_F_minor_calyx_R_b",
+      "hra-female:VH_F_minor_calyx_R_c",
+      "hra-female:VH_F_minor_calyx_R_d",
+      "hra-female:VH_F_minor_calyx_R_e",
+      "hra-female:VH_F_minor_calyx_R_f",
+      "hra-female:VH_F_minor_calyx_R_g",
+      "hra-female:VH_F_minor_calyx_R_h",
+      "hra-female:VH_F_minor_calyx_R_i",
+      "hra-female:VH_F_minor_calyx_R_j"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001228|left",
     "name": "renal papilla",
     "uberon": "UBERON:0001228",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
@@ -83590,7 +83924,35 @@
       "hra-female:VH_F_renal_papilla_L_h",
       "hra-female:VH_F_renal_papilla_L_i",
       "hra-female:VH_F_renal_papilla_L_j",
-      "hra-female:VH_F_renal_papilla_L_k",
+      "hra-female:VH_F_renal_papilla_L_k"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001228|right",
+    "name": "renal papilla",
+    "uberon": "UBERON:0001228",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_renal_papilla_R_a",
+    "candidates": [
       "hra-female:VH_F_renal_papilla_R_a",
       "hra-female:VH_F_renal_papilla_R_b",
       "hra-female:VH_F_renal_papilla_R_c",
@@ -83832,19 +84194,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001284",
+    "canonical_id": "UBERON:0001284|left",
     "name": "renal column",
     "uberon": "UBERON:0001284",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_renal_column_L",
     "candidates": [
-      "hra-female:VH_F_renal_column_L",
+      "hra-female:VH_F_renal_column_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001284|right",
+    "name": "renal column",
+    "uberon": "UBERON:0001284",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_renal_column_R",
+    "candidates": [
       "hra-female:VH_F_renal_column_R"
     ],
     "grouped_candidates": [],
@@ -84189,23 +84579,26 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001317",
+    "canonical_id": "UBERON:0001317|left",
     "name": "internal iliac vein",
     "uberon": "UBERON:0001317",
     "fma": "",
     "ta2": "",
     "system": "venous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_internal_iliac_vein_L",
     "candidates": [
       "hra-female:VH_F_internal_iliac_vein_L",
-      "hra-female:VH_F_internal_iliac_vein_R"
+      "bodyparts3d:FJ3469",
+      "bodyparts3d:FJ3470",
+      "bodyparts3d:FJ3471"
     ],
     "grouped_candidates": [],
     "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -84219,49 +84612,19 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001317|left",
-    "name": "Left internal iliac vein",
-    "uberon": "UBERON:0001317",
-    "fma": "FMA:18884",
-    "ta2": "",
-    "system": "venous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ3469",
-    "candidates": [
-      "bodyparts3d:FJ3469",
-      "bodyparts3d:FJ3470",
-      "bodyparts3d:FJ3471"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
     "canonical_id": "UBERON:0001317|right",
-    "name": "Right internal iliac vein",
+    "name": "internal iliac vein",
     "uberon": "UBERON:0001317",
-    "fma": "FMA:18884",
+    "fma": "",
     "ta2": "",
     "system": "venous",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ3570",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_internal_iliac_vein_R",
     "candidates": [
+      "hra-female:VH_F_internal_iliac_vein_R",
       "bodyparts3d:FJ3570",
       "bodyparts3d:FJ3571",
       "bodyparts3d:FJ3572",
@@ -84271,14 +84634,15 @@
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
@@ -87600,24 +87964,52 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001439",
+    "canonical_id": "UBERON:0001439|left",
     "name": "compact bone tissue",
     "uberon": "UBERON:0001439",
     "fma": "",
     "ta2": "",
     "system": "skeletal",
-    "laterality": "unspecified",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_pubis_compact_bone_L",
+    "candidates": [
+      "hra-female:VH_F_pubis_compact_bone_L",
+      "hra-female:VH_F_ilium_compact_bone_L",
+      "hra-female:VH_F_ischium_compact_bone_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001439|right",
+    "name": "compact bone tissue",
+    "uberon": "UBERON:0001439",
+    "fma": "",
+    "ta2": "",
+    "system": "skeletal",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_pubis_compact_bone_R",
     "candidates": [
       "hra-female:VH_F_pubis_compact_bone_R",
-      "hra-female:VH_F_pubis_compact_bone_L",
       "hra-female:VH_F_ilium_compact_bone_R",
-      "hra-female:VH_F_ilium_compact_bone_L",
-      "hra-female:VH_F_ischium_compact_bone_R",
-      "hra-female:VH_F_ischium_compact_bone_L"
+      "hra-female:VH_F_ischium_compact_bone_R"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -90450,23 +90842,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001619",
+    "canonical_id": "UBERON:0001619|left",
     "name": "ophthalmic artery",
     "uberon": "UBERON:0001619",
     "fma": "",
     "ta2": "",
     "system": "arterial",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_opthalmic_artery_L",
     "candidates": [
       "hra-female:VH_F_opthalmic_artery_L",
-      "hra-female:VH_F_opthalmic_artery_R"
+      "bodyparts3d:FJ1695M"
     ],
     "grouped_candidates": [],
     "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -90480,59 +90873,32 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001619|left",
-    "name": "Left ophthalmic artery",
-    "uberon": "UBERON:0001619",
-    "fma": "FMA:49868",
-    "ta2": "",
-    "system": "arterial",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1695M",
-    "candidates": [
-      "bodyparts3d:FJ1695M"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
     "canonical_id": "UBERON:0001619|right",
-    "name": "Right ophthalmic artery",
+    "name": "ophthalmic artery",
     "uberon": "UBERON:0001619",
-    "fma": "FMA:49868",
+    "fma": "",
     "ta2": "",
     "system": "arterial",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1695",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_opthalmic_artery_R",
     "candidates": [
+      "hra-female:VH_F_opthalmic_artery_R",
       "bodyparts3d:FJ1695"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
@@ -92627,19 +92993,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001898",
+    "canonical_id": "UBERON:0001898|left",
     "name": "hypothalamus",
     "uberon": "UBERON:0001898",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_hypothalamus_L",
     "candidates": [
-      "hra-female:Allen_hypothalamus_L",
+      "hra-female:Allen_hypothalamus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001898|right",
+    "name": "hypothalamus",
+    "uberon": "UBERON:0001898",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_hypothalamus_R",
+    "candidates": [
       "hra-female:Allen_hypothalamus_R"
     ],
     "grouped_candidates": [],
@@ -92657,19 +93051,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001905",
+    "canonical_id": "UBERON:0001905|left",
     "name": "pineal body",
     "uberon": "UBERON:0001905",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_pineal_body_L",
     "candidates": [
-      "hra-female:Allen_pineal_body_L",
+      "hra-female:Allen_pineal_body_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001905|right",
+    "name": "pineal body",
+    "uberon": "UBERON:0001905",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_pineal_body_R",
+    "candidates": [
       "hra-female:Allen_pineal_body_R"
     ],
     "grouped_candidates": [],
@@ -92687,23 +93109,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001908",
+    "canonical_id": "UBERON:0001908|left",
     "name": "optic tract",
     "uberon": "UBERON:0001908",
     "fma": "",
     "ta2": "",
     "system": "sensory",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_optic_tract_L",
     "candidates": [
       "hra-female:Allen_optic_tract_L",
-      "hra-female:Allen_optic_tract_R"
+      "bodyparts3d:FJ1773"
     ],
     "grouped_candidates": [],
     "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -92717,59 +93140,32 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001908|left",
-    "name": "Left optic tract",
-    "uberon": "UBERON:0001908",
-    "fma": "FMA:62046",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1773",
-    "candidates": [
-      "bodyparts3d:FJ1773"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
     "canonical_id": "UBERON:0001908|right",
-    "name": "Right optic tract",
+    "name": "optic tract",
     "uberon": "UBERON:0001908",
-    "fma": "FMA:62046",
+    "fma": "",
     "ta2": "",
-    "system": "nervous",
+    "system": "sensory",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1820",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_optic_tract_R",
     "candidates": [
+      "hra-female:Allen_optic_tract_R",
       "bodyparts3d:FJ1820"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
@@ -92891,23 +93287,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001945",
+    "canonical_id": "UBERON:0001945|left",
     "name": "superior colliculus",
     "uberon": "UBERON:0001945",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_superior_colliculus_L",
     "candidates": [
       "hra-female:Allen_superior_colliculus_L",
-      "hra-female:Allen_superior_colliculus_R"
+      "bodyparts3d:FJ1779"
     ],
     "grouped_candidates": [],
     "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -92921,81 +93318,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001945|left",
-    "name": "Left superior colliculus",
-    "uberon": "UBERON:0001945",
-    "fma": "FMA:62403",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1779",
-    "candidates": [
-      "bodyparts3d:FJ1779"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
     "canonical_id": "UBERON:0001945|right",
-    "name": "Right superior colliculus",
+    "name": "superior colliculus",
     "uberon": "UBERON:0001945",
-    "fma": "FMA:62403",
+    "fma": "",
     "ta2": "",
     "system": "nervous",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1826",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_superior_colliculus_R",
     "candidates": [
+      "hra-female:Allen_superior_colliculus_R",
       "bodyparts3d:FJ1826"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0001946",
-    "name": "inferior colliculus",
-    "uberon": "UBERON:0001946",
-    "fma": "",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "unspecified",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:Allen_inferior_colliculus_R",
-    "candidates": [
-      "hra-female:Allen_inferior_colliculus_R",
-      "hra-female:Allen_inferior_colliculus_L"
-    ],
-    "grouped_candidates": [],
-    "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -93010,77 +93350,109 @@
   },
   {
     "canonical_id": "UBERON:0001946|left",
-    "name": "Left inferior colliculus",
+    "name": "inferior colliculus",
     "uberon": "UBERON:0001946",
-    "fma": "FMA:62404",
+    "fma": "",
     "ta2": "",
     "system": "nervous",
     "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1762",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_inferior_colliculus_L",
     "candidates": [
+      "hra-female:Allen_inferior_colliculus_L",
       "bodyparts3d:FJ1762"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
   },
   {
     "canonical_id": "UBERON:0001946|right",
-    "name": "Right inferior colliculus",
+    "name": "inferior colliculus",
     "uberon": "UBERON:0001946",
-    "fma": "FMA:62404",
+    "fma": "",
     "ta2": "",
     "system": "nervous",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1810",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_inferior_colliculus_R",
     "candidates": [
+      "hra-female:Allen_inferior_colliculus_R",
       "bodyparts3d:FJ1810"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0001947",
+    "canonical_id": "UBERON:0001947|left",
     "name": "red nucleus",
     "uberon": "UBERON:0001947",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_red_nucleus_L",
+    "candidates": [
+      "hra-female:Allen_red_nucleus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0001947|right",
+    "name": "red nucleus",
+    "uberon": "UBERON:0001947",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_red_nucleus_R",
     "candidates": [
-      "hra-female:Allen_red_nucleus_R",
-      "hra-female:Allen_red_nucleus_L"
+      "hra-female:Allen_red_nucleus_R"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -93358,19 +93730,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002015",
+    "canonical_id": "UBERON:0002015|left",
     "name": "kidney capsule",
     "uberon": "UBERON:0002015",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_kidney_capsule_L",
     "candidates": [
-      "hra-female:VH_F_kidney_capsule_L",
+      "hra-female:VH_F_kidney_capsule_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002015|right",
+    "name": "kidney capsule",
+    "uberon": "UBERON:0002015",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_kidney_capsule_R",
+    "candidates": [
       "hra-female:VH_F_kidney_capsule_R"
     ],
     "grouped_candidates": [],
@@ -93533,19 +93933,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002038",
+    "canonical_id": "UBERON:0002038|left",
     "name": "substantia nigra",
     "uberon": "UBERON:0002038",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_substantia_nigra_L",
     "candidates": [
-      "hra-female:Allen_substantia_nigra_L",
+      "hra-female:Allen_substantia_nigra_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002038|right",
+    "name": "substantia nigra",
+    "uberon": "UBERON:0002038",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_substantia_nigra_R",
+    "candidates": [
       "hra-female:Allen_substantia_nigra_R"
     ],
     "grouped_candidates": [],
@@ -94532,19 +94960,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002151",
+    "canonical_id": "UBERON:0002151|left",
     "name": "pontine nuclear group",
     "uberon": "UBERON:0002151",
     "fma": "",
     "ta2": "",
     "system": "sensory",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_basilar_part_of_pons_L",
     "candidates": [
-      "hra-female:Allen_basilar_part_of_pons_L",
+      "hra-female:Allen_basilar_part_of_pons_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002151|right",
+    "name": "pontine nuclear group",
+    "uberon": "UBERON:0002151",
+    "fma": "",
+    "ta2": "",
+    "system": "sensory",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_basilar_part_of_pons_R",
+    "candidates": [
       "hra-female:Allen_basilar_part_of_pons_R"
     ],
     "grouped_candidates": [],
@@ -94736,19 +95192,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002189",
+    "canonical_id": "UBERON:0002189|left",
     "name": "outer cortex of kidney",
     "uberon": "UBERON:0002189",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_outer_cortex_of_kidney_L",
     "candidates": [
-      "hra-female:VH_F_outer_cortex_of_kidney_L",
+      "hra-female:VH_F_outer_cortex_of_kidney_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002189|right",
+    "name": "outer cortex of kidney",
+    "uberon": "UBERON:0002189",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_outer_cortex_of_kidney_R",
+    "candidates": [
       "hra-female:VH_F_outer_cortex_of_kidney_R"
     ],
     "grouped_candidates": [],
@@ -94940,13 +95424,13 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002264",
+    "canonical_id": "UBERON:0002264|left",
     "name": "olfactory bulb",
     "uberon": "UBERON:0002264",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
@@ -94969,13 +95453,13 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002266",
+    "canonical_id": "UBERON:0002266|left",
     "name": "anterior olfactory nucleus",
     "uberon": "UBERON:0002266",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
@@ -95114,19 +95598,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002336",
+    "canonical_id": "UBERON:0002336|left",
     "name": "corpus callosum",
     "uberon": "UBERON:0002336",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_corpus_callosum_L",
     "candidates": [
-      "hra-female:Allen_corpus_callosum_L",
+      "hra-female:Allen_corpus_callosum_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002336|right",
+    "name": "corpus callosum",
+    "uberon": "UBERON:0002336",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_corpus_callosum_R",
+    "candidates": [
       "hra-female:Allen_corpus_callosum_R"
     ],
     "grouped_candidates": [],
@@ -95650,19 +96162,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002422",
+    "canonical_id": "UBERON:0002422|left",
     "name": "fourth ventricle",
     "uberon": "UBERON:0002422",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_fourth_ventricle_L",
     "candidates": [
-      "hra-female:Allen_fourth_ventricle_L",
+      "hra-female:Allen_fourth_ventricle_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002422|right",
+    "name": "fourth ventricle",
+    "uberon": "UBERON:0002422",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_fourth_ventricle_R",
+    "candidates": [
       "hra-female:Allen_fourth_ventricle_R"
     ],
     "grouped_candidates": [],
@@ -95953,24 +96493,52 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002483",
+    "canonical_id": "UBERON:0002483|left",
     "name": "trabecular bone tissue",
     "uberon": "UBERON:0002483",
     "fma": "",
     "ta2": "",
     "system": "skeletal",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_pubis_spongy_bone_L",
     "candidates": [
       "hra-female:VH_F_pubis_spongy_bone_L",
-      "hra-female:VH_F_pubis_spongy_bone_R",
       "hra-female:VH_F_ilium_spongy_bone_L",
-      "hra-female:VH_F_ilium_spongy_bone_R",
-      "hra-female:VH_F_ischium_spongy_bone_R",
       "hra-female:VH_F_ischium_spongy_bone_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002483|right",
+    "name": "trabecular bone tissue",
+    "uberon": "UBERON:0002483",
+    "fma": "",
+    "ta2": "",
+    "system": "skeletal",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_pubis_spongy_bone_R",
+    "candidates": [
+      "hra-female:VH_F_pubis_spongy_bone_R",
+      "hra-female:VH_F_ilium_spongy_bone_R",
+      "hra-female:VH_F_ischium_spongy_bone_R"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -96045,19 +96613,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002564",
+    "canonical_id": "UBERON:0002564|left",
     "name": "lateral orbital gyrus",
     "uberon": "UBERON:0002564",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_lateral_orbital_gyrus_L",
     "candidates": [
-      "hra-female:Allen_lateral_orbital_gyrus_L",
+      "hra-female:Allen_lateral_orbital_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002564|right",
+    "name": "lateral orbital gyrus",
+    "uberon": "UBERON:0002564",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_lateral_orbital_gyrus_R",
+    "candidates": [
       "hra-female:Allen_lateral_orbital_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -96075,19 +96671,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002570",
+    "canonical_id": "UBERON:0002570|left",
     "name": "medial orbital gyrus",
     "uberon": "UBERON:0002570",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_medial_orbital_gyrus_L",
     "candidates": [
-      "hra-female:Allen_medial_orbital_gyrus_L",
+      "hra-female:Allen_medial_orbital_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002570|right",
+    "name": "medial orbital gyrus",
+    "uberon": "UBERON:0002570",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_medial_orbital_gyrus_R",
+    "candidates": [
       "hra-female:Allen_medial_orbital_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -96105,19 +96729,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002576",
+    "canonical_id": "UBERON:0002576|left",
     "name": "temporal pole",
     "uberon": "UBERON:0002576",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_temporal_pole_L",
     "candidates": [
-      "hra-female:Allen_temporal_pole_L",
+      "hra-female:Allen_temporal_pole_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002576|right",
+    "name": "temporal pole",
+    "uberon": "UBERON:0002576",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_temporal_pole_R",
+    "candidates": [
       "hra-female:Allen_temporal_pole_R"
     ],
     "grouped_candidates": [],
@@ -96193,20 +96845,81 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002581",
+    "canonical_id": "UBERON:0002581|left",
     "name": "postcentral gyrus",
     "uberon": "UBERON:0002581",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_postcentral_gyrus_L",
     "candidates": [
       "hra-female:Allen_postcentral_gyrus_L",
-      "hra-female:Allen_postcentral_gyrus_R"
+      "bodyparts3d:FJ1797"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "bodyparts3d",
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002581|right",
+    "name": "postcentral gyrus",
+    "uberon": "UBERON:0002581",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_postcentral_gyrus_R",
+    "candidates": [
+      "hra-female:Allen_postcentral_gyrus_R",
+      "bodyparts3d:FJ1798"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "bodyparts3d",
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002623|left",
+    "name": "cerebral peduncle",
+    "uberon": "UBERON:0002623",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_cerebral_peduncle_crus_cerebri_L",
+    "candidates": [
+      "hra-female:Allen_cerebral_peduncle_crus_cerebri_L"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -96223,77 +96936,18 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002581|left",
-    "name": "Left postcentral gyrus",
-    "uberon": "UBERON:0002581",
-    "fma": "FMA:61896",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1797",
-    "candidates": [
-      "bodyparts3d:FJ1797"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0002581|right",
-    "name": "Right postcentral gyrus",
-    "uberon": "UBERON:0002581",
-    "fma": "FMA:61896",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "right",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1798",
-    "candidates": [
-      "bodyparts3d:FJ1798"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0002623",
+    "canonical_id": "UBERON:0002623|right",
     "name": "cerebral peduncle",
     "uberon": "UBERON:0002623",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:Allen_cerebral_peduncle_crus_cerebri_L",
+    "best_available": "hra-female:Allen_cerebral_peduncle_crus_cerebri_R",
     "candidates": [
-      "hra-female:Allen_cerebral_peduncle_crus_cerebri_L",
       "hra-female:Allen_cerebral_peduncle_crus_cerebri_R"
     ],
     "grouped_candidates": [],
@@ -96311,19 +96965,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002629",
+    "canonical_id": "UBERON:0002629|left",
     "name": "triangular part of inferior frontal gyrus",
     "uberon": "UBERON:0002629",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_inferior_frontal_gyrus_triangular_part_L",
     "candidates": [
-      "hra-female:Allen_inferior_frontal_gyrus_triangular_part_L",
+      "hra-female:Allen_inferior_frontal_gyrus_triangular_part_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002629|right",
+    "name": "triangular part of inferior frontal gyrus",
+    "uberon": "UBERON:0002629",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_inferior_frontal_gyrus_triangular_part_R",
+    "candidates": [
       "hra-female:Allen_inferior_frontal_gyrus_triangular_part_R"
     ],
     "grouped_candidates": [],
@@ -96341,20 +97023,48 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002644",
+    "canonical_id": "UBERON:0002644|left",
     "name": "intermediate orbital gyrus",
     "uberon": "UBERON:0002644",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_anterior_intermediate_orbital_gyrus_L",
     "candidates": [
       "hra-female:Allen_anterior_intermediate_orbital_gyrus_L",
-      "hra-female:Allen_posterior_intermediate_orbital_gyrus_L",
+      "hra-female:Allen_posterior_intermediate_orbital_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002644|right",
+    "name": "intermediate orbital gyrus",
+    "uberon": "UBERON:0002644",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_anterior_intermediate_orbital_gyrus_R",
+    "candidates": [
       "hra-female:Allen_anterior_intermediate_orbital_gyrus_R",
       "hra-female:Allen_posterior_intermediate_orbital_gyrus_R"
     ],
@@ -96373,19 +97083,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002657",
+    "canonical_id": "UBERON:0002657|left",
     "name": "posterior parahippocampal gyrus",
     "uberon": "UBERON:0002657",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_posterior_parahippocampal_gyrus_L",
     "candidates": [
-      "hra-female:Allen_posterior_parahippocampal_gyrus_L",
+      "hra-female:Allen_posterior_parahippocampal_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002657|right",
+    "name": "posterior parahippocampal gyrus",
+    "uberon": "UBERON:0002657",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_posterior_parahippocampal_gyrus_R",
+    "candidates": [
       "hra-female:Allen_posterior_parahippocampal_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -96403,23 +97141,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002661",
+    "canonical_id": "UBERON:0002661|left",
     "name": "superior frontal gyrus",
     "uberon": "UBERON:0002661",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_superior_frontal_gyrus_L",
     "candidates": [
       "hra-female:Allen_superior_frontal_gyrus_L",
-      "hra-female:Allen_superior_frontal_gyrus_R"
+      "bodyparts3d:FJ1833"
     ],
     "grouped_candidates": [],
     "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -96433,59 +97172,32 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002661|left",
-    "name": "Left superior frontal gyrus",
-    "uberon": "UBERON:0002661",
-    "fma": "FMA:61857",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1833",
-    "candidates": [
-      "bodyparts3d:FJ1833"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
     "canonical_id": "UBERON:0002661|right",
-    "name": "Right superior frontal gyrus",
+    "name": "superior frontal gyrus",
     "uberon": "UBERON:0002661",
-    "fma": "FMA:61857",
+    "fma": "",
     "ta2": "",
     "system": "nervous",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1834",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_superior_frontal_gyrus_R",
     "candidates": [
+      "hra-female:Allen_superior_frontal_gyrus_R",
       "bodyparts3d:FJ1834"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
@@ -96607,23 +97319,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002702",
+    "canonical_id": "UBERON:0002702|left",
     "name": "middle frontal gyrus",
     "uberon": "UBERON:0002702",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_middle_frontal_gyrus_L",
     "candidates": [
       "hra-female:Allen_middle_frontal_gyrus_L",
-      "hra-female:Allen_middle_frontal_gyrus_R"
+      "bodyparts3d:FJ1787"
     ],
     "grouped_candidates": [],
     "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -96637,81 +97350,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002702|left",
-    "name": "Left middle frontal gyrus",
-    "uberon": "UBERON:0002702",
-    "fma": "FMA:61859",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1787",
-    "candidates": [
-      "bodyparts3d:FJ1787"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
     "canonical_id": "UBERON:0002702|right",
-    "name": "Right middle frontal gyrus",
+    "name": "middle frontal gyrus",
     "uberon": "UBERON:0002702",
-    "fma": "FMA:61859",
+    "fma": "",
     "ta2": "",
     "system": "nervous",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1788",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_middle_frontal_gyrus_R",
     "candidates": [
+      "hra-female:Allen_middle_frontal_gyrus_R",
       "bodyparts3d:FJ1788"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0002703",
-    "name": "precentral gyrus",
-    "uberon": "UBERON:0002703",
-    "fma": "",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "unspecified",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:Allen_precentral_gyrus_L",
-    "candidates": [
-      "hra-female:Allen_precentral_gyrus_L",
-      "hra-female:Allen_precentral_gyrus_R"
-    ],
-    "grouped_candidates": [],
-    "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -96726,76 +97382,108 @@
   },
   {
     "canonical_id": "UBERON:0002703|left",
-    "name": "Left precentral gyrus",
+    "name": "precentral gyrus",
     "uberon": "UBERON:0002703",
-    "fma": "FMA:61894",
+    "fma": "",
     "ta2": "",
     "system": "nervous",
     "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1800",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_precentral_gyrus_L",
     "candidates": [
+      "hra-female:Allen_precentral_gyrus_L",
       "bodyparts3d:FJ1800"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
   },
   {
     "canonical_id": "UBERON:0002703|right",
-    "name": "Right precentral gyrus",
+    "name": "precentral gyrus",
     "uberon": "UBERON:0002703",
-    "fma": "FMA:61894",
+    "fma": "",
     "ta2": "",
     "system": "nervous",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1801",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_precentral_gyrus_R",
     "candidates": [
+      "hra-female:Allen_precentral_gyrus_R",
       "bodyparts3d:FJ1801"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002738",
+    "canonical_id": "UBERON:0002738|left",
     "name": "isthmus of cingulate gyrus",
     "uberon": "UBERON:0002738",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_ingulo_parahippocampal_isthmus_L",
     "candidates": [
-      "hra-female:Allen_ingulo_parahippocampal_isthmus_L",
+      "hra-female:Allen_ingulo_parahippocampal_isthmus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002738|right",
+    "name": "isthmus of cingulate gyrus",
+    "uberon": "UBERON:0002738",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_ingulo_parahippocampal_isthmus_R",
+    "candidates": [
       "hra-female:Allen_ingulo_parahippocampal_isthmus_R"
     ],
     "grouped_candidates": [],
@@ -96813,19 +97501,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002740",
+    "canonical_id": "UBERON:0002740|left",
     "name": "posterior cingulate gyrus",
     "uberon": "UBERON:0002740",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_cingulate_gyrus_caudal_posterior_part_L",
     "candidates": [
-      "hra-female:Allen_cingulate_gyrus_caudal_posterior_part_L",
+      "hra-female:Allen_cingulate_gyrus_caudal_posterior_part_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002740|right",
+    "name": "posterior cingulate gyrus",
+    "uberon": "UBERON:0002740",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_cingulate_gyrus_caudal_posterior_part_R",
+    "candidates": [
       "hra-female:Allen_cingulate_gyrus_caudal_posterior_part_R"
     ],
     "grouped_candidates": [],
@@ -96843,20 +97559,81 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002751",
+    "canonical_id": "UBERON:0002751|left",
     "name": "inferior temporal gyrus",
     "uberon": "UBERON:0002751",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_inferior_temporal_gyrus_L",
     "candidates": [
       "hra-female:Allen_inferior_temporal_gyrus_L",
-      "hra-female:Allen_inferior_temporal_gyrus_R"
+      "bodyparts3d:FJ1746"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "bodyparts3d",
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002751|right",
+    "name": "inferior temporal gyrus",
+    "uberon": "UBERON:0002751",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_inferior_temporal_gyrus_R",
+    "candidates": [
+      "hra-female:Allen_inferior_temporal_gyrus_R",
+      "bodyparts3d:FJ1747"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "bodyparts3d",
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002756|left",
+    "name": "anterior cingulate gyrus",
+    "uberon": "UBERON:0002756",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_cingulate_gyrus_rostral_anterior_part_L",
+    "candidates": [
+      "hra-female:Allen_cingulate_gyrus_rostral_anterior_part_L"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -96873,77 +97650,18 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002751|left",
-    "name": "Left inferior temporal gyrus",
-    "uberon": "UBERON:0002751",
-    "fma": "FMA:61907",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1746",
-    "candidates": [
-      "bodyparts3d:FJ1746"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0002751|right",
-    "name": "Right inferior temporal gyrus",
-    "uberon": "UBERON:0002751",
-    "fma": "FMA:61907",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "right",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1747",
-    "candidates": [
-      "bodyparts3d:FJ1747"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0002756",
+    "canonical_id": "UBERON:0002756|right",
     "name": "anterior cingulate gyrus",
     "uberon": "UBERON:0002756",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:Allen_cingulate_gyrus_rostral_anterior_part_L",
+    "best_available": "hra-female:Allen_cingulate_gyrus_rostral_anterior_part_R",
     "candidates": [
-      "hra-female:Allen_cingulate_gyrus_rostral_anterior_part_L",
       "hra-female:Allen_cingulate_gyrus_rostral_anterior_part_R"
     ],
     "grouped_candidates": [],
@@ -97019,19 +97737,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002769",
+    "canonical_id": "UBERON:0002769|left",
     "name": "superior temporal gyrus",
     "uberon": "UBERON:0002769",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_superior_temporal_gyrus_L",
     "candidates": [
-      "hra-female:Allen_superior_temporal_gyrus_L",
+      "hra-female:Allen_superior_temporal_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002769|right",
+    "name": "superior temporal gyrus",
+    "uberon": "UBERON:0002769",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_superior_temporal_gyrus_R",
+    "candidates": [
       "hra-female:Allen_superior_temporal_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -97049,20 +97795,81 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002771",
+    "canonical_id": "UBERON:0002771|left",
     "name": "middle temporal gyrus",
     "uberon": "UBERON:0002771",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_middle_temporal_gyrus_L",
     "candidates": [
       "hra-female:Allen_middle_temporal_gyrus_L",
-      "hra-female:Allen_middle_temporal_gyrus_R"
+      "bodyparts3d:FJ1789"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "bodyparts3d",
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002771|right",
+    "name": "middle temporal gyrus",
+    "uberon": "UBERON:0002771",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_middle_temporal_gyrus_R",
+    "candidates": [
+      "hra-female:Allen_middle_temporal_gyrus_R",
+      "bodyparts3d:FJ1790"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "bodyparts3d",
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002902|left",
+    "name": "occipital pole",
+    "uberon": "UBERON:0002902",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_occipital_pole_L",
+    "candidates": [
+      "hra-female:Allen_occipital_pole_L"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -97079,77 +97886,18 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002771|left",
-    "name": "Left middle temporal gyrus",
-    "uberon": "UBERON:0002771",
-    "fma": "FMA:61906",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1789",
-    "candidates": [
-      "bodyparts3d:FJ1789"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0002771|right",
-    "name": "Right middle temporal gyrus",
-    "uberon": "UBERON:0002771",
-    "fma": "FMA:61906",
-    "ta2": "",
-    "system": "nervous",
-    "laterality": "right",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ1790",
-    "candidates": [
-      "bodyparts3d:FJ1790"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
-    "canonical_id": "UBERON:0002902",
+    "canonical_id": "UBERON:0002902|right",
     "name": "occipital pole",
     "uberon": "UBERON:0002902",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:Allen_occipital_pole_L",
+    "best_available": "hra-female:Allen_occipital_pole_R",
     "candidates": [
-      "hra-female:Allen_occipital_pole_L",
       "hra-female:Allen_occipital_pole_R"
     ],
     "grouped_candidates": [],
@@ -97167,19 +97915,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002911",
+    "canonical_id": "UBERON:0002911|left",
     "name": "parietal operculum",
     "uberon": "UBERON:0002911",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_parietal_operculum_L",
     "candidates": [
-      "hra-female:Allen_parietal_operculum_L",
+      "hra-female:Allen_parietal_operculum_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002911|right",
+    "name": "parietal operculum",
+    "uberon": "UBERON:0002911",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_parietal_operculum_R",
+    "candidates": [
       "hra-female:Allen_parietal_operculum_R"
     ],
     "grouped_candidates": [],
@@ -97197,19 +97973,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002943",
+    "canonical_id": "UBERON:0002943|left",
     "name": "lingual gyrus",
     "uberon": "UBERON:0002943",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L",
     "candidates": [
-      "hra-female:Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L",
+      "hra-female:Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002943|right",
+    "name": "lingual gyrus",
+    "uberon": "UBERON:0002943",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R",
+    "candidates": [
       "hra-female:Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -97227,19 +98031,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002947",
+    "canonical_id": "UBERON:0002947|left",
     "name": "frontal operculum",
     "uberon": "UBERON:0002947",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_frontal_operculum_L",
     "candidates": [
-      "hra-female:Allen_frontal_operculum_L",
+      "hra-female:Allen_frontal_operculum_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002947|right",
+    "name": "frontal operculum",
+    "uberon": "UBERON:0002947",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_frontal_operculum_R",
+    "candidates": [
       "hra-female:Allen_frontal_operculum_R"
     ],
     "grouped_candidates": [],
@@ -97257,19 +98089,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002948",
+    "canonical_id": "UBERON:0002948|left",
     "name": "superior occipital gyrus",
     "uberon": "UBERON:0002948",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_superior_occipital_gyrus_L",
     "candidates": [
-      "hra-female:Allen_superior_occipital_gyrus_L",
+      "hra-female:Allen_superior_occipital_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002948|right",
+    "name": "superior occipital gyrus",
+    "uberon": "UBERON:0002948",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_superior_occipital_gyrus_R",
+    "candidates": [
       "hra-female:Allen_superior_occipital_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -97403,19 +98263,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0002980",
+    "canonical_id": "UBERON:0002980|left",
     "name": "opercular part of inferior frontal gyrus",
     "uberon": "UBERON:0002980",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_inferior_frontal_gyrus_opercular_part_L",
     "candidates": [
-      "hra-female:Allen_inferior_frontal_gyrus_opercular_part_L",
+      "hra-female:Allen_inferior_frontal_gyrus_opercular_part_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0002980|right",
+    "name": "opercular part of inferior frontal gyrus",
+    "uberon": "UBERON:0002980",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_inferior_frontal_gyrus_opercular_part_R",
+    "candidates": [
       "hra-female:Allen_inferior_frontal_gyrus_opercular_part_R"
     ],
     "grouped_candidates": [],
@@ -97549,19 +98437,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0003020",
+    "canonical_id": "UBERON:0003020|left",
     "name": "subcallosal area",
     "uberon": "UBERON:0003020",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_subcallosal_gyrus_parolfactory_gyrus_L",
     "candidates": [
-      "hra-female:Allen_subcallosal_gyrus_parolfactory_gyrus_L",
+      "hra-female:Allen_subcallosal_gyrus_parolfactory_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0003020|right",
+    "name": "subcallosal area",
+    "uberon": "UBERON:0003020",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_subcallosal_gyrus_parolfactory_gyrus_R",
+    "candidates": [
       "hra-female:Allen_subcallosal_gyrus_parolfactory_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -97579,19 +98495,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0003023",
+    "canonical_id": "UBERON:0003023|left",
     "name": "pontine tegmentum",
     "uberon": "UBERON:0003023",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_pontine_tegmentum_L",
     "candidates": [
-      "hra-female:Allen_pontine_tegmentum_L",
+      "hra-female:Allen_pontine_tegmentum_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0003023|right",
+    "name": "pontine tegmentum",
+    "uberon": "UBERON:0003023",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_pontine_tegmentum_R",
+    "candidates": [
       "hra-female:Allen_pontine_tegmentum_R"
     ],
     "grouped_candidates": [],
@@ -99198,13 +100142,13 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "name": "renal pyramid",
     "uberon": "UBERON:0004200",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
@@ -99220,7 +100164,35 @@
       "hra-female:VH_F_renal_pyramid_L_h",
       "hra-female:VH_F_renal_pyramid_L_i",
       "hra-female:VH_F_renal_pyramid_L_j",
-      "hra-female:VH_F_renal_pyramid_L_k",
+      "hra-female:VH_F_renal_pyramid_L_k"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0004200|right",
+    "name": "renal pyramid",
+    "uberon": "UBERON:0004200",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_renal_pyramid_R_a",
+    "candidates": [
       "hra-female:VH_F_renal_pyramid_R_a",
       "hra-female:VH_F_renal_pyramid_R_b",
       "hra-female:VH_F_renal_pyramid_R_c",
@@ -102349,19 +103321,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0004671",
+    "canonical_id": "UBERON:0004671|left",
     "name": "gyrus rectus",
     "uberon": "UBERON:0004671",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_gyrus_rectus_straight_gyrus_L",
     "candidates": [
-      "hra-female:Allen_gyrus_rectus_straight_gyrus_L",
+      "hra-female:Allen_gyrus_rectus_straight_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0004671|right",
+    "name": "gyrus rectus",
+    "uberon": "UBERON:0004671",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_gyrus_rectus_straight_gyrus_R",
+    "candidates": [
       "hra-female:Allen_gyrus_rectus_straight_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -102495,13 +103495,13 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0004720",
+    "canonical_id": "UBERON:0004720|left",
     "name": "cerebellar vermis",
     "uberon": "UBERON:0004720",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
@@ -102524,13 +103524,13 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0004725",
+    "canonical_id": "UBERON:0004725|left",
     "name": "piriform cortex",
     "uberon": "UBERON:0004725",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
@@ -103196,20 +104196,48 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0005969",
+    "canonical_id": "UBERON:0005969|left",
     "name": "eye trabecular meshwork",
     "uberon": "UBERON:0005969",
     "fma": "",
     "ta2": "",
     "system": "sensory",
-    "laterality": "unspecified",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_trabecular_meshwork_L",
+    "candidates": [
+      "hra-female:VH_F_trabecular_meshwork_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0005969|right",
+    "name": "eye trabecular meshwork",
+    "uberon": "UBERON:0005969",
+    "fma": "",
+    "ta2": "",
+    "system": "sensory",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_trabecular_meshwork_R",
     "candidates": [
-      "hra-female:VH_F_trabecular_meshwork_R",
-      "hra-female:VH_F_trabecular_meshwork_L"
+      "hra-female:VH_F_trabecular_meshwork_R"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -103314,19 +104342,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0006092",
+    "canonical_id": "UBERON:0006092|left",
     "name": "cuneus cortex",
     "uberon": "UBERON:0006092",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_cuneus_L",
     "candidates": [
-      "hra-female:Allen_cuneus_L",
+      "hra-female:Allen_cuneus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0006092|right",
+    "name": "cuneus cortex",
+    "uberon": "UBERON:0006092",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_cuneus_R",
+    "candidates": [
       "hra-female:Allen_cuneus_R"
     ],
     "grouped_candidates": [],
@@ -103344,19 +104400,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0006093",
+    "canonical_id": "UBERON:0006093|left",
     "name": "precuneus cortex",
     "uberon": "UBERON:0006093",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_precuneus_L",
     "candidates": [
-      "hra-female:Allen_precuneus_L",
+      "hra-female:Allen_precuneus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0006093|right",
+    "name": "precuneus cortex",
+    "uberon": "UBERON:0006093",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_precuneus_R",
+    "candidates": [
       "hra-female:Allen_precuneus_R"
     ],
     "grouped_candidates": [],
@@ -107192,19 +108276,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0008716",
+    "canonical_id": "UBERON:0008716|left",
     "name": "hilum of kidney",
     "uberon": "UBERON:0008716",
     "fma": "",
     "ta2": "",
     "system": "urinary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_hilum_of_kidney_L",
     "candidates": [
-      "hra-female:VH_F_hilum_of_kidney_L",
+      "hra-female:VH_F_hilum_of_kidney_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0008716|right",
+    "name": "hilum of kidney",
+    "uberon": "UBERON:0008716",
+    "fma": "",
+    "ta2": "",
+    "system": "urinary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_hilum_of_kidney_R",
+    "candidates": [
       "hra-female:VH_F_hilum_of_kidney_R"
     ],
     "grouped_candidates": [],
@@ -108240,20 +109352,48 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0010427",
+    "canonical_id": "UBERON:0010427|left",
     "name": "ciliary processes",
     "uberon": "UBERON:0010427",
     "fma": "",
     "ta2": "",
     "system": "sensory",
-    "laterality": "unspecified",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_ciliary_processes_L",
+    "candidates": [
+      "hra-female:VH_F_ciliary_processes_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0010427|right",
+    "name": "ciliary processes",
+    "uberon": "UBERON:0010427",
+    "fma": "",
+    "ta2": "",
+    "system": "sensory",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_ciliary_processes_R",
     "candidates": [
-      "hra-female:VH_F_ciliary_processes_R",
-      "hra-female:VH_F_ciliary_processes_L"
+      "hra-female:VH_F_ciliary_processes_R"
     ],
     "grouped_candidates": [],
     "sources": [
@@ -109270,19 +110410,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0011191",
+    "canonical_id": "UBERON:0011191|left",
     "name": "ophthalmic vein",
     "uberon": "UBERON:0011191",
     "fma": "",
     "ta2": "",
     "system": "venous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_ophthalmic_vein_L",
     "candidates": [
-      "hra-female:VH_F_ophthalmic_vein_L",
+      "hra-female:VH_F_ophthalmic_vein_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0011191|right",
+    "name": "ophthalmic vein",
+    "uberon": "UBERON:0011191",
+    "fma": "",
+    "ta2": "",
+    "system": "venous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_ophthalmic_vein_R",
+    "candidates": [
       "hra-female:VH_F_ophthalmic_vein_R"
     ],
     "grouped_candidates": [],
@@ -109767,19 +110935,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0011828",
+    "canonical_id": "UBERON:0011828|left",
     "name": "areolar tubercle",
     "uberon": "UBERON:0011828",
     "fma": "",
     "ta2": "",
     "system": "integumentary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_areolar_tubercles_L",
     "candidates": [
-      "hra-female:VH_F_areolar_tubercles_L",
+      "hra-female:VH_F_areolar_tubercles_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0011828|right",
+    "name": "areolar tubercle",
+    "uberon": "UBERON:0011828",
+    "fma": "",
+    "ta2": "",
+    "system": "integumentary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_areolar_tubercles_R",
+    "candidates": [
       "hra-female:VH_F_areolar_tubercles_R"
     ],
     "grouped_candidates": [],
@@ -110872,19 +112068,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0014608",
+    "canonical_id": "UBERON:0014608|left",
     "name": "inferior occipital gyrus",
     "uberon": "UBERON:0014608",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_inferior_occipital_gyrus_L",
     "candidates": [
-      "hra-female:Allen_inferior_occipital_gyrus_L",
+      "hra-female:Allen_inferior_occipital_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0014608|right",
+    "name": "inferior occipital gyrus",
+    "uberon": "UBERON:0014608",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_inferior_occipital_gyrus_R",
+    "candidates": [
       "hra-female:Allen_inferior_occipital_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -111225,19 +112449,18 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0014899",
+    "canonical_id": "UBERON:0014899|left",
     "name": "anterolateral ligament of knee",
     "uberon": "UBERON:0014899",
     "fma": "",
     "ta2": "",
     "system": "skeletal",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
-    "best_available": "hra-female:VH_F_anterolateral_ligament_of_knee_R",
+    "best_available": "hra-female:VH_F_anterolateral_ligament_of_knee_L",
     "candidates": [
-      "hra-female:VH_F_anterolateral_ligament_of_knee_R",
       "hra-female:VH_F_anterolateral_ligament_of_knee_L"
     ],
     "grouped_candidates": [],
@@ -111255,19 +112478,76 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0015134",
+    "canonical_id": "UBERON:0014899|right",
+    "name": "anterolateral ligament of knee",
+    "uberon": "UBERON:0014899",
+    "fma": "",
+    "ta2": "",
+    "system": "skeletal",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_anterolateral_ligament_of_knee_R",
+    "candidates": [
+      "hra-female:VH_F_anterolateral_ligament_of_knee_R"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0015134|left",
     "name": "main lactiferous duct",
     "uberon": "UBERON:0015134",
     "fma": "",
     "ta2": "",
     "system": "integumentary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_main_lactiferous_ducts_L",
     "candidates": [
-      "hra-female:VH_F_main_lactiferous_ducts_L",
+      "hra-female:VH_F_main_lactiferous_ducts_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0015134|right",
+    "name": "main lactiferous duct",
+    "uberon": "UBERON:0015134",
+    "fma": "",
+    "ta2": "",
+    "system": "integumentary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_main_lactiferous_ducts_R",
+    "candidates": [
       "hra-female:VH_F_main_lactiferous_ducts_R"
     ],
     "grouped_candidates": [],
@@ -111604,19 +112884,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0018140",
+    "canonical_id": "UBERON:0018140|left",
     "name": "mammary lobe",
     "uberon": "UBERON:0018140",
     "fma": "",
     "ta2": "",
     "system": "integumentary",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_mammary_lobes_L",
     "candidates": [
-      "hra-female:VH_F_mammary_lobes_L",
+      "hra-female:VH_F_mammary_lobes_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0018140|right",
+    "name": "mammary lobe",
+    "uberon": "UBERON:0018140",
+    "fma": "",
+    "ta2": "",
+    "system": "integumentary",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_mammary_lobes_R",
+    "candidates": [
       "hra-female:VH_F_mammary_lobes_R"
     ],
     "grouped_candidates": [],
@@ -111634,23 +112942,24 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0018252",
+    "canonical_id": "UBERON:0018252|left",
     "name": "internal pudendal vein",
     "uberon": "UBERON:0018252",
     "fma": "",
     "ta2": "",
     "system": "venous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_internal_pudendal_vein_L",
     "candidates": [
       "hra-female:VH_F_internal_pudendal_vein_L",
-      "hra-female:VH_F_internal_pudendal_vein_R"
+      "bodyparts3d:FJ3525"
     ],
     "grouped_candidates": [],
     "sources": [
+      "bodyparts3d",
       "hra-female"
     ],
     "coverage_kind": "individual",
@@ -111664,59 +112973,32 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0018252|left",
-    "name": "Left internal pudendal vein",
-    "uberon": "UBERON:0018252",
-    "fma": "FMA:18917",
-    "ta2": "",
-    "system": "venous",
-    "laterality": "left",
-    "scope": "direct-source-geometry",
-    "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ3525",
-    "candidates": [
-      "bodyparts3d:FJ3525"
-    ],
-    "grouped_candidates": [],
-    "sources": [
-      "bodyparts3d"
-    ],
-    "coverage_kind": "individual",
-    "female_segmented_grouped_partial": false,
-    "female_measured": false,
-    "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
-    "registration_ready": false,
-    "female_ct_same_donor": false,
-    "status": "direct-geometry"
-  },
-  {
     "canonical_id": "UBERON:0018252|right",
-    "name": "Right internal pudendal vein",
+    "name": "internal pudendal vein",
     "uberon": "UBERON:0018252",
-    "fma": "FMA:18917",
+    "fma": "",
     "ta2": "",
     "system": "venous",
     "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
-    "crosswalk_review": "evidence-matched (OLS); anatomist review pending",
-    "best_available": "bodyparts3d:FJ3610",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_internal_pudendal_vein_R",
     "candidates": [
+      "hra-female:VH_F_internal_pudendal_vein_R",
       "bodyparts3d:FJ3610"
     ],
     "grouped_candidates": [],
     "sources": [
-      "bodyparts3d"
+      "bodyparts3d",
+      "hra-female"
     ],
     "coverage_kind": "individual",
     "female_segmented_grouped_partial": false,
     "female_measured": false,
     "female_segmented_unreviewed": false,
-    "female_reference": false,
-    "template_only": true,
+    "female_reference": true,
+    "template_only": false,
     "registration_ready": false,
     "female_ct_same_donor": false,
     "status": "direct-geometry"
@@ -111846,19 +113128,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0022264",
+    "canonical_id": "UBERON:0022264|left",
     "name": "optic radiation",
     "uberon": "UBERON:0022264",
     "fma": "",
     "ta2": "",
     "system": "sensory",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_optic_radiation_L",
     "candidates": [
-      "hra-female:Allen_optic_radiation_L",
+      "hra-female:Allen_optic_radiation_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0022264|right",
+    "name": "optic radiation",
+    "uberon": "UBERON:0022264",
+    "fma": "",
+    "ta2": "",
+    "system": "sensory",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_optic_radiation_R",
+    "candidates": [
       "hra-female:Allen_optic_radiation_R"
     ],
     "grouped_candidates": [],
@@ -111876,19 +113186,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0022268",
+    "canonical_id": "UBERON:0022268|left",
     "name": "planum temporale",
     "uberon": "UBERON:0022268",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_planum_temporale_L",
     "candidates": [
-      "hra-female:Allen_planum_temporale_L",
+      "hra-female:Allen_planum_temporale_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0022268|right",
+    "name": "planum temporale",
+    "uberon": "UBERON:0022268",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_planum_temporale_R",
+    "candidates": [
       "hra-female:Allen_planum_temporale_R"
     ],
     "grouped_candidates": [],
@@ -112138,19 +113476,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0022364",
+    "canonical_id": "UBERON:0022364|left",
     "name": "occipital fusiform gyrus",
     "uberon": "UBERON:0022364",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_L",
     "candidates": [
-      "hra-female:Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_L",
+      "hra-female:Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0022364|right",
+    "name": "occipital fusiform gyrus",
+    "uberon": "UBERON:0022364",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_R",
+    "candidates": [
       "hra-female:Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_R"
     ],
     "grouped_candidates": [],
@@ -112168,19 +113534,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0022383",
+    "canonical_id": "UBERON:0022383|left",
     "name": "anterior parahippocampal gyrus",
     "uberon": "UBERON:0022383",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_anterior_parahippocampal_gyrus_L",
     "candidates": [
-      "hra-female:Allen_anterior_parahippocampal_gyrus_L",
+      "hra-female:Allen_anterior_parahippocampal_gyrus_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0022383|right",
+    "name": "anterior parahippocampal gyrus",
+    "uberon": "UBERON:0022383",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_anterior_parahippocampal_gyrus_R",
+    "candidates": [
       "hra-female:Allen_anterior_parahippocampal_gyrus_R"
     ],
     "grouped_candidates": [],
@@ -112198,19 +113592,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0023861",
+    "canonical_id": "UBERON:0023861|left",
     "name": "planum polare",
     "uberon": "UBERON:0023861",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_planum_polare_L",
     "candidates": [
-      "hra-female:Allen_planum_polare_L",
+      "hra-female:Allen_planum_polare_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0023861|right",
+    "name": "planum polare",
+    "uberon": "UBERON:0023861",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_planum_polare_R",
+    "candidates": [
       "hra-female:Allen_planum_polare_R"
     ],
     "grouped_candidates": [],
@@ -112840,19 +114262,47 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:0035932",
+    "canonical_id": "UBERON:0035932|left",
     "name": "anterior segment of paracentral lobule",
     "uberon": "UBERON:0035932",
     "fma": "",
     "ta2": "",
     "system": "nervous",
-    "laterality": "unspecified",
+    "laterality": "left",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:Allen_paracentral_lobule_rostral_part_L",
     "candidates": [
-      "hra-female:Allen_paracentral_lobule_rostral_part_L",
+      "hra-female:Allen_paracentral_lobule_rostral_part_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:0035932|right",
+    "name": "anterior segment of paracentral lobule",
+    "uberon": "UBERON:0035932",
+    "fma": "",
+    "ta2": "",
+    "system": "nervous",
+    "laterality": "right",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:Allen_paracentral_lobule_rostral_part_R",
+    "candidates": [
       "hra-female:Allen_paracentral_lobule_rostral_part_R"
     ],
     "grouped_candidates": [],
@@ -113247,20 +114697,48 @@
     "status": "direct-geometry"
   },
   {
-    "canonical_id": "UBERON:7500033",
+    "canonical_id": "UBERON:7500033|left",
     "name": "distal-most point of medial condyle of femur",
     "uberon": "UBERON:7500033",
     "fma": "",
     "ta2": "",
     "system": "skeletal",
-    "laterality": "unspecified",
+    "laterality": "left",
+    "scope": "direct-source-geometry",
+    "granularity": "individual",
+    "crosswalk_review": "no-crosswalk: source identifier used as is",
+    "best_available": "hra-female:VH_F_distal_most_point_of_medial_condyle_L",
+    "candidates": [
+      "hra-female:VH_F_distal_most_point_of_medial_condyle_L"
+    ],
+    "grouped_candidates": [],
+    "sources": [
+      "hra-female"
+    ],
+    "coverage_kind": "individual",
+    "female_segmented_grouped_partial": false,
+    "female_measured": false,
+    "female_segmented_unreviewed": false,
+    "female_reference": true,
+    "template_only": false,
+    "registration_ready": false,
+    "female_ct_same_donor": false,
+    "status": "direct-geometry"
+  },
+  {
+    "canonical_id": "UBERON:7500033|right",
+    "name": "distal-most point of medial condyle of femur",
+    "uberon": "UBERON:7500033",
+    "fma": "",
+    "ta2": "",
+    "system": "skeletal",
+    "laterality": "right",
     "scope": "direct-source-geometry",
     "granularity": "individual",
     "crosswalk_review": "no-crosswalk: source identifier used as is",
     "best_available": "hra-female:VH_F_distal_most_point_of_medial_condyle_R",
     "candidates": [
-      "hra-female:VH_F_distal_most_point_of_medial_condyle_R",
-      "hra-female:VH_F_distal_most_point_of_medial_condyle_L"
+      "hra-female:VH_F_distal_most_point_of_medial_condyle_R"
     ],
     "grouped_candidates": [],
     "sources": [

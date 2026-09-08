@@ -1,4 +1,4 @@
-"""Validate composed buffers against the recorded source-to-canonical transforms and landmark evidence (composition 0.4)."""
+"""Validate unified composed buffers, canonical concepts, transforms and landmark evidence (composition 0.5)."""
 import hashlib
 import json
 from pathlib import Path
@@ -78,6 +78,17 @@ for part in atlas['parts']:
     assert indices.max() < len(vertices)
 for concept in atlas['concepts']:
     assert concept['elements'] and set(concept['elements']) <= ids
+assert len({concept['id'] for concept in atlas['concepts']}) == len(atlas['concepts']), 'Concept IDs must be unique'
+concepts = {concept['id']: concept for concept in atlas['concepts']}
+by_structure = {}
+for part in atlas['parts']:
+    key = part['provenance']['structure_id']
+    by_structure.setdefault(key, []).append(part)
+    assert part['conceptId'] == key
+assert set(concepts) == set(by_structure), 'Every canonical structure must have exactly one unified concept'
+for key, grouped_parts in by_structure.items():
+    assert concepts[key]['elements'] == [part['id'] for part in grouped_parts]
+    assert len({part['provenance']['source'] for part in grouped_parts}) == 1, f'{key} has competing source representations'
 
 # Landmark and proxy fits: recorded residuals and RMS follow from the recorded points and matrices.
 fits = [transforms['tcia003-stage-to-vhf'], transforms['tcia003-stage-to-vhf']['pose_check']['fit'], transforms['hra-stage-to-vhf']] + transforms['hra-stage-to-vhf']['cross_checks']
@@ -133,10 +144,9 @@ assert len(denver_ids) == len(source_atlases['denver-vhf']['parts']), 'Every Den
 ct_labels = {p['provenance']['label_name'] for p in atlas['parts'] if p['provenance']['source'] == 'nlm-vhf-ct'}
 assert not ct_labels & {'hip_left', 'hip_right', 'sacrum', 'femur_left', 'femur_right'}, 'CT pelvis and femora must be replaced by Denver bones'
 assert {'skull', 'brain', 'heart', 'liver', 'vertebrae_L1'} <= ct_labels, 'trunk and head CT labels expected in the composite'
-ct_terms = {p['provenance']['structure_id'].split('|')[0] for p in atlas['parts'] if p['provenance']['source'] == 'nlm-vhf-ct'}
-for part in atlas['parts']:
-    if part['provenance']['source'] == 'hra-female':
-        assert part['provenance']['structure_id'].split('|')[0] not in ct_terms or part['provenance']['structure_id'].startswith('HRA:'), f"HRA {part['id']} duplicates a same-donor CT term"
+ct_structures = {p['provenance']['structure_id'] for p in atlas['parts'] if p['provenance']['source'] == 'nlm-vhf-ct'}
+hra_structures = {p['provenance']['structure_id'] for p in atlas['parts'] if p['provenance']['source'] == 'hra-female'}
+assert not ct_structures & hra_structures, 'HRA must not duplicate an exact same-donor CT structure'
 brain_parts = [p for p in atlas['parts'] if p['provenance']['source_asset'].startswith('Allen_')]
 brain_bounds = np.array([p['bounds'] for p in brain_parts])
 box = np.array([brain_bounds[:, 0].min(axis=0), brain_bounds[:, 1].max(axis=0)])

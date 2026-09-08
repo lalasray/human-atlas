@@ -14,10 +14,10 @@ checks and an interactive coverage table.
 | TCIA female 003 | 36 published CT segmentation labels | Female donor, 26 years; automatic and unreviewed; many labels group structures. |
 | Denver VHF lower limb | 128 final STL meshes | Female donor VHF, manual cryosection segmentation, pelvis to toes: bones, muscles, cartilage, ligaments. Native aligned VHF image frame. Smoothed and overclosure-corrected by the source; not reviewed here. |
 | NLM VHF CT segmentation | 114 TotalSegmentator labels | Same female donor VHF, fresh CT (NLM, 1993) segmented here with TotalSegmentator `total` (Apache-2.0); placed in the canonical space by a rigid same-donor pelvis registration (rotation 2.2 deg, scale 1.001, p95 4.7 mm). Automatic labels, unreviewed. |
-| Experimental composition 0.4 | 1,015 selected meshes | Canonical space VHF-image-2022, verified against the NLM CT headers. Denver lower limb at identity; NLM CT trunk, upper limb and head of the same donor (Denver bones replace the CT pelvis and femora); HRA detail fitted on six organ proxies onto the CT organs (RMS 7.4 mm), head into the CT brain envelope. 229 meshes from one donor, 786 from the HRA assembly. Landmarks and anatomy unreviewed. |
+| Unified experimental composition 0.5 | 1,015 meshes, 933 canonical concepts | Canonical space VHF-image-2022, verified against the NLM CT headers. Exact duplicate structures select one source: Denver VHF, then same-donor NLM CT, then HRA reference detail. Multi-piece structures remain one selectable concept; TCIA stays a different-donor alternative. 229 meshes come from the VHF donor and 786 from the HRA assembly. Landmarks and anatomy remain unreviewed. |
 | BodyParts3D 4.0 | 2,234 source meshes | Male reference for comparison, not included in the female composition. |
 
-The 4,263 catalog entries are the imported source union, not a complete anatomical
+The 4,315 catalog entries are the imported source union, not a complete anatomical
 ontology. Dataset-local labels and lateralized FMA identifiers resolve to UBERON/FMA
 through a crosswalk with Ontology Lookup Service evidence (1,712 meshes; anatomist review
 pending), so 248 entries now list several sources. Current reports separately identify 128

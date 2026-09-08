@@ -48528,7 +48528,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:VH_F_opthalmic_artery_R"
+        ]
       }
     },
     {
@@ -48611,7 +48613,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:VH_F_opthalmic_artery_L"
+        ]
       }
     },
     {
@@ -56026,7 +56030,9 @@
           "connected_components": 3,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_inferior_temporal_gyrus_L"
+        ]
       }
     },
     {
@@ -56109,7 +56115,9 @@
           "connected_components": 7,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_inferior_temporal_gyrus_R"
+        ]
       }
     },
     {
@@ -57358,7 +57366,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_inferior_colliculus_L"
+        ]
       }
     },
     {
@@ -58203,7 +58213,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_optic_tract_L"
+        ]
       }
     },
     {
@@ -58705,7 +58717,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_superior_colliculus_L"
+        ]
       }
     },
     {
@@ -59373,7 +59387,9 @@
           "connected_components": 7,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_middle_frontal_gyrus_L"
+        ]
       }
     },
     {
@@ -59456,7 +59472,9 @@
           "connected_components": 7,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_middle_frontal_gyrus_R"
+        ]
       }
     },
     {
@@ -59539,7 +59557,9 @@
           "connected_components": 9,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_middle_temporal_gyrus_L"
+        ]
       }
     },
     {
@@ -59622,7 +59642,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_middle_temporal_gyrus_R"
+        ]
       }
     },
     {
@@ -60207,7 +60229,9 @@
           "connected_components": 8,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_postcentral_gyrus_L"
+        ]
       }
     },
     {
@@ -60290,7 +60314,9 @@
           "connected_components": 7,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_postcentral_gyrus_R"
+        ]
       }
     },
     {
@@ -60456,7 +60482,9 @@
           "connected_components": 28,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_precentral_gyrus_L"
+        ]
       }
     },
     {
@@ -60539,7 +60567,9 @@
           "connected_components": 27,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_precentral_gyrus_R"
+        ]
       }
     },
     {
@@ -61290,7 +61320,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_inferior_colliculus_R"
+        ]
       }
     },
     {
@@ -62216,7 +62248,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_optic_tract_R"
+        ]
       }
     },
     {
@@ -62718,7 +62752,9 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_superior_colliculus_R"
+        ]
       }
     },
     {
@@ -63305,7 +63341,9 @@
           "connected_components": 26,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_superior_frontal_gyrus_L"
+        ]
       }
     },
     {
@@ -63388,7 +63426,9 @@
           "connected_components": 31,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:Allen_superior_frontal_gyrus_R"
+        ]
       }
     },
     {
@@ -135135,7 +135175,6 @@
           "outlier_components": 0
         },
         "alternatives": [
-          "hra-female:VH_F_pulmonary_vein_R_inf",
           "bodyparts3d:FJ2950",
           "bodyparts3d:FJ2955"
         ]
@@ -135660,7 +135699,6 @@
           "outlier_components": 0
         },
         "alternatives": [
-          "hra-female:VH_F_pulmonary_vein_R_inf",
           "bodyparts3d:FJ2944",
           "bodyparts3d:FJ2955"
         ]
@@ -136095,7 +136133,6 @@
           "outlier_components": 0
         },
         "alternatives": [
-          "hra-female:VH_F_pulmonary_vein_R_inf",
           "bodyparts3d:FJ2944",
           "bodyparts3d:FJ2950"
         ]
@@ -143427,9 +143464,7 @@
           "connected_components": 1,
           "outlier_components": 0
         },
-        "alternatives": [
-          "hra-female:VH_F_pulmonary_vein_L_inf"
-        ]
+        "alternatives": []
       }
     },
     {
@@ -177659,6 +177694,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_L",
           "bodyparts3d:FJ3470",
           "bodyparts3d:FJ3471"
         ]
@@ -177745,6 +177781,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_L",
           "bodyparts3d:FJ3469",
           "bodyparts3d:FJ3471"
         ]
@@ -177831,6 +177868,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_L",
           "bodyparts3d:FJ3469",
           "bodyparts3d:FJ3470"
         ]
@@ -181162,7 +181200,9 @@
           "connected_components": 10,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:VH_F_internal_pudendal_vein_L"
+        ]
       }
     },
     {
@@ -183618,6 +183658,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_R",
           "bodyparts3d:FJ3571",
           "bodyparts3d:FJ3572",
           "bodyparts3d:FJ3607",
@@ -183707,6 +183748,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_R",
           "bodyparts3d:FJ3570",
           "bodyparts3d:FJ3572",
           "bodyparts3d:FJ3607",
@@ -183796,6 +183838,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_R",
           "bodyparts3d:FJ3570",
           "bodyparts3d:FJ3571",
           "bodyparts3d:FJ3607",
@@ -186238,6 +186281,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_R",
           "bodyparts3d:FJ3570",
           "bodyparts3d:FJ3571",
           "bodyparts3d:FJ3572",
@@ -186327,6 +186371,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_R",
           "bodyparts3d:FJ3570",
           "bodyparts3d:FJ3571",
           "bodyparts3d:FJ3572",
@@ -186416,6 +186461,7 @@
           "outlier_components": 0
         },
         "alternatives": [
+          "hra-female:VH_F_internal_iliac_vein_R",
           "bodyparts3d:FJ3570",
           "bodyparts3d:FJ3571",
           "bodyparts3d:FJ3572",
@@ -186504,7 +186550,9 @@
           "connected_components": 7,
           "outlier_components": 0
         },
-        "alternatives": []
+        "alternatives": [
+          "hra-female:VH_F_internal_pudendal_vein_R"
+        ]
       }
     },
     {

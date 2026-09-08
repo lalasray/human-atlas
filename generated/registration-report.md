@@ -72,12 +72,12 @@ Pose check over all 18 pelvis, knee and ankle landmarks: RMS 43.57 mm, maximum 7
 | Structure | Denver->TCIA mean mm | p95 mm | Hausdorff mm | Denver inside TCIA envelope (5 mm) | Shape p95 mm after per-bone rigid ICP |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Hip bones | 3.5 | 7.6 | 13.9 | 0.999 | 7.9 |
-| Femur (left) | 33.9 | 82.1 | 99.9 | 0.878 | 11.9 |
-| Femur (right) | 50.5 | 112.8 | 131.2 | 0.837 | 10.3 |
+| Femur (left) | 33.9 | 82.1 | 99.9 | 0.878 | 12.0 |
+| Femur (right) | 50.5 | 112.8 | 131.2 | 0.837 | 10.2 |
 | Tibia (left) | 55.8 | 79.6 | 91.5 | 0.547 | 14.0 |
-| Tibia (right) | 87.9 | 112.4 | 126.5 | 0.122 | 11.2 |
-| Fibula (left) | 59.9 | 85.1 | 95.8 | 0.013 | 12.0 |
-| Fibula (right) | 99.8 | 125.1 | 137.5 | 0.000 | 7.8 |
+| Tibia (right) | 87.9 | 112.4 | 126.5 | 0.122 | 11.4 |
+| Fibula (left) | 59.9 | 85.1 | 95.8 | 0.013 | 12.5 |
+| Fibula (right) | 99.8 | 125.1 | 137.5 | 0.000 | 8.1 |
 | Sacrum and coccyx (one-directional) | 3.4 | 8.3 | 18.6 | n/a | n/a |
 
 Distances are sampled nearest-neighbour values. In-frame femur, tibia and fibula distances reflect the TCIA 003 lower-limb pose, not a frame error; per-bone rigid ICP compares donor bone shape only.

@@ -17,7 +17,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_areolar_tubercles_L",
     "source_term": "UBERON:0011828",
-    "canonical_id": "UBERON:0011828",
+    "canonical_id": "UBERON:0011828|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -38,21 +38,21 @@
     "source": "hra-female",
     "source_asset": "VH_F_mammary_lobes_L",
     "source_term": "UBERON:0018140",
-    "canonical_id": "UBERON:0018140",
+    "canonical_id": "UBERON:0018140|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_main_lactiferous_ducts_L",
     "source_term": "UBERON:0015134",
-    "canonical_id": "UBERON:0015134",
+    "canonical_id": "UBERON:0015134|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_main_lactiferous_sinuses_L",
     "source_term": "FMA:58088",
-    "canonical_id": "FMA:58088",
+    "canonical_id": "FMA:58088|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -73,7 +73,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_areolar_tubercles_R",
     "source_term": "UBERON:0011828",
-    "canonical_id": "UBERON:0011828",
+    "canonical_id": "UBERON:0011828|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -94,21 +94,21 @@
     "source": "hra-female",
     "source_asset": "VH_F_main_lactiferous_sinuses_R",
     "source_term": "FMA:58088",
-    "canonical_id": "FMA:58088",
+    "canonical_id": "FMA:58088|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_main_lactiferous_ducts_R",
     "source_term": "UBERON:0015134",
-    "canonical_id": "UBERON:0015134",
+    "canonical_id": "UBERON:0015134|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_mammary_lobes_R",
     "source_term": "UBERON:0018140",
-    "canonical_id": "UBERON:0018140",
+    "canonical_id": "UBERON:0018140|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -185,7 +185,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_ciliary_processes_R",
     "source_term": "UBERON:0010427",
-    "canonical_id": "UBERON:0010427",
+    "canonical_id": "UBERON:0010427|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -248,7 +248,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_trabecular_meshwork_R",
     "source_term": "UBERON:0005969",
-    "canonical_id": "UBERON:0005969",
+    "canonical_id": "UBERON:0005969|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -353,7 +353,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_trabecular_meshwork_L",
     "source_term": "UBERON:0005969",
-    "canonical_id": "UBERON:0005969",
+    "canonical_id": "UBERON:0005969|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -416,7 +416,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_ciliary_processes_L",
     "source_term": "UBERON:0010427",
-    "canonical_id": "UBERON:0010427",
+    "canonical_id": "UBERON:0010427|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -479,21 +479,21 @@
     "source": "hra-female",
     "source_asset": "Allen_olfactory_bulb_L",
     "source_term": "UBERON:0002264",
-    "canonical_id": "UBERON:0002264",
+    "canonical_id": "UBERON:0002264|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_anterior_olfactory_nucleus_L",
     "source_term": "UBERON:0002266",
-    "canonical_id": "UBERON:0002266",
+    "canonical_id": "UBERON:0002266|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_piriform_region_L",
     "source_term": "UBERON:0004725",
-    "canonical_id": "UBERON:0004725",
+    "canonical_id": "UBERON:0004725|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -773,7 +773,7 @@
     "source": "hra-female",
     "source_asset": "Allen_pineal_body_L",
     "source_term": "UBERON:0001905",
-    "canonical_id": "UBERON:0001905",
+    "canonical_id": "UBERON:0001905|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -815,21 +815,21 @@
     "source": "hra-female",
     "source_asset": "Allen_anterior_commissure_L",
     "source_term": "UBERON:0000935",
-    "canonical_id": "UBERON:0000935",
+    "canonical_id": "UBERON:0000935|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_corpus_callosum_L",
     "source_term": "UBERON:0002336",
-    "canonical_id": "UBERON:0002336",
+    "canonical_id": "UBERON:0002336|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_fornix_L",
     "source_term": "UBERON:0000052",
-    "canonical_id": "UBERON:0000052",
+    "canonical_id": "UBERON:0000052|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -843,7 +843,7 @@
     "source": "hra-female",
     "source_asset": "Allen_optic_tract_L",
     "source_term": "UBERON:0001908",
-    "canonical_id": "UBERON:0001908",
+    "canonical_id": "UBERON:0001908|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -885,7 +885,7 @@
     "source": "hra-female",
     "source_asset": "Allen_cerebellar_vermis_L",
     "source_term": "UBERON:0004720",
-    "canonical_id": "UBERON:0004720",
+    "canonical_id": "UBERON:0004720|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -913,91 +913,91 @@
     "source": "hra-female",
     "source_asset": "Allen_precentral_gyrus_L",
     "source_term": "UBERON:0002703",
-    "canonical_id": "UBERON:0002703",
+    "canonical_id": "UBERON:0002703|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_superior_frontal_gyrus_L",
     "source_term": "UBERON:0002661",
-    "canonical_id": "UBERON:0002661",
+    "canonical_id": "UBERON:0002661|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_middle_frontal_gyrus_L",
     "source_term": "UBERON:0002702",
-    "canonical_id": "UBERON:0002702",
+    "canonical_id": "UBERON:0002702|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_frontal_gyrus_triangular_part_L",
     "source_term": "UBERON:0002629",
-    "canonical_id": "UBERON:0002629",
+    "canonical_id": "UBERON:0002629|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_frontal_gyrus_opercular_part_L",
     "source_term": "UBERON:0002980",
-    "canonical_id": "UBERON:0002980",
+    "canonical_id": "UBERON:0002980|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_gyrus_rectus_straight_gyrus_L",
     "source_term": "UBERON:0004671",
-    "canonical_id": "UBERON:0004671",
+    "canonical_id": "UBERON:0004671|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_medial_orbital_gyrus_L",
     "source_term": "UBERON:0002570",
-    "canonical_id": "UBERON:0002570",
+    "canonical_id": "UBERON:0002570|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_anterior_intermediate_orbital_gyrus_L",
     "source_term": "UBERON:0002644",
-    "canonical_id": "UBERON:0002644",
+    "canonical_id": "UBERON:0002644|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_posterior_intermediate_orbital_gyrus_L",
     "source_term": "UBERON:0002644",
-    "canonical_id": "UBERON:0002644",
+    "canonical_id": "UBERON:0002644|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_lateral_orbital_gyrus_L",
     "source_term": "UBERON:0002564",
-    "canonical_id": "UBERON:0002564",
+    "canonical_id": "UBERON:0002564|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_paracentral_lobule_rostral_part_L",
     "source_term": "UBERON:0035932",
-    "canonical_id": "UBERON:0035932",
+    "canonical_id": "UBERON:0035932|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_frontal_operculum_L",
     "source_term": "UBERON:0002947",
-    "canonical_id": "UBERON:0002947",
+    "canonical_id": "UBERON:0002947|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_postcentral_gyrus_L",
     "source_term": "UBERON:0002581",
-    "canonical_id": "UBERON:0002581",
+    "canonical_id": "UBERON:0002581|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1025,7 +1025,7 @@
     "source": "hra-female",
     "source_asset": "Allen_precuneus_L",
     "source_term": "UBERON:0006093",
-    "canonical_id": "UBERON:0006093",
+    "canonical_id": "UBERON:0006093|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1039,21 +1039,21 @@
     "source": "hra-female",
     "source_asset": "Allen_superior_temporal_gyrus_L",
     "source_term": "UBERON:0002769",
-    "canonical_id": "UBERON:0002769",
+    "canonical_id": "UBERON:0002769|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_middle_temporal_gyrus_L",
     "source_term": "UBERON:0002771",
-    "canonical_id": "UBERON:0002771",
+    "canonical_id": "UBERON:0002771|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_temporal_gyrus_L",
     "source_term": "UBERON:0002751",
-    "canonical_id": "UBERON:0002751",
+    "canonical_id": "UBERON:0002751|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1074,105 +1074,105 @@
     "source": "hra-female",
     "source_asset": "Allen_planum_temporale_L",
     "source_term": "UBERON:0022268",
-    "canonical_id": "UBERON:0022268",
+    "canonical_id": "UBERON:0022268|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_temporal_pole_L",
     "source_term": "UBERON:0002576",
-    "canonical_id": "UBERON:0002576",
+    "canonical_id": "UBERON:0002576|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_planum_polare_L",
     "source_term": "UBERON:0023861",
-    "canonical_id": "UBERON:0023861",
+    "canonical_id": "UBERON:0023861|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_occipital_pole_L",
     "source_term": "UBERON:0002902",
-    "canonical_id": "UBERON:0002902",
+    "canonical_id": "UBERON:0002902|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cuneus_L",
     "source_term": "UBERON:0006092",
-    "canonical_id": "UBERON:0006092",
+    "canonical_id": "UBERON:0006092|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L",
     "source_term": "UBERON:0002943",
-    "canonical_id": "UBERON:0002943",
+    "canonical_id": "UBERON:0002943|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_L",
     "source_term": "UBERON:0022364",
-    "canonical_id": "UBERON:0022364",
+    "canonical_id": "UBERON:0022364|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_occipital_gyrus_L",
     "source_term": "UBERON:0014608",
-    "canonical_id": "UBERON:0014608",
+    "canonical_id": "UBERON:0014608|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_superior_occipital_gyrus_L",
     "source_term": "UBERON:0002948",
-    "canonical_id": "UBERON:0002948",
+    "canonical_id": "UBERON:0002948|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cingulate_gyrus_rostral_anterior_part_L",
     "source_term": "UBERON:0002756",
-    "canonical_id": "UBERON:0002756",
+    "canonical_id": "UBERON:0002756|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cingulate_gyrus_caudal_posterior_part_L",
     "source_term": "UBERON:0002740",
-    "canonical_id": "UBERON:0002740",
+    "canonical_id": "UBERON:0002740|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_ingulo_parahippocampal_isthmus_L",
     "source_term": "UBERON:0002738",
-    "canonical_id": "UBERON:0002738",
+    "canonical_id": "UBERON:0002738|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_subcallosal_gyrus_parolfactory_gyrus_L",
     "source_term": "UBERON:0003020",
-    "canonical_id": "UBERON:0003020",
+    "canonical_id": "UBERON:0003020|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_anterior_parahippocampal_gyrus_L",
     "source_term": "UBERON:0022383",
-    "canonical_id": "UBERON:0022383",
+    "canonical_id": "UBERON:0022383|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_posterior_parahippocampal_gyrus_L",
     "source_term": "UBERON:0002657",
-    "canonical_id": "UBERON:0002657",
+    "canonical_id": "UBERON:0002657|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1235,21 +1235,21 @@
     "source": "hra-female",
     "source_asset": "Allen_substantia_nigra_L",
     "source_term": "UBERON:0002038",
-    "canonical_id": "UBERON:0002038",
+    "canonical_id": "UBERON:0002038|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_superior_colliculus_L",
     "source_term": "UBERON:0001945",
-    "canonical_id": "UBERON:0001945",
+    "canonical_id": "UBERON:0001945|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cerebral_peduncle_crus_cerebri_L",
     "source_term": "UBERON:0002623",
-    "canonical_id": "UBERON:0002623",
+    "canonical_id": "UBERON:0002623|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1284,14 +1284,14 @@
     "source": "hra-female",
     "source_asset": "Allen_basilar_part_of_pons_L",
     "source_term": "UBERON:0002151",
-    "canonical_id": "UBERON:0002151",
+    "canonical_id": "UBERON:0002151|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_pontine_tegmentum_L",
     "source_term": "UBERON:0003023",
-    "canonical_id": "UBERON:0003023",
+    "canonical_id": "UBERON:0003023|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1326,7 +1326,7 @@
     "source": "hra-female",
     "source_asset": "Allen_fourth_ventricle_L",
     "source_term": "UBERON:0002422",
-    "canonical_id": "UBERON:0002422",
+    "canonical_id": "UBERON:0002422|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1354,14 +1354,14 @@
     "source": "hra-female",
     "source_asset": "Allen_parietal_operculum_L",
     "source_term": "UBERON:0002911",
-    "canonical_id": "UBERON:0002911",
+    "canonical_id": "UBERON:0002911|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_optic_radiation_L",
     "source_term": "UBERON:0022264",
-    "canonical_id": "UBERON:0022264",
+    "canonical_id": "UBERON:0022264|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1718,7 +1718,7 @@
     "source": "hra-female",
     "source_asset": "Allen_pineal_body_R",
     "source_term": "UBERON:0001905",
-    "canonical_id": "UBERON:0001905",
+    "canonical_id": "UBERON:0001905|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1746,21 +1746,21 @@
     "source": "hra-female",
     "source_asset": "Allen_anterior_commissure_R",
     "source_term": "UBERON:0000935",
-    "canonical_id": "UBERON:0000935",
+    "canonical_id": "UBERON:0000935|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_corpus_callosum_R",
     "source_term": "UBERON:0002336",
-    "canonical_id": "UBERON:0002336",
+    "canonical_id": "UBERON:0002336|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_fornix_R",
     "source_term": "UBERON:0000052",
-    "canonical_id": "UBERON:0000052",
+    "canonical_id": "UBERON:0000052|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1774,7 +1774,7 @@
     "source": "hra-female",
     "source_asset": "Allen_optic_tract_R",
     "source_term": "UBERON:0001908",
-    "canonical_id": "UBERON:0001908",
+    "canonical_id": "UBERON:0001908|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1844,91 +1844,91 @@
     "source": "hra-female",
     "source_asset": "Allen_precentral_gyrus_R",
     "source_term": "UBERON:0002703",
-    "canonical_id": "UBERON:0002703",
+    "canonical_id": "UBERON:0002703|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_superior_frontal_gyrus_R",
     "source_term": "UBERON:0002661",
-    "canonical_id": "UBERON:0002661",
+    "canonical_id": "UBERON:0002661|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_middle_frontal_gyrus_R",
     "source_term": "UBERON:0002702",
-    "canonical_id": "UBERON:0002702",
+    "canonical_id": "UBERON:0002702|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_frontal_gyrus_triangular_part_R",
     "source_term": "UBERON:0002629",
-    "canonical_id": "UBERON:0002629",
+    "canonical_id": "UBERON:0002629|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_frontal_gyrus_opercular_part_R",
     "source_term": "UBERON:0002980",
-    "canonical_id": "UBERON:0002980",
+    "canonical_id": "UBERON:0002980|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_gyrus_rectus_straight_gyrus_R",
     "source_term": "UBERON:0004671",
-    "canonical_id": "UBERON:0004671",
+    "canonical_id": "UBERON:0004671|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_medial_orbital_gyrus_R",
     "source_term": "UBERON:0002570",
-    "canonical_id": "UBERON:0002570",
+    "canonical_id": "UBERON:0002570|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_anterior_intermediate_orbital_gyrus_R",
     "source_term": "UBERON:0002644",
-    "canonical_id": "UBERON:0002644",
+    "canonical_id": "UBERON:0002644|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_posterior_intermediate_orbital_gyrus_R",
     "source_term": "UBERON:0002644",
-    "canonical_id": "UBERON:0002644",
+    "canonical_id": "UBERON:0002644|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_lateral_orbital_gyrus_R",
     "source_term": "UBERON:0002564",
-    "canonical_id": "UBERON:0002564",
+    "canonical_id": "UBERON:0002564|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_paracentral_lobule_rostral_part_R",
     "source_term": "UBERON:0035932",
-    "canonical_id": "UBERON:0035932",
+    "canonical_id": "UBERON:0035932|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_frontal_operculum_R",
     "source_term": "UBERON:0002947",
-    "canonical_id": "UBERON:0002947",
+    "canonical_id": "UBERON:0002947|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_postcentral_gyrus_R",
     "source_term": "UBERON:0002581",
-    "canonical_id": "UBERON:0002581",
+    "canonical_id": "UBERON:0002581|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1956,7 +1956,7 @@
     "source": "hra-female",
     "source_asset": "Allen_precuneus_R",
     "source_term": "UBERON:0006093",
-    "canonical_id": "UBERON:0006093",
+    "canonical_id": "UBERON:0006093|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -1970,21 +1970,21 @@
     "source": "hra-female",
     "source_asset": "Allen_superior_temporal_gyrus_R",
     "source_term": "UBERON:0002769",
-    "canonical_id": "UBERON:0002769",
+    "canonical_id": "UBERON:0002769|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_middle_temporal_gyrus_R",
     "source_term": "UBERON:0002771",
-    "canonical_id": "UBERON:0002771",
+    "canonical_id": "UBERON:0002771|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_temporal_gyrus_R",
     "source_term": "UBERON:0002751",
-    "canonical_id": "UBERON:0002751",
+    "canonical_id": "UBERON:0002751|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -2005,105 +2005,105 @@
     "source": "hra-female",
     "source_asset": "Allen_planum_temporale_R",
     "source_term": "UBERON:0022268",
-    "canonical_id": "UBERON:0022268",
+    "canonical_id": "UBERON:0022268|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_temporal_pole_R",
     "source_term": "UBERON:0002576",
-    "canonical_id": "UBERON:0002576",
+    "canonical_id": "UBERON:0002576|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_planum_polare_R",
     "source_term": "UBERON:0023861",
-    "canonical_id": "UBERON:0023861",
+    "canonical_id": "UBERON:0023861|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_occipital_pole_R",
     "source_term": "UBERON:0002902",
-    "canonical_id": "UBERON:0002902",
+    "canonical_id": "UBERON:0002902|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cuneus_R",
     "source_term": "UBERON:0006092",
-    "canonical_id": "UBERON:0006092",
+    "canonical_id": "UBERON:0006092|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R",
     "source_term": "UBERON:0002943",
-    "canonical_id": "UBERON:0002943",
+    "canonical_id": "UBERON:0002943|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_R",
     "source_term": "UBERON:0022364",
-    "canonical_id": "UBERON:0022364",
+    "canonical_id": "UBERON:0022364|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_occipital_gyrus_R",
     "source_term": "UBERON:0014608",
-    "canonical_id": "UBERON:0014608",
+    "canonical_id": "UBERON:0014608|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_superior_occipital_gyrus_R",
     "source_term": "UBERON:0002948",
-    "canonical_id": "UBERON:0002948",
+    "canonical_id": "UBERON:0002948|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cingulate_gyrus_rostral_anterior_part_R",
     "source_term": "UBERON:0002756",
-    "canonical_id": "UBERON:0002756",
+    "canonical_id": "UBERON:0002756|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cingulate_gyrus_caudal_posterior_part_R",
     "source_term": "UBERON:0002740",
-    "canonical_id": "UBERON:0002740",
+    "canonical_id": "UBERON:0002740|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_ingulo_parahippocampal_isthmus_R",
     "source_term": "UBERON:0002738",
-    "canonical_id": "UBERON:0002738",
+    "canonical_id": "UBERON:0002738|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_subcallosal_gyrus_parolfactory_gyrus_R",
     "source_term": "UBERON:0003020",
-    "canonical_id": "UBERON:0003020",
+    "canonical_id": "UBERON:0003020|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_anterior_parahippocampal_gyrus_R",
     "source_term": "UBERON:0022383",
-    "canonical_id": "UBERON:0022383",
+    "canonical_id": "UBERON:0022383|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_posterior_parahippocampal_gyrus_R",
     "source_term": "UBERON:0002657",
-    "canonical_id": "UBERON:0002657",
+    "canonical_id": "UBERON:0002657|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -2166,35 +2166,35 @@
     "source": "hra-female",
     "source_asset": "Allen_red_nucleus_R",
     "source_term": "UBERON:0001947",
-    "canonical_id": "UBERON:0001947",
+    "canonical_id": "UBERON:0001947|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_substantia_nigra_R",
     "source_term": "UBERON:0002038",
-    "canonical_id": "UBERON:0002038",
+    "canonical_id": "UBERON:0002038|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_superior_colliculus_R",
     "source_term": "UBERON:0001945",
-    "canonical_id": "UBERON:0001945",
+    "canonical_id": "UBERON:0001945|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_colliculus_R",
     "source_term": "UBERON:0001946",
-    "canonical_id": "UBERON:0001946",
+    "canonical_id": "UBERON:0001946|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_cerebral_peduncle_crus_cerebri_R",
     "source_term": "UBERON:0002623",
-    "canonical_id": "UBERON:0002623",
+    "canonical_id": "UBERON:0002623|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -2229,14 +2229,14 @@
     "source": "hra-female",
     "source_asset": "Allen_basilar_part_of_pons_R",
     "source_term": "UBERON:0002151",
-    "canonical_id": "UBERON:0002151",
+    "canonical_id": "UBERON:0002151|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_pontine_tegmentum_R",
     "source_term": "UBERON:0003023",
-    "canonical_id": "UBERON:0003023",
+    "canonical_id": "UBERON:0003023|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -2278,7 +2278,7 @@
     "source": "hra-female",
     "source_asset": "Allen_fourth_ventricle_R",
     "source_term": "UBERON:0002422",
-    "canonical_id": "UBERON:0002422",
+    "canonical_id": "UBERON:0002422|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -2306,14 +2306,14 @@
     "source": "hra-female",
     "source_asset": "Allen_parietal_operculum_R",
     "source_term": "UBERON:0002911",
-    "canonical_id": "UBERON:0002911",
+    "canonical_id": "UBERON:0002911|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_optic_radiation_R",
     "source_term": "UBERON:0022264",
-    "canonical_id": "UBERON:0022264",
+    "canonical_id": "UBERON:0022264|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -2369,14 +2369,14 @@
     "source": "hra-female",
     "source_asset": "Allen_hypothalamus_L",
     "source_term": "UBERON:0001898",
-    "canonical_id": "UBERON:0001898",
+    "canonical_id": "UBERON:0001898|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_hypothalamus_R",
     "source_term": "UBERON:0001898",
-    "canonical_id": "UBERON:0001898",
+    "canonical_id": "UBERON:0001898|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -2425,14 +2425,14 @@
     "source": "hra-female",
     "source_asset": "Allen_red_nucleus_L",
     "source_term": "UBERON:0001947",
-    "canonical_id": "UBERON:0001947",
+    "canonical_id": "UBERON:0001947|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "Allen_inferior_colliculus_L",
     "source_term": "UBERON:0001946",
-    "canonical_id": "UBERON:0001946",
+    "canonical_id": "UBERON:0001946|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -3517,448 +3517,448 @@
     "source": "hra-female",
     "source_asset": "VH_F_kidney_capsule_L",
     "source_term": "UBERON:0002015",
-    "canonical_id": "UBERON:0002015",
+    "canonical_id": "UBERON:0002015|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_hilum_of_kidney_L",
     "source_term": "UBERON:0008716",
-    "canonical_id": "UBERON:0008716",
+    "canonical_id": "UBERON:0008716|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_a",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_b",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_c",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_d",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_e",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_f",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_g",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_h",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_i",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_j",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_L_k",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_a",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_b",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_c",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_d",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_e",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_f",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_g",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_h",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_i",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_j",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_L_k",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_column_L",
     "source_term": "UBERON:0001284",
-    "canonical_id": "UBERON:0001284",
+    "canonical_id": "UBERON:0001284|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_outer_cortex_of_kidney_L",
     "source_term": "UBERON:0002189",
-    "canonical_id": "UBERON:0002189",
+    "canonical_id": "UBERON:0002189|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_kidney_capsule_R",
     "source_term": "UBERON:0002015",
-    "canonical_id": "UBERON:0002015",
+    "canonical_id": "UBERON:0002015|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_hilum_of_kidney_R",
     "source_term": "UBERON:0008716",
-    "canonical_id": "UBERON:0008716",
+    "canonical_id": "UBERON:0008716|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_outer_cortex_of_kidney_R",
     "source_term": "UBERON:0002189",
-    "canonical_id": "UBERON:0002189",
+    "canonical_id": "UBERON:0002189|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_column_R",
     "source_term": "UBERON:0001284",
-    "canonical_id": "UBERON:0001284",
+    "canonical_id": "UBERON:0001284|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_a",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_b",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_c",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_d",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_e",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_f",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_g",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_h",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_i",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_papilla_R_j",
     "source_term": "UBERON:0001228",
-    "canonical_id": "UBERON:0001228",
+    "canonical_id": "UBERON:0001228|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_a",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_b",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_c",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_d",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_e",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_f",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_g",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_h",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_i",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pyramid_R_j",
     "source_term": "UBERON:0004200",
-    "canonical_id": "UBERON:0004200",
+    "canonical_id": "UBERON:0004200|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_a",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_b",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_c",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_d",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_e",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_f",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_g",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_h",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_i",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_R_j",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_major_calyx_R_a",
     "source_term": "UBERON:0001226",
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001226|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_major_calyx_R_b",
     "source_term": "UBERON:0001226",
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001226|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_major_calyx_R_c",
     "source_term": "UBERON:0001226",
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001226|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pelvis_R",
     "source_term": "UBERON:0001224",
-    "canonical_id": "UBERON:0001224",
+    "canonical_id": "UBERON:0001224|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -3972,105 +3972,105 @@
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_a",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_b",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_c",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_d",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_e",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_f",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_g",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_h",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_i",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_minor_calyx_L_j",
     "source_term": "UBERON:0001227",
-    "canonical_id": "UBERON:0001227",
+    "canonical_id": "UBERON:0001227|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_major_calyx_L_a",
     "source_term": "UBERON:0001226",
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001226|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_major_calyx_L_b",
     "source_term": "UBERON:0001226",
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001226|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_major_calyx_L_c",
     "source_term": "UBERON:0001226",
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001226|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_major_calyx_L_d",
     "source_term": "UBERON:0001226",
-    "canonical_id": "UBERON:0001226",
+    "canonical_id": "UBERON:0001226|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_renal_pelvis_L",
     "source_term": "UBERON:0001224",
-    "canonical_id": "UBERON:0001224",
+    "canonical_id": "UBERON:0001224|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -4252,7 +4252,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_ophthalmic_vein_L",
     "source_term": "UBERON:0011191",
-    "canonical_id": "UBERON:0011191",
+    "canonical_id": "UBERON:0011191|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -4280,7 +4280,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_ophthalmic_vein_R",
     "source_term": "UBERON:0011191",
-    "canonical_id": "UBERON:0011191",
+    "canonical_id": "UBERON:0011191|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -4315,7 +4315,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_opthalmic_artery_L",
     "source_term": "UBERON:0001619",
-    "canonical_id": "UBERON:0001619",
+    "canonical_id": "UBERON:0001619|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -4336,7 +4336,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_opthalmic_artery_R",
     "source_term": "UBERON:0001619",
-    "canonical_id": "UBERON:0001619",
+    "canonical_id": "UBERON:0001619|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -4434,42 +4434,42 @@
     "source": "hra-female",
     "source_asset": "VH_F_inferior_rectal_vein_L",
     "source_term": "FMA:21242",
-    "canonical_id": "FMA:21242",
+    "canonical_id": "FMA:21242|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_inferior_rectal_vein_R",
     "source_term": "FMA:21242",
-    "canonical_id": "FMA:21242",
+    "canonical_id": "FMA:21242|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_internal_iliac_vein_L",
     "source_term": "UBERON:0001317",
-    "canonical_id": "UBERON:0001317",
+    "canonical_id": "UBERON:0001317|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_internal_iliac_vein_R",
     "source_term": "UBERON:0001317",
-    "canonical_id": "UBERON:0001317",
+    "canonical_id": "UBERON:0001317|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_internal_pudendal_vein_L",
     "source_term": "UBERON:0018252",
-    "canonical_id": "UBERON:0018252",
+    "canonical_id": "UBERON:0018252|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_internal_pudendal_vein_R",
     "source_term": "UBERON:0018252",
-    "canonical_id": "UBERON:0018252",
+    "canonical_id": "UBERON:0018252|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -4742,7 +4742,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_pulmonary_vein_R_inf",
     "source_term": "FMA:49913",
-    "canonical_id": "FMA:49913|left",
+    "canonical_id": "FMA:49913",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -4756,7 +4756,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_pulmonary_vein_L_inf",
     "source_term": "FMA:49911",
-    "canonical_id": "FMA:49911|right",
+    "canonical_id": "FMA:49911",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5281,14 +5281,14 @@
     "source": "hra-female",
     "source_asset": "VH_F_cartilage_of_lobar_bronchus_L",
     "source_term": "FMA:62659",
-    "canonical_id": "FMA:62659",
+    "canonical_id": "FMA:62659|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_cartilage_of_tertiary_bronchus_L",
     "source_term": "FMA:62662",
-    "canonical_id": "FMA:62662",
+    "canonical_id": "FMA:62662|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5379,14 +5379,14 @@
     "source": "hra-female",
     "source_asset": "VH_F_cartilage_of_lobar_bronchus_R",
     "source_term": "FMA:62659",
-    "canonical_id": "FMA:62659",
+    "canonical_id": "FMA:62659|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_cartilage_of_tertiary_bronchus_R",
     "source_term": "FMA:62662",
-    "canonical_id": "FMA:62662",
+    "canonical_id": "FMA:62662|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5596,84 +5596,84 @@
     "source": "hra-female",
     "source_asset": "VH_F_pubis_spongy_bone_L",
     "source_term": "UBERON:0002483",
-    "canonical_id": "UBERON:0002483",
+    "canonical_id": "UBERON:0002483|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_pubis_spongy_bone_R",
     "source_term": "UBERON:0002483",
-    "canonical_id": "UBERON:0002483",
+    "canonical_id": "UBERON:0002483|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_pubis_compact_bone_R",
     "source_term": "UBERON:0001439",
-    "canonical_id": "UBERON:0001439",
+    "canonical_id": "UBERON:0001439|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_pubis_compact_bone_L",
     "source_term": "UBERON:0001439",
-    "canonical_id": "UBERON:0001439",
+    "canonical_id": "UBERON:0001439|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ilium_compact_bone_R",
     "source_term": "UBERON:0001439",
-    "canonical_id": "UBERON:0001439",
+    "canonical_id": "UBERON:0001439|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ilium_compact_bone_L",
     "source_term": "UBERON:0001439",
-    "canonical_id": "UBERON:0001439",
+    "canonical_id": "UBERON:0001439|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ilium_spongy_bone_L",
     "source_term": "UBERON:0002483",
-    "canonical_id": "UBERON:0002483",
+    "canonical_id": "UBERON:0002483|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ilium_spongy_bone_R",
     "source_term": "UBERON:0002483",
-    "canonical_id": "UBERON:0002483",
+    "canonical_id": "UBERON:0002483|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ischium_compact_bone_R",
     "source_term": "UBERON:0001439",
-    "canonical_id": "UBERON:0001439",
+    "canonical_id": "UBERON:0001439|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ischium_compact_bone_L",
     "source_term": "UBERON:0001439",
-    "canonical_id": "UBERON:0001439",
+    "canonical_id": "UBERON:0001439|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ischium_spongy_bone_R",
     "source_term": "UBERON:0002483",
-    "canonical_id": "UBERON:0002483",
+    "canonical_id": "UBERON:0002483|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
     "source": "hra-female",
     "source_asset": "VH_F_ischium_spongy_bone_L",
     "source_term": "UBERON:0002483",
-    "canonical_id": "UBERON:0002483",
+    "canonical_id": "UBERON:0002483|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5701,7 +5701,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_anterolateral_ligament_of_knee_R",
     "source_term": "UBERON:0014899",
-    "canonical_id": "UBERON:0014899",
+    "canonical_id": "UBERON:0014899|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5722,7 +5722,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_meniscus_R",
     "source_term": "FMA64019",
-    "canonical_id": "FMA:64019",
+    "canonical_id": "FMA:64019|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5792,7 +5792,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_distal_most_point_of_medial_condyle_R",
     "source_term": "UBERON:7500033",
-    "canonical_id": "UBERON:7500033",
+    "canonical_id": "UBERON:7500033|right",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5862,7 +5862,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_anterolateral_ligament_of_knee_L",
     "source_term": "UBERON:0014899",
-    "canonical_id": "UBERON:0014899",
+    "canonical_id": "UBERON:0014899|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -5904,7 +5904,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_meniscus_L",
     "source_term": "FMA64019",
-    "canonical_id": "FMA:64019",
+    "canonical_id": "FMA:64019|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
@@ -6002,7 +6002,7 @@
     "source": "hra-female",
     "source_asset": "VH_F_distal_most_point_of_medial_condyle_L",
     "source_term": "UBERON:7500033",
-    "canonical_id": "UBERON:7500033",
+    "canonical_id": "UBERON:7500033|left",
     "method": "identifier-format-normalization; explicit-name-laterality"
   },
   {
