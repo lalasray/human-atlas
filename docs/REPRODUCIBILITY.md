@@ -108,6 +108,41 @@ the NLM image headers in axes and units.
 the canonical stage (voxel -> CT RAS -> `nlm-ct-to-vhf` -> `denver-image-to-stage`), with
 the label value, model, registration and hashes in every source record.
 
+## Bounded NLM female cryosection preparation
+
+The full-color source is approximately 40 GB. Inventory it without downloading image
+sections:
+
+```bash
+./atlas fetch-nlm-vhf-cryo
+```
+
+This verifies the NLM terms and format evidence, parses `Fullcolor/fullbody` from the NLM
+`INDEX`, and writes `data/raw/nlm-vhf/cryo-inventory.json`. The inventory may contain gaps
+because the public listing is not a perfectly contiguous sequence; bounded downloads fail
+rather than silently crossing one.
+
+Download only an explicit, inclusive section interval after localizing it from source
+evidence. Each `a`, `b`, and `c` suffix is a separate 0.33 mm anatomical section, not a
+color channel:
+
+```bash
+./atlas fetch-nlm-vhf-cryo --download --first avf1800a --last avf1866c --max-bytes 2000000000
+./atlas build-nlm-cryo-volume --validate-only
+./atlas build-nlm-cryo-volume
+```
+
+The example bounds illustrate syntax only and are not approved hand or forearm bounds.
+Evidence-backed bounds belong in `manifests/nlm-vhf-cryo-subsets.json`; the hand/forearm
+entry remains `pending-localization` until reviewed evidence exists.
+
+The builder verifies compressed hashes and decoded byte counts, decodes NLM's planar RGB
+format, and writes three `uint8` NIfTI channels plus metadata under
+`data/derived/nlm-vhf/cryo/`. Raw sections have no alignment transform, so every output is
+marked `unaligned-original`, `canonical_space` is null, and these files must not be used
+for atlas composition or anatomical claims. Alignment against Denver's published aligned
+sections and a real reviewed label map are separate required milestones.
+
 `build-crosswalk.py` verifies `registry/crosswalk-proposals.json` against the EBI Ontology
 Lookup Service and writes `registry/ontology-crosswalk-reviewed.json` with the OLS record
 per term; `build-registry.py` uses only entries marked `applied`. Lateralized FMA terms of

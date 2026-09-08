@@ -1,6 +1,8 @@
 # Plan: AI segmentation of the Visible Human Female cryosections
 
-Status: proposal (5 September 2026). A project of its own, separate from the atlas; it delivers a new source `nlm-vhf-cryo` to the atlas.
+Status: acquisition and bounded RGB-volume preparation implemented (8 September 2026);
+alignment, annotation, training and atlas integration remain proposed. A project of its
+own, separate from the atlas; it eventually delivers a new source `nlm-vhf-cryo` to the atlas.
 
 ## 1. Goal
 
@@ -72,7 +74,17 @@ Conclusion: the idea is feasible and nobody has published free whole-body labels
 
 ## 7. First concrete milestone
 
-Download the slices from pelvis to feet, align, voxelise the 128 Denver meshes and train 2D nnU-Net. Deliverable: Dice per structure in cross-validation and a prediction over 200 trunk slices for visual inspection. Without this milestone the rest is not planned.
+The implemented preparation stage inventories `Fullcolor/fullbody`, permits only explicit
+bounded downloads with a byte ceiling, verifies source hashes and decoded dimensions, and
+emits three unaligned scalar RGB NIfTI channels with provenance metadata. Commands:
+`./atlas fetch-nlm-vhf-cryo` and `./atlas build-nlm-cryo-volume`.
+
+Next, localize the forearm and hand interval from verified image evidence and record the
+bounds, reviewer, date and safety margin in `manifests/nlm-vhf-cryo-subsets.json`. Do not
+guess bounds from filenames. Then download the selected sections, reproduce Denver's
+alignment, voxelise the 128 Denver meshes and train 2D nnU-Net. Deliverable: Dice per
+structure in cross-validation and a prediction over 200 trunk slices for visual inspection.
+No hand, radius or ulna geometry may enter the atlas before labels and anatomical review exist.
 
 ## Sources consulted
 
