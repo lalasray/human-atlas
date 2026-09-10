@@ -137,3 +137,26 @@ female donor. Two background labels are excluded.
   rotation and translation. Metric scale is preserved. No registration to an
   adult body is performed. Local conversion remains anatomically unreviewed.
 - Input and output hashes and display matrix: `/infant-sources/coverage.json`.
+
+## Retained source datasets
+
+### TCIA Healthy Total Body CTs, subject 003
+
+Published segmentations and clinical metadata: TCIA Healthy-Total-Body-CTs
+collection contributors, https://doi.org/10.7937/NC7Z-4F76, CC BY 4.0.
+Official source and licence evidence:
+https://www.cancerimagingarchive.net/collection/healthy-total-body-cts/.
+Subject 003 is female, age 26, as recorded in clinical release v02 20240927.
+Only the public segmentation labelmap and metadata were downloaded; CT images
+were not downloaded. The published segmentations were generated using MOOSE.
+
+Adaptations: scikit-image marching cubes, NIfTI affine converted from RAS mm to
+viewer left/up/anterior metres, translation to a ground plane, derived normals,
+meshoptimizer simplification at 0.2% relative error, binary packing and gzip.
+All 36 present labels are retained. Diffuse muscle and fat use marching-cubes
+step size 3 voxels; other labels use step size 1. Labels often group both sides,
+multiple bones or entire tissues. They must not be counted as individual organs
+or presented as manually validated anatomy. An experimental registration to VHF is retained for review; this source is not included in the expanded viewer.
+
+
+The source-specific HRA, Denver, NLM and dHCP manifests and geometry remain available for the reproducibility pipeline. The viewer exposes only Male, Female · Expanded, and Infant · Brain. The active expanded female uses composition 0.5 canonical concepts plus the ten MOOSE labels. The infant viewer additionally applies the display rotation and translation recorded above.

@@ -36,4 +36,11 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+/sources/
+/.venv/
+/data/raw/
+/artifacts/
 *.tsbuildinfo
+__pycache__/
+/data/derived/
+/.venv-seg/

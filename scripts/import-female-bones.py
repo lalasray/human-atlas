@@ -50,7 +50,8 @@ def main():
     assert int(correction.sum()) == 848
     volume[correction] = 9
     manifest = ROOT / 'public/models/atlas-female-expanded.json'
-    atlas = json.loads(manifest.read_text())
+    base_manifest = ROOT / 'public/atlases/composed.json'
+    atlas = json.loads((base_manifest if base_manifest.exists() else manifest).read_text())
     # Re-running replaces only this import's records and final chunk.
     atlas['parts'] = [p for p in atlas['parts'] if p.get('provenance', {}).get('source') != SOURCE]
     atlas['concepts'] = [c for c in atlas['concepts'] if not c['id'].startswith(SOURCE + ':')]
@@ -126,14 +127,17 @@ def main():
     (ROOT / 'public/models' / (name + '.gz')).write_bytes(compressed)
     atlas['chunks'].append({'url': '/models/' + name, 'bytes': len(blob), 'sha256': data_hash,
                             'gzip': '/models/' + name + '.gz', 'gzipBytes': len(compressed)})
-    atlas['version'] = 'Female composition 0.4 plus MOOSE hand/forearm references, experimental'
+    atlas['version'] = 'Expanded female composition with MOOSE hand/forearm references, experimental'
     atlas['source'] = 'Denver VHF + NLM VHF CT + HRA + MOOSE hand/forearm labels'
     atlas['triangles'] = sum(p['indexCount'] // 3 for p in atlas['parts'])
     manifest.write_text(json.dumps(atlas, separators=(',', ':')))
     report = json.loads((evidence / 'coverage.json').read_text())
     report.setdefault('baseManifestSha256', report['manifestSha256'])
+    if base_manifest.exists():
+        report['baseManifestSha256'] = digest(base_manifest.read_bytes())
+        report['compositionBase'] = '/atlases/composed.json'
     report['manifestSha256'] = digest(manifest.read_bytes())
-    report['counts'].update(expandedMeshes=1025, addedVhfMeshes=239, concepts=1281)
+    report['counts'].update(expandedMeshes=1025, addedVhfMeshes=239, concepts=len(atlas['concepts']))
     report['meshesBySource'][SOURCE] = 10
     for row in report['systems']:
         row['expanded'] = sum(p['system'] == row['id'] for p in atlas['parts'])

@@ -8,13 +8,18 @@ const base=new URL('../public/models/',import.meta.url);
 const manifest=fs.readFileSync(new URL(filename,base)),atlas=JSON.parse(manifest);
 const expected={
   'atlas.json':{parts:2234,concepts:3432},
-  'atlas-female-expanded.json':{parts:1025,concepts:1281},
+  'atlas-female-expanded.json':{parts:1025,concepts:943},
+  'atlas-female.json':{parts:888,concepts:1073},
+  'atlas-tcia-female.json':{parts:36,concepts:36},
+  'atlas-denver-female.json':{parts:128,concepts:203},
+  'atlas-nlm-vhf-ct.json':{parts:114,concepts:148},
+  'atlas-dhcp-neonatal.json':{parts:85,concepts:85},
   'atlas-infant.json':{parts:85,concepts:85},
 }[filename];
 assert.ok(expected,'Unknown atlas fixture');
 assert.equal(atlas.parts.length,expected.parts);
 assert.equal(atlas.concepts.length,expected.concepts);
-const systems=new Set(['skeletal','muscular','cardiac','sensory','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','integumentary','connective','pregnancy']);
+const systems=new Set(['skeletal','muscular','cardiac','sensory','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','integumentary','connective','pregnancy','tissue']);
 const ids=new Set(atlas.parts.map(p=>p.id));assert.equal(ids.size,expected.parts);
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const files=atlas.chunks.map(c=>{
@@ -60,7 +65,7 @@ for(const c of atlas.concepts){
   for(const id of c.elements)assert.ok(ids.has(id),`${c.id}: missing ${id}`);
 }
 assert.equal(tris,atlas.triangles);
-if(atlas.sex==='female'){
+if(filename==='atlas-female-expanded.json'){
   assert.equal(atlas.parts.filter(p=>p.system==='pregnancy').length,8);
   assert.equal(atlas.parts.filter(p=>p.system==='reproductive').length,38);
   for(const p of atlas.parts)assert.ok(p.provenance&&p.provenance.source!=='bodyparts3d');
@@ -86,6 +91,12 @@ if(filename==='atlas-infant.json'){
 }
 if(filename==='atlas-female-expanded.json'){
   const report=JSON.parse(fs.readFileSync(new URL('../female-sources/coverage.json',base)));
+  const compositionBytes=fs.readFileSync(new URL('../atlases/composed.json',base));
+  const composition=JSON.parse(compositionBytes);
+  assert.equal(hash(compositionBytes),report.baseManifestSha256);
+  assert.deepEqual(atlas.parts.filter(p=>p.provenance.source!=='nlm-vhf-moose'),composition.parts);
+  assert.deepEqual(atlas.concepts.filter(c=>!c.id.startsWith('nlm-vhf-moose:')),composition.concepts);
+  assert.equal(atlas.concepts.flatMap(c=>c.elements).length,atlas.parts.length,'Every female mesh has one canonical selection');
   assert.equal(hash(manifest),report.manifestSha256);
   assert.equal(report.counts.expandedMeshes,atlas.parts.length);
   assert.equal(report.counts.concepts,atlas.concepts.length);

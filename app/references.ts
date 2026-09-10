@@ -7,8 +7,10 @@ export type ReferenceId = typeof REFERENCES[number]['id'];
 
 export function referenceFromSearch(search:string):ReferenceId {
   const params=new URLSearchParams(search);
-  if(params.get('model')==='infant'||params.get('sex')==='infant')return 'infant';
-  return params.get('sex')==='female' ? 'female' : 'male';
+  if(params.get('model')==='infant'||params.get('sex')==='infant'||params.get('source')==='dhcp-neonatal')return 'infant';
+  if(params.get('sex')==='female')return 'female';
+  if(params.get('sex')==='male'||params.get('source')==='bodyparts3d')return 'male';
+  return ['composed','hra-female','denver-vhf','nlm-vhf-ct','tcia'].includes(params.get('source')??'')?'female':'male';
 }
 
 export function referenceUrl(href:string,id:ReferenceId) {
@@ -16,6 +18,7 @@ export function referenceUrl(href:string,id:ReferenceId) {
   if(id==='infant'){url.searchParams.set('model','infant');url.searchParams.delete('sex');}
   else{url.searchParams.set('sex',id);url.searchParams.delete('model');}
   url.searchParams.delete('reference');
+  url.searchParams.delete('source');
   return url;
 }
 

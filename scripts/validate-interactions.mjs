@@ -4,7 +4,7 @@ import {createExplosionLayout} from '../app/explosion-layout.ts';
 import {PointerTap} from '../app/pointer-tap.ts';
 import {atlasTools} from '../app/agent-tools.ts';
 import {referenceFromSearch,referenceUrl} from '../app/references.ts';
-import {DEFAULT_VISIBLE} from '../app/anatomy.ts';
+import {DEFAULT_VISIBLE,partVisible} from '../app/anatomy.ts';
 
 for (const file of ['atlas.json','atlas-female-expanded.json','atlas-infant.json']) {
   const atlas=JSON.parse(await readFile(new URL(`../public/models/${file}`,import.meta.url)));
@@ -62,3 +62,19 @@ for(const id of ['male','female','infant']){
 }
 for(const id of ['male','female'])assert.equal(referenceFromSearch(referenceUrl('http://localhost:3017/?model=infant',id).search),id);
 console.log('Reference links, legacy female URL, parameter preservation and pregnancy defaults passed.');
+
+
+const base={explode:0,visible:['skeletal'],selected:[],isolate:false,view:'front',rotate:false,reset:0,landmarks:false};
+const bone={id:'a',name:'a',conceptId:'a',system:'skeletal',chunk:0,positions:0,normals:0,indices:0,vertexCount:0,indexCount:0,bounds:[[0,0,0],[1,1,1]],provenance:{source_donor:'VHF'}};
+const organ={...bone,id:'b',system:'digestive',provenance:{source_donor:'hra-female-assembly'}};
+assert.equal(partVisible(bone,base),true);
+assert.equal(partVisible(organ,base),false);
+assert.equal(partVisible(organ,{...base,isolate:true,selected:['b']}),true);
+assert.equal(partVisible(bone,{...base,isolate:true,selected:['b']}),false);
+console.log('Layer and isolation visibility checks passed.');
+
+assert.equal(referenceFromSearch('?source=dhcp-neonatal'),'infant');
+assert.equal(referenceFromSearch('?source=composed'),'female');
+assert.equal(referenceFromSearch('?source=bodyparts3d'),'male');
+assert.equal(referenceFromSearch(referenceUrl('http://localhost/?source=dhcp-neonatal','male').search),'male');
+assert.ok(!DEFAULT_VISIBLE.includes('tissue'));

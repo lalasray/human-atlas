@@ -1,7 +1,7 @@
 {
-  "sourceRepository": "https://github.com/rubdttcom/human-atlas",
-  "sourceRevision": "f1c09ede05984702c98fc89198b1f1e2c60f073f",
-  "manifestSha256": "19e7539d6b1d35da956080f57c554d5fdf4629d60e72adb25c44b7e33da640d6",
+  "sourceRepository": "https://github.com/lalasray/human-atlas",
+  "sourceRevision": "af4104547a3ea1737e306a1328ac10d9af50af8c",
+  "manifestSha256": "75d040b141c7747d4a5ef55a5b3512d8e597401c738d6c65cba0589cb7760d96",
   "anatomicalReview": "pending",
   "counts": {
     "originalMeshes": 888,
@@ -9,7 +9,7 @@
     "retainedHraMeshes": 786,
     "addedVhfMeshes": 239,
     "excludedHraMeshes": 102,
-    "concepts": 1281
+    "concepts": 943
   },
   "meshesBySource": {
     "hra-female": 786,
@@ -107,12 +107,17 @@
     "The expanded assembly has no whole-body skin surface.",
     "CT boundaries, HRA organ placement and anatomical equivalences remain unreviewed."
   ],
-  "baseManifestSha256": "0fcfaf5680fd8f6eb54e64cfaaccdb541e554a69592aebff00a02f61f13335a5",
+  "baseManifestSha256": "5d41db0f12fdb9f3eb9d5dc2ca6041f5b58ee4643b8358bdf9dc492581d07c99",
   "extensions": [
     {
       "source": "nlm-vhf-moose",
       "meshes": 10,
       "evidence": "/female-sources/hand-forearm-qa.json"
     }
-  ]
+  ],
+  "compositionBase": "/atlases/composed.json",
+  "originalImport": {
+    "sourceRepository": "https://github.com/rubdttcom/human-atlas",
+    "sourceRevision": "f1c09ede05984702c98fc89198b1f1e2c60f073f"
+  }
 }

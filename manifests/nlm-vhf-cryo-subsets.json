@@ -1,0 +1,14 @@
+{
+  "source": "NLM Visible Human Female Fullcolor/fullbody",
+  "coordinate_convention": "Sections are ordered by avf<number><a|b|c>; each suffix advances 0.33 mm.",
+  "subsets": {
+    "forearm-and-hands": {
+      "status": "pending-localization",
+      "first": null,
+      "last": null,
+      "selection_method": null,
+      "evidence": null,
+      "note": "Do not enter slice bounds by visual guess. Localize both upper limbs against verified NLM/Denver image evidence and record reviewer, date, and safety margin."
+    }
+  }
+}

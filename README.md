@@ -1,8 +1,6 @@
 # Human Atlas
 
-An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
-
-**[Explore the live demo](https://human-atlas-seven.vercel.app)**
+An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Explore the male reference (2,234 meshes), expanded female assembly (1,025 meshes), and neonatal brain (85 regions). This repository is maintained at [lalasray/human-atlas](https://github.com/lalasray/human-atlas).
 
 ## Explore
 
@@ -30,7 +28,10 @@ Open http://localhost:3016. To build the static site, run `npm run build`; the o
 npm run check
 node scripts/validate-atlas.mjs
 node scripts/validate-atlas.mjs atlas-female-expanded.json
-node scripts/validate-interactions.mjs
+node scripts/validate-atlas.mjs atlas-infant.json
+python3 scripts/validate-composition.py
+python3 scripts/validate-provenance.py
+node --experimental-strip-types scripts/validate-interactions.mjs
 npm run build
 ```
 
@@ -38,7 +39,7 @@ Validation covers mesh buffers, names and concept membership, nonoverlapping exp
 
 ## Anatomy data
 
-The current viewer uses **BodyParts3D 4.0**, an adult male reference anatomy, licensed **CC BY 4.0**. It does not represent every human structure or variation. Individual source meshes are distinct from named concepts, which may group multiple meshes. Descriptions distinguish general system context from individual organ explanations.
+The male reference uses **BodyParts3D 4.0**, licensed **CC BY 4.0**. The female and infant references and their separate source terms are described below. It does not represent every human structure or variation. Individual source meshes are distinct from named concepts, which may group multiple meshes. Descriptions distinguish general system context from individual organ explanations.
 
 Geometry is simplified for browser performance while retaining every source mesh. The packaged model contains 2,288,268 triangles and downloads approximately 33 MB of compressed geometry. Full credits, source links, and adaptation details are in [ATTRIBUTION.md](public/ATTRIBUTION.md).
 
@@ -68,24 +69,26 @@ Issues and pull requests are welcome. Please include reproduction steps and brow
 
 The reference selector offers Male · BodyParts3D, Female · Expanded, and Infant · Brain. `/?sex=female` opens the expanded assembly. Older female links with `reference=hra` also open the expanded assembly. Search, layers, inspection, isolation and explosion use the selected model. Switching clears the prior model's selection and view state.
 
-The expanded reference imports [Female Open Human Atlas composition 0.4](https://github.com/rubdttcom/human-atlas/tree/f1c09ede05984702c98fc89198b1f1e2c60f073f): **1,025 meshes, 1,281 named concepts and 3,530,527 triangles** (about 43 MB compressed geometry), including a local MOOSE extension. It combines:
+The expanded reference combines the repository’s [composition 0.5 catalog](public/atlases/composed.json) with the MOOSE extension: **1,025 meshes, 943 distinct named concepts and 3,530,527 triangles** (about 43 MB compressed geometry), including a local MOOSE extension. It combines:
 
 - 128 University of Denver Visible Human Female lower-limb meshes: 28 bones, 76 muscles, 16 cartilages and 8 ligaments.
 - 101 automatic NLM Visible Human Female CT labels: skull, ribs, spine, shoulder/upper-arm bones, trunk organs and other structures from the same donor.
 - 786 HRA detail meshes, including the female reproductive structures.
 - 10 new same-donor MOOSE CT labels: left/right carpal, metacarpal and finger bone groups, plus partial left/right radius and ulna references.
 
-The 239 Denver/CT meshes replace or supplement the HRA reference. The expanded assembly excludes 102 HRA meshes due to overlap or pose, including its skeleton and skin surface. Mesh counts are not a percentage of anatomical completeness: some source meshes contain groups, while some organs are split into multiple pieces. The standalone original HRA assembly is not included. Eight pregnancy reference meshes are hidden by default in the expanded female option.
+The 239 Denver/CT meshes replace or supplement the HRA reference. The expanded assembly excludes 102 HRA meshes due to overlap or pose, including its skeleton and skin surface. Mesh counts are not a percentage of anatomical completeness: some source meshes contain groups, while some organs are split into multiple pieces. The original HRA assembly remains a source dataset for rebuilding; the viewer offers only the expanded female model. Eight pregnancy reference meshes are hidden by default in the expanded female option.
 
 **This is incomplete and anatomically unreviewed.** Forearm boundaries remain partial where the CT cuts off the arms, and hand bones are grouped. Most upper-body/arm/hand muscles and many small nerves, vessels and connective tissues remain absent or partial. HRA placement is experimental; automatic CT boundaries and registration require anatomical review. The viewer exposes source provenance per selection and coverage/limitations under Coverage & sources.
 
-The base import preserves upstream binary geometry, per-mesh provenance, and registration records. The local hand/forearm extension uses the existing same-donor transform; its conversion and limitations are recorded separately. See [attribution](public/ATTRIBUTION.md), the [coverage report](public/female-sources/coverage.json), and [research notes](docs/female-anatomy-sources.md).
+Composition 0.5 preserves per-mesh provenance and registration records, and groups multiple pieces of one canonical structure into a single search result. The 943 concepts include the ten added bone labels; fewer concepts reflects catalog deduplication, not removed meshes. The local hand/forearm extension uses the existing same-donor transform; its conversion and limitations are recorded separately. See [attribution](public/ATTRIBUTION.md), the [coverage report](public/female-sources/coverage.json), and [research notes](docs/female-anatomy-sources.md).
 
-To reproduce the import from a clone checked out at the pinned revision:
+The full source registry, ontology crosswalk, cryosection preparation, composition, and review tools are retained in this repository. See [reproduction instructions](docs/REPRODUCIBILITY.md). After rebuilding the base composition, reattach the committed MOOSE extension:
 
 ```sh
-python3 scripts/import-female-expansion.py /path/to/human-atlas
+python3 scripts/refresh-female-expansion.py
 ```
+
+Coverage & sources provides the source catalog, per-structure provenance downloads, and alignment review. Source-specific datasets remain available for research and rebuilding, with their own frames and licenses.
 
 ## Infant anatomy
 

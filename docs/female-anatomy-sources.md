@@ -94,3 +94,7 @@ anatomical review.
 Full credits and adaptations are in [ATTRIBUTION.md](../public/ATTRIBUTION.md).
 The generated [coverage record](../public/female-sources/coverage.json) and
 alignment/inclusion records under `public/female-sources/` are shipped with the app.
+
+## Combined branch update
+
+The active female now uses composition 0.5 from this repository, plus the ten MOOSE hand/forearm labels. It retains 1,025 meshes and has 943 distinct canonical concepts (933 base concepts plus 10 added labels). The earlier 1,281 count included redundant or hierarchical selections from composition 0.4; the lower concept count does not remove anatomy. The base manifest and geometry checksums now match `public/atlases/composed.json`. Run `python3 scripts/refresh-female-expansion.py` after rebuilding the base composition. Earlier import pins in this document describe the historical 0.4 import.

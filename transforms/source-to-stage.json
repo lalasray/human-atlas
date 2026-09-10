@@ -1,0 +1,196 @@
+{
+  "hra-native-to-stage": {
+    "type": "translation",
+    "from": "HRA united-female v1.5 native",
+    "to": "HRA viewer stage",
+    "matrix_row_major": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0.794760942,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "units": "metres",
+    "evidence": "https://github.com/ashemag/human-atlas/blob/d72b4f6db42e41a8db84b1c19ff6d86ee7b65284/scripts/convert-female.py",
+    "canonical_registration": false,
+    "review_status": "source-script-verified",
+    "landmarks": [],
+    "rms": null,
+    "hausdorff": null
+  },
+  "bp3d-to-stage": {
+    "type": "axis-unit-normalization-and-translation",
+    "from": "BodyParts3D 4.0",
+    "to": "BodyParts3D viewer stage",
+    "evidence": "https://github.com/ashemag/human-atlas/blob/7a383d3/scripts/convert-anatomy.py",
+    "canonical_registration": false,
+    "review_status": "inherited-source-conversion",
+    "landmarks": [],
+    "rms": null,
+    "hausdorff": null
+  },
+  "tcia-voxel-to-stage": {
+    "type": "affine-axis-unit-normalization",
+    "from": "TCIA 003 voxel indices",
+    "to": "TCIA 003 viewer stage",
+    "matrix_row_major": [
+      0.00096484375,
+      0,
+      0,
+      -0.246517578125,
+      0,
+      0,
+      0.0023440001010894777,
+      -0.026956001162529053,
+      0,
+      0.00096484375,
+      0,
+      -0.246517578125,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_registration": false,
+    "review_status": "header-derived; anatomical-review-pending",
+    "units": "metres",
+    "landmarks": [],
+    "rms": null,
+    "hausdorff": null
+  },
+  "denver-image-to-stage": {
+    "type": "axis-permutation-unit-scale-translation",
+    "from": "Denver aligned VHF image frame (mm)",
+    "to": "Denver VHF viewer stage",
+    "matrix_row_major": [
+      -0.001,
+      0,
+      0,
+      0.5399914855957031,
+      0,
+      0,
+      0.001,
+      -0.008035740852355958,
+      0,
+      0.001,
+      0,
+      -0.4457676239013672,
+      0,
+      0,
+      0,
+      1
+    ],
+    "units": "metres",
+    "canonical_registration": true,
+    "canonical_space": "VHF-image-2022",
+    "review_status": "empirical-axis-check; defines canonical space VHF-image-2022 (transforms/canonical-space.json); anatomical-review-pending",
+    "evidence": {
+      "left_pelvis_centroid_mm": [
+        457.03122031044325,
+        441.2280901414471,
+        929.5782351661315
+      ],
+      "right_pelvis_centroid_mm": [
+        620.5100695590012,
+        435.3011329219637,
+        931.6815016142001
+      ],
+      "left_patella_centroid_mm": [
+        464.6606040246229,
+        492.6797635880642,
+        514.9141564971519
+      ],
+      "left_femur_centroid_mm": [
+        444.33081761199554,
+        455.04820400680353,
+        685.529921257512
+      ],
+      "left_calcaneus_centroid_mm": [
+        514.9005820814592,
+        395.824965659039,
+        125.4425997509134
+      ],
+      "left_femur_max_extent_mm": 417.0235595703125
+    },
+    "landmarks": [],
+    "rms": null,
+    "hausdorff": null
+  },
+  "nlm-ct-to-stage": {
+    "type": "voxel -> CT RAS mm -> VHF-image-2022 (rigid same-donor pelvis registration nlm-ct-to-vhf) -> canonical stage (denver-image-to-stage)",
+    "from": "NLM VHF fresh CT voxel indices",
+    "to": "VHF-image-2022 canonical stage",
+    "matrix_row_major": [
+      0.0009369565649067968,
+      2.9082085994265206e-05,
+      -1.4024851685907094e-05,
+      -0.22704204472948544,
+      -1.2669614280990829e-05,
+      -1.5570597555893352e-05,
+      -0.0009997707327529858,
+      1.729310250789798,
+      2.9293793745854348e-05,
+      -0.0009369194409157973,
+      1.6179785713757357e-05,
+      0.21174825162070512,
+      0,
+      0,
+      0,
+      1
+    ],
+    "units": "metres",
+    "canonical_registration": true,
+    "canonical_space": "VHF-image-2022",
+    "components": [
+      "CT header affine",
+      "transforms/nlm-ct-to-vhf.json",
+      "denver-image-to-stage"
+    ],
+    "rms_mm": 2.718263889149958,
+    "hausdorff": 35.58093094635553,
+    "landmarks": [],
+    "review_status": "automatic same-donor surface registration (pelvis p95 4.7 mm); anatomy unreviewed",
+    "evidence": "generated/nlm-ct-registration.json"
+  },
+  "dhcp-native-to-stage": {
+    "type": "source NIfTI qform millimetres to metres",
+    "from": "dHCP GA40 common atlas space",
+    "to": "dHCP GA40 viewer stage",
+    "matrix_row_major": [
+      0.001,
+      0,
+      0,
+      0,
+      0,
+      0.001,
+      0,
+      0,
+      0,
+      0,
+      0.001,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "units": "metres",
+    "canonical_registration": false,
+    "review_status": "header-derived; local mesh conversion unreviewed",
+    "evidence": "data/raw/dhcp-neonatal/download-manifest.json",
+    "landmarks": [],
+    "rms": null,
+    "hausdorff": null
+  }
+}
