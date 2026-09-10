@@ -86,3 +86,11 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 @media(max-width:767px){body:has(.detail-sheet) .view-controls{visibility:hidden}}
 
 @media(max-height:600px) and (orientation:landscape){body:has(.detail-sheet) .bottom-dock{left:12px;right:324px;width:auto;transform:none;max-width:none;margin:0}}
+
+/* Reference coverage stays next to the anatomy selector on desktop and phones. */
+.coverage-note{pointer-events:auto;display:flex;align-items:center;gap:5px;margin-top:7px;padding:0!important;font-size:10px;color:#775d36!important;min-height:22px}
+.source-table{width:100%;border-collapse:collapse;font-size:12px;margin:12px 0 22px}.source-table th,.source-table td{text-align:left;padding:9px 4px;border-bottom:1px solid #25384a17}.source-table th:last-child,.source-table td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.about-copy ul{list-style:disc;padding-left:20px;font-size:13px;line-height:1.7;margin:12px 0 20px}.about-copy li{margin:5px 0}
+.part-sources{margin:18px 0}.part-sources h3{font-size:12px;font-weight:500}.part-sources p{font-size:12px;color:#75808a;line-height:1.6;margin:5px 0 12px}.part-sources .source-link{margin-bottom:3px}
+@media(max-width:767px){.coverage-note{font-size:10px}.search-panel{top:max(181px,calc(env(safe-area-inset-top) + 163px))}.view-controls{top:max(181px,calc(env(safe-area-inset-top) + 163px))}}
+@media(max-height:600px) and (orientation:landscape){.coverage-note{display:none}.view-controls{top:76px}.search-panel{top:100px}}

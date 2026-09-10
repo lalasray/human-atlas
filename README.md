@@ -29,6 +29,7 @@ Open http://localhost:3016. To build the static site, run `npm run build`; the o
 ```sh
 npm run check
 node scripts/validate-atlas.mjs
+node scripts/validate-atlas.mjs atlas-female-expanded.json
 node scripts/validate-interactions.mjs
 npm run build
 ```
@@ -59,6 +60,46 @@ Import this repository into Vercel as a Vite project. The included `vercel.json`
 
 ## License
 
-Original application code is released under the [MIT License](LICENSE). **The anatomy data has its own CC BY 4.0 license**; preserve the attribution when redistributing it. Third-party dependencies retain their respective licenses.
+Original application code is released under the [MIT License](LICENSE). **Anatomy data has separate source terms**: CC BY 4.0 for BodyParts3D, HRA and Denver; NLM terms for the CT-derived data; CC BY 3.0 for inherited ontology metadata. Preserve the source attribution when redistributing it. Third-party dependencies retain their respective licenses.
 
 Issues and pull requests are welcome. Please include reproduction steps and browser/device details for interaction problems.
+
+## Female anatomy
+
+The reference selector offers Male · BodyParts3D, Female · Expanded, and Infant · Brain. `/?sex=female` opens the expanded assembly. Older female links with `reference=hra` also open the expanded assembly. Search, layers, inspection, isolation and explosion use the selected model. Switching clears the prior model's selection and view state.
+
+The expanded reference imports [Female Open Human Atlas composition 0.4](https://github.com/rubdttcom/human-atlas/tree/f1c09ede05984702c98fc89198b1f1e2c60f073f): **1,025 meshes, 1,281 named concepts and 3,530,527 triangles** (about 43 MB compressed geometry), including a local MOOSE extension. It combines:
+
+- 128 University of Denver Visible Human Female lower-limb meshes: 28 bones, 76 muscles, 16 cartilages and 8 ligaments.
+- 101 automatic NLM Visible Human Female CT labels: skull, ribs, spine, shoulder/upper-arm bones, trunk organs and other structures from the same donor.
+- 786 HRA detail meshes, including the female reproductive structures.
+- 10 new same-donor MOOSE CT labels: left/right carpal, metacarpal and finger bone groups, plus partial left/right radius and ulna references.
+
+The 239 Denver/CT meshes replace or supplement the HRA reference. The expanded assembly excludes 102 HRA meshes due to overlap or pose, including its skeleton and skin surface. Mesh counts are not a percentage of anatomical completeness: some source meshes contain groups, while some organs are split into multiple pieces. The standalone original HRA assembly is not included. Eight pregnancy reference meshes are hidden by default in the expanded female option.
+
+**This is incomplete and anatomically unreviewed.** Forearm boundaries remain partial where the CT cuts off the arms, and hand bones are grouped. Most upper-body/arm/hand muscles and many small nerves, vessels and connective tissues remain absent or partial. HRA placement is experimental; automatic CT boundaries and registration require anatomical review. The viewer exposes source provenance per selection and coverage/limitations under Coverage & sources.
+
+The base import preserves upstream binary geometry, per-mesh provenance, and registration records. The local hand/forearm extension uses the existing same-donor transform; its conversion and limitations are recorded separately. See [attribution](public/ATTRIBUTION.md), the [coverage report](public/female-sources/coverage.json), and [research notes](docs/female-anatomy-sources.md).
+
+To reproduce the import from a clone checked out at the pinned revision:
+
+```sh
+python3 scripts/import-female-expansion.py /path/to/human-atlas
+```
+
+## Infant anatomy
+
+`/?model=infant` opens **85 neonatal brain regions** from the dHCP population
+atlas at 40 weeks post-menstrual age. The existing model was found in the local
+HumanAnatomyFemale project and imported with source hashes and credits. It is
+brain-only: skull, body skeleton, muscles and internal organs are still missing.
+The display keeps its source metric scale and uses a rigid rotation/translation;
+no registration to an adult body is performed. The camera fits the smaller model.
+
+The source data is CC BY 4.0. See [infant sources and remaining gaps](docs/infant-anatomy-sources.md)
+and [import evidence](public/infant-sources/coverage.json). To reproduce:
+
+```sh
+python3 scripts/import-infant.py /path/to/HumanAnatomyFemale
+node scripts/validate-atlas.mjs atlas-infant.json
+```

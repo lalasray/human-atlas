@@ -1,0 +1,6 @@
+# Preserve geometry bytes and avoid text diffs for model buffers.
+public/models/*.bin binary
+public/models/*.bin.gz binary
+
+# Keep the upstream label table byte-for-byte, including its trailing spaces.
+public/infant-sources/structures.txt -text whitespace=-blank-at-eol

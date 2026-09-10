@@ -1,0 +1,51 @@
+{
+  "source": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise",
+  "sourceRevision": "d699540b1820d8224a07db3c1d727d0c747218dc",
+  "inputSha256": "57592a9cfd85542a158ed5803a86530fc19ba72946d1c2e0a3c6f8c597cc85d0",
+  "sourceManifestSha256": "6232ea79c31da75372c68a8d40fea998e48025a626358953ea222bfbe887830f",
+  "manifestSha256": "f12704fc3c95af092bf1e5ea75a4dd33fdddbeecfaeb71e99a81fd1a4f8333cd",
+  "meshes": 85,
+  "concepts": 85,
+  "age": "40 weeks post-menstrual age",
+  "region": "brain",
+  "displayTransform": {
+    "id": "dhcp-ras-metres-to-stage",
+    "matrix": [
+      [
+        -1,
+        0,
+        0,
+        0.0009687487035989761
+      ],
+      [
+        0,
+        0,
+        1,
+        0.044757815301418306
+      ],
+      [
+        0,
+        1,
+        0,
+        0.016281256452202797
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "scale": 1,
+    "units": "metres",
+    "registration_to_adult": false,
+    "description": "Rigid display reorientation: x left, y superior, z anterior; centered above floor."
+  },
+  "anatomicalReview": "local conversion unreviewed",
+  "remainingGaps": [
+    "Skull, face, eyes and ears.",
+    "Skeleton and muscles of the body.",
+    "Chest, abdominal and pelvic organs.",
+    "Peripheral nerves, vessels and skin."
+  ]
+}

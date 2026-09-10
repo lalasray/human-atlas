@@ -1,0 +1,59 @@
+{
+  "source": "dHCP morphological atlas of neonatal brain development",
+  "doi": "10.12751/g-node.d2b353",
+  "revision": "d699540b1820d8224a07db3c1d727d0c747218dc",
+  "reference_age": "40 weeks post-menstrual age",
+  "region": "brain",
+  "population": "aggregate atlas from structurally normal neonatal MRI; mixed sex",
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/raw/d699540b1820d8224a07db3c1d727d0c747218dc/mean/ga_40/structures.nii.gz",
+      "source_path": "mean/ga_40/structures.nii.gz",
+      "local": "data/raw/dhcp-neonatal/structures.nii.gz",
+      "bytes": 419638,
+      "sha256": "57592a9cfd85542a158ed5803a86530fc19ba72946d1c2e0a3c6f8c597cc85d0",
+      "fetched_at": "2026-09-08T16:00:48Z"
+    },
+    {
+      "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/raw/d699540b1820d8224a07db3c1d727d0c747218dc/config/structures.txt",
+      "source_path": "config/structures.txt",
+      "local": "data/raw/dhcp-neonatal/structures.txt",
+      "bytes": 4958,
+      "sha256": "1637d7b44ba6b556878726b8b1094ea5da4072440f780fe234e5993948fdb4c6",
+      "fetched_at": "2026-09-08T16:01:13Z"
+    },
+    {
+      "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/raw/d699540b1820d8224a07db3c1d727d0c747218dc/config/ages.csv",
+      "source_path": "config/ages.csv",
+      "local": "data/raw/dhcp-neonatal/ages.csv",
+      "bytes": 9664,
+      "sha256": "c5084f21d33caadd19b9d10ea987ceb5c344821d04e25e37f774c08aa9729dc7",
+      "fetched_at": "2026-09-08T16:01:38Z"
+    },
+    {
+      "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/raw/d699540b1820d8224a07db3c1d727d0c747218dc/scale/ga_40.dof",
+      "source_path": "scale/ga_40.dof",
+      "local": "data/raw/dhcp-neonatal/ga_40.dof",
+      "bytes": 108,
+      "sha256": "44d84a50ad6c3a4f07cb8b0c1bf651b55c22f8c6f036e42630f0e8b3f0a96a8e",
+      "fetched_at": "2026-09-08T16:02:04Z"
+    },
+    {
+      "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/raw/d699540b1820d8224a07db3c1d727d0c747218dc/LICENSE.md",
+      "source_path": "LICENSE.md",
+      "local": "data/raw/dhcp-neonatal/LICENSE.md",
+      "bytes": 17064,
+      "sha256": "dbbc25b17aa8a1b5dbdb8dc5609971bf6a069220367c2762edd8618ad400d1f3",
+      "fetched_at": "2026-09-08T16:02:41Z"
+    },
+    {
+      "url": "https://gin.g-node.org/BioMedIA/dhcp-volumetric-atlas-groupwise/raw/d699540b1820d8224a07db3c1d727d0c747218dc/README.md",
+      "source_path": "README.md",
+      "local": "data/raw/dhcp-neonatal/README.md",
+      "bytes": 12719,
+      "sha256": "53bac43c231216635b23bb4a1e2e6d2cf5c228e69ced5ba17f8b4266c330d1d1",
+      "fetched_at": "2026-09-08T16:03:00Z"
+    }
+  ]
+}

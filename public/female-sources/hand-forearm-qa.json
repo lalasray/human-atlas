@@ -1,0 +1,252 @@
+{
+  "source": "nlm-vhf-moose",
+  "modelUrl": "https://github.com/ENHANCE-PET/MOOSE",
+  "modelWeightsUrl": "https://github.com/ENHANCE-PET/MOOSE/releases/download/moosez-v.3.1.3/clin_ct_peripheral_bones_ras_07052025.zip",
+  "modelWeightsSha256": "d12373c2f13b94abf4ed1102be2eb494020f6d075d8aca93afd9fd405d86cd47",
+  "inputSha256": "5284a87267a83911f0174a07fb3f755301376eb5658daf12d95455cc2ecad26f",
+  "labelsSha256": "9f3aed912c383bfa1017ae89448786af2958b71c5a682e6a8a7db462c50e3a01",
+  "crop": [
+    0,
+    1100
+  ],
+  "voxelToStage": [
+    [
+      0.0009369565649067968,
+      2.9082085994265206e-05,
+      -1.4024851685907094e-05,
+      -0.22704204472948544
+    ],
+    [
+      -1.2669614280990829e-05,
+      -1.5570597555893352e-05,
+      -0.0009997707327529858,
+      1.729310250789798
+    ],
+    [
+      2.9293793745854348e-05,
+      -0.0009369194409157973,
+      1.6179785713757357e-05,
+      0.21174825162070512
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "lateralityCorrectedVoxels": 848,
+  "labels": [
+    {
+      "label": "carpal_left",
+      "voxels": 25827,
+      "removed_noise_voxels": 0,
+      "components": 1,
+      "bounds": [
+        [
+          0.1484868824481964,
+          1.006636619567871,
+          0.05630894750356674
+        ],
+        [
+          0.19160756468772888,
+          1.0460541248321533,
+          0.10467109829187393
+        ]
+      ],
+      "watertight": true,
+      "triangles": 15756,
+      "partial_scan_reference": false
+    },
+    {
+      "label": "carpal_right",
+      "voxels": 24217,
+      "removed_noise_voxels": 0,
+      "components": 1,
+      "bounds": [
+        [
+          -0.19562669098377228,
+          0.9833212494850159,
+          0.0333917997777462
+        ],
+        [
+          -0.15401723980903625,
+          1.0205347537994385,
+          0.07989984005689621
+        ]
+      ],
+      "watertight": true,
+      "triangles": 15236,
+      "partial_scan_reference": false
+    },
+    {
+      "label": "fingers_left",
+      "voxels": 23635,
+      "removed_noise_voxels": 0,
+      "components": 4,
+      "bounds": [
+        [
+          0.09061262756586075,
+          0.9126085042953491,
+          0.07748798280954361
+        ],
+        [
+          0.16106082499027252,
+          1.0073108673095703,
+          0.14407962560653687
+        ]
+      ],
+      "watertight": true,
+      "triangles": 32068,
+      "partial_scan_reference": false
+    },
+    {
+      "label": "fingers_right",
+      "voxels": 25710,
+      "removed_noise_voxels": 0,
+      "components": 2,
+      "bounds": [
+        [
+          -0.18503150343894958,
+          0.8821899890899658,
+          0.052456144243478775
+        ],
+        [
+          -0.11317712813615799,
+          0.9724971055984497,
+          0.11866756528615952
+        ]
+      ],
+      "watertight": true,
+      "triangles": 33424,
+      "partial_scan_reference": false
+    },
+    {
+      "label": "metacarpal_left",
+      "voxels": 36420,
+      "removed_noise_voxels": 2,
+      "components": 1,
+      "bounds": [
+        [
+          0.11839263886213303,
+          0.9560856223106384,
+          0.06797657161951065
+        ],
+        [
+          0.184409499168396,
+          1.0346158742904663,
+          0.13701005280017853
+        ]
+      ],
+      "watertight": true,
+      "triangles": 35890,
+      "partial_scan_reference": false
+    },
+    {
+      "label": "metacarpal_right",
+      "voxels": 40101,
+      "removed_noise_voxels": 0,
+      "components": 1,
+      "bounds": [
+        [
+          -0.19378912448883057,
+          0.9275317788124084,
+          0.045687224715948105
+        ],
+        [
+          -0.12992537021636963,
+          1.004595398902893,
+          0.11099238693714142
+        ]
+      ],
+      "watertight": true,
+      "triangles": 37030,
+      "partial_scan_reference": false
+    },
+    {
+      "label": "radius_left",
+      "voxels": 53688,
+      "removed_noise_voxels": 0,
+      "components": 1,
+      "bounds": [
+        [
+          0.16898097097873688,
+          1.0354195833206177,
+          -0.056016966700553894
+        ],
+        [
+          0.2506404519081116,
+          1.2070305347442627,
+          0.08878451585769653
+        ]
+      ],
+      "watertight": true,
+      "triangles": 39804,
+      "partial_scan_reference": true
+    },
+    {
+      "label": "radius_right",
+      "voxels": 42140,
+      "removed_noise_voxels": 0,
+      "components": 1,
+      "bounds": [
+        [
+          -0.22783690690994263,
+          1.0112489461898804,
+          -0.044524841010570526
+        ],
+        [
+          -0.16830997169017792,
+          1.1695300340652466,
+          0.0661795511841774
+        ]
+      ],
+      "watertight": true,
+      "triangles": 32444,
+      "partial_scan_reference": true
+    },
+    {
+      "label": "ulna_left",
+      "voxels": 57469,
+      "removed_noise_voxels": 0,
+      "components": 1,
+      "bounds": [
+        [
+          0.1826430857181549,
+          1.0290889739990234,
+          -0.0968409925699234
+        ],
+        [
+          0.24808762967586517,
+          1.2254228591918945,
+          0.06417064368724823
+        ]
+      ],
+      "watertight": true,
+      "triangles": 43782,
+      "partial_scan_reference": true
+    },
+    {
+      "label": "ulna_right",
+      "voxels": 26864,
+      "removed_noise_voxels": 0,
+      "components": 3,
+      "bounds": [
+        [
+          -0.22670838236808777,
+          1.0053751468658447,
+          -0.10762646794319153
+        ],
+        [
+          -0.18739822506904602,
+          1.2042573690414429,
+          0.04121367260813713
+        ]
+      ],
+      "watertight": true,
+      "triangles": 25156,
+      "partial_scan_reference": true
+    }
+  ],
+  "anatomicalReview": "pending"
+}

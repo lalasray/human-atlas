@@ -3,8 +3,10 @@ import {readFile} from 'node:fs/promises';
 import {createExplosionLayout} from '../app/explosion-layout.ts';
 import {PointerTap} from '../app/pointer-tap.ts';
 import {atlasTools} from '../app/agent-tools.ts';
+import {referenceFromSearch,referenceUrl} from '../app/references.ts';
+import {DEFAULT_VISIBLE} from '../app/anatomy.ts';
 
-for (const file of ['atlas.json']) {
+for (const file of ['atlas.json','atlas-female-expanded.json','atlas-infant.json']) {
   const atlas=JSON.parse(await readFile(new URL(`../public/models/${file}`,import.meta.url)));
   const groups=[atlas.parts,...[...new Set(atlas.parts.map(p=>p.system))].map(system=>atlas.parts.filter(p=>p.system===system))];
   for(const group of groups) for(const aspect of [.46,1,1.7]) {
@@ -22,13 +24,19 @@ for (const file of ['atlas.json']) {
   }
   let selected=null;
   const [find,inspect]=atlasTools(atlas,c=>{selected=c;});
-  const results=find.execute({query:'femur'});
+  const results=find.execute({query:file==='atlas-infant.json'?'hippocampus':'femur'});
   assert.ok(results.length>0);
   inspect.execute({id:results[0].id});
   const previous=selected;
   assert.throws(()=>inspect.execute({id:'nonexistent-structure'}));
   assert.equal(selected,previous);
   assert.throws(()=>find.execute({query:' '}));
+  if(file==='atlas-female-expanded.json'){
+    for(const query of ['skull','rib','thyroid','adrenal','gastrocnemius','uterus','carpal','finger bones','radius','ulna']){
+      const matches=find.execute({query});assert.ok(matches.length>0,query);
+      inspect.execute({id:matches[0].id});assert.ok(selected.elements.every(id=>atlas.parts.some(p=>p.id===id)));
+    }
+  }
   console.log(`${file}: packing at desktop/mobile aspect ratios and search/inspection contracts passed.`);
 }
 const tap=new PointerTap();
@@ -39,3 +47,18 @@ tap.down(1,10,10,5);tap.cancel(1);assert.equal(tap.up(1,10,10),false);
 tap.down(1,10,10,5);assert.equal(tap.up(1,10,10),true);
 assert.equal(createExplosionLayout([]).cells.size,0);
 console.log('Tap, drag, multitouch, cancellation, and empty-view checks passed.');
+
+assert.ok(!DEFAULT_VISIBLE.includes('pregnancy'));
+assert.equal(referenceFromSearch(''),'male');
+assert.equal(referenceFromSearch('?sex=female'),'female');
+assert.equal(referenceFromSearch('?sex=female&reference=hra'),'female');
+assert.equal(referenceFromSearch('?sex=female&reference=unknown'),'female');
+assert.equal(referenceFromSearch('?model=infant'),'infant');
+for(const id of ['male','female','infant']){
+  const url=referenceUrl('http://localhost:3017/?reference=hra&keep=yes#scene',id);
+  assert.equal(referenceFromSearch(url.search),id);
+  assert.equal(url.searchParams.has('reference'),false);
+  assert.equal(url.searchParams.get('keep'),'yes');assert.equal(url.hash,'#scene');
+}
+for(const id of ['male','female'])assert.equal(referenceFromSearch(referenceUrl('http://localhost:3017/?model=infant',id).search),id);
+console.log('Reference links, legacy female URL, parameter preservation and pregnancy defaults passed.');

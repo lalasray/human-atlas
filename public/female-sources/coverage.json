@@ -1,0 +1,118 @@
+{
+  "sourceRepository": "https://github.com/rubdttcom/human-atlas",
+  "sourceRevision": "f1c09ede05984702c98fc89198b1f1e2c60f073f",
+  "manifestSha256": "19e7539d6b1d35da956080f57c554d5fdf4629d60e72adb25c44b7e33da640d6",
+  "anatomicalReview": "pending",
+  "counts": {
+    "originalMeshes": 888,
+    "expandedMeshes": 1025,
+    "retainedHraMeshes": 786,
+    "addedVhfMeshes": 239,
+    "excludedHraMeshes": 102,
+    "concepts": 1281
+  },
+  "meshesBySource": {
+    "hra-female": 786,
+    "nlm-vhf-ct": 101,
+    "denver-vhf": 128,
+    "nlm-vhf-moose": 10
+  },
+  "systems": [
+    {
+      "id": "arterial",
+      "original": 31,
+      "expanded": 39
+    },
+    {
+      "id": "cardiac",
+      "original": 36,
+      "expanded": 36
+    },
+    {
+      "id": "connective",
+      "original": 0,
+      "expanded": 25
+    },
+    {
+      "id": "digestive",
+      "original": 61,
+      "expanded": 67
+    },
+    {
+      "id": "endocrine",
+      "original": 0,
+      "expanded": 3
+    },
+    {
+      "id": "integumentary",
+      "original": 17,
+      "expanded": 16
+    },
+    {
+      "id": "lymphatic",
+      "original": 14,
+      "expanded": 15
+    },
+    {
+      "id": "muscular",
+      "original": 16,
+      "expanded": 90
+    },
+    {
+      "id": "nervous",
+      "original": 295,
+      "expanded": 297
+    },
+    {
+      "id": "pregnancy",
+      "original": 8,
+      "expanded": 8
+    },
+    {
+      "id": "reproductive",
+      "original": 38,
+      "expanded": 38
+    },
+    {
+      "id": "respiratory",
+      "original": 70,
+      "expanded": 76
+    },
+    {
+      "id": "sensory",
+      "original": 67,
+      "expanded": 67
+    },
+    {
+      "id": "skeletal",
+      "original": 91,
+      "expanded": 95
+    },
+    {
+      "id": "urinary",
+      "original": 87,
+      "expanded": 90
+    },
+    {
+      "id": "venous",
+      "original": 57,
+      "expanded": 63
+    }
+  ],
+  "remainingGaps": [
+    "Forearm bones remain partial at clipped scan boundaries; hand bones are grouped automatic labels, not individually reviewed bones.",
+    "Most upper-body, arm and hand muscles are absent.",
+    "Small peripheral nerves, vessels and connective tissues have partial coverage.",
+    "Some CT labels and foot meshes group multiple structures.",
+    "The expanded assembly has no whole-body skin surface.",
+    "CT boundaries, HRA organ placement and anatomical equivalences remain unreviewed."
+  ],
+  "baseManifestSha256": "0fcfaf5680fd8f6eb54e64cfaaccdb541e554a69592aebff00a02f61f13335a5",
+  "extensions": [
+    {
+      "source": "nlm-vhf-moose",
+      "meshes": 10,
+      "evidence": "/female-sources/hand-forearm-qa.json"
+    }
+  ]
+}
