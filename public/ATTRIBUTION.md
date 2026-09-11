@@ -120,7 +120,7 @@ accurate NLM data, and NLM does not endorse this application.
 
 ## Neonatal brain reference
 
-The Infant option contains 85 regions from the Developing Human Connectome
+The brain component of the Infant option contains 85 regions from the Developing Human Connectome
 Project (dHCP) morphological atlas at 40 weeks post-menstrual age. This is a
 mixed-sex population brain reference, not a whole-body infant or an individual
 female donor. Two background labels are excluded.
@@ -134,8 +134,9 @@ female donor. Two background labels are excluded.
 - Pinned source revision: `d699540b1820d8224a07db3c1d727d0c747218dc`.
 - Adaptations: marching-cubes surface extraction and meshoptimizer simplification
   in the existing HumanAnatomyFemale project, followed here by a rigid display
-  rotation and translation. Metric scale is preserved. No registration to an
-  adult body is performed. Local conversion remains anatomically unreviewed.
+  rotation and translation in the retained source manifest. The combined viewer
+  applies the additional display scale/translation described below. No registration
+  to an adult body is performed. Local conversion remains anatomically unreviewed.
 - Input and output hashes and display matrix: `/infant-sources/coverage.json`.
 
 ## Retained source datasets
@@ -159,4 +160,49 @@ multiple bones or entire tissues. They must not be counted as individual organs
 or presented as manually validated anatomy. An experimental registration to VHF is retained for review; this source is not included in the expanded viewer.
 
 
-The source-specific HRA, Denver, NLM and dHCP manifests and geometry remain available for the reproducibility pipeline. The viewer exposes only Male, Female · Expanded, and Infant · Brain. The active expanded female uses composition 0.5 canonical concepts plus the ten MOOSE labels. The infant viewer additionally applies the display rotation and translation recorded above.
+The source-specific HRA, Denver, NLM and dHCP manifests and geometry remain available for the reproducibility pipeline. The viewer exposes only Male, Female, and Infant. The active expanded female uses composition 0.5 canonical concepts plus the ten MOOSE labels. The infant viewer combines the brain and chest with the display transforms recorded below.
+
+## Newborn chest — Tyndall / Cork University Hospital
+
+Andrea Pacheco, Baptiste Jayet, and Stefan Andersson-Engels (2021), *A discrete
+3D mesh of the thorax of a newborn with region segmentation*, v1.0.0.
+Tyndall National Institute. DOI: https://doi.org/10.5281/zenodo.4916863.
+Source: https://zenodo.org/records/4916863.
+License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.
+Funded by Science Foundation Ireland project SFI/15/RP/2828.
+Related study: Pacheco et al. (2020), *Anthropomorphic optical phantom of the
+neonatal thorax: a key tool for pulmonary studies in preterm infants*,
+https://doi.org/10.1117/1.JBO.25.11.115001.
+
+The published mesh derives from an anonymized newborn CT held by Cork University
+Hospital. The dataset authors record parental approval and ethical approval
+ECM 4 (gg) 07/03/18. The infant was born at 36 weeks gestation; scan age and sex
+are not reported. This is an individual chest source, distinct from the dHCP
+population brain. Both are shown together in the combined infant display. The original clinical CT was not downloaded.
+
+Adaptations: extracted surfaces by clipping binary nodal region indicators at
+0.5 in the published tetrahedral mesh; retained volume cut faces; combined lung
+regions 1, 10, and 11 (study subdivisions, not anatomical lobes); welded coincident
+vertices; computed normals; converted source millimetres to metres with a shared
+display rotation/translation; quantized normals and packed/gzipped web buffers.
+The source conversion applies no smoothing, simplification, individual-bone
+labels, or alignment to brain/adult anatomy. The shared infant display positions
+the resized brain above this chest without a validated anatomical registration. The source's coarse grouping and disconnected
+pieces remain. Anatomical orientation, local conversion, and nonmanifold surfaces
+are not independently validated. Source files and output hashes, full labels,
+software versions, and geometry checks are in `public/infant-sources/thorax/`.
+
+
+## Combined infant display adaptation
+
+The Infant option contains all 94 brain and chest parts in one scene.
+`scripts/build-infant-assembly.py` uniformly scales the brain by approximately
+1.1426 and positions it above the chest, centering both on the same display axes.
+Brain width is 78% of chest width, with a 6.3 mm gap between their bounding boxes.
+These are approximate display proportions, not measurements of a shared infant.
+No additional anatomy is synthesized. The chest buffers, triangle indices and
+normal directions remain unchanged; transformed brain vertices are repacked.
+
+The two source licenses and donor/age records remain distinct. The combined
+manifest and all transformations, input hashes and remaining gaps are recorded
+in `/infant-sources/assembly.json` and each part's downloadable provenance.

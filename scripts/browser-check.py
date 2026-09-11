@@ -1,4 +1,4 @@
-"""Exercise the three-reference viewer, provenance and review tools in Chromium.
+"""Exercise the adult and infant regional viewer, provenance and review tools in Chromium.
 
 Set ATLAS_URL for a running preview and CHROMIUM_EXECUTABLE_PATH to use an
 existing Chromium binary; otherwise Playwright uses its installed browser.
@@ -6,7 +6,7 @@ existing Chromium binary; otherwise Playwright uses its installed browser.
 import json
 import os
 from pathlib import Path
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, expect
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'artifacts/browser'
@@ -53,8 +53,11 @@ with sync_playwright() as p:
         canvas = page.locator('.scene canvas')
         pixel_stats = '''c=>{const s=document.createElement('canvas');s.width=c.width;s.height=c.height;
         const ctx=s.getContext('2d');ctx.drawImage(c,0,0);const a=ctx.getImageData(0,0,s.width,s.height).data;
-        let colored=0;for(let i=0;i<a.length;i+=4){if(Math.max(a[i],a[i+1],a[i+2])-Math.min(a[i],a[i+1],a[i+2])>24)colored++;}
-        return {colored,width:c.width,height:c.height};}'''
+        let colored=0,left=c.width,right=0,top=c.height,bottom=0;
+        for(let i=0;i<a.length;i+=4){if(Math.max(a[i],a[i+1],a[i+2])-Math.min(a[i],a[i+1],a[i+2])>24){
+          colored++;const x=(i/4)%c.width,y=Math.floor(i/4/c.width);
+          left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y);}}
+        return {colored,width:c.width,height:c.height,left,right,top,bottom};}'''
         page.wait_for_function(f"()=>({pixel_stats})(document.querySelector('.scene canvas')).colored>1000")
         stats = canvas.evaluate(pixel_stats)
         assert stats['colored'] > 1000, stats
@@ -111,33 +114,78 @@ with sync_playwright() as p:
         assert page.locator('.coverage-table tbody tr').count() > 0
         shot('source-catalog')
         page.get_by_role('button', name='Close coverage').click()
-        switch('Male · BodyParts3D', '2,234 modeled pieces')
-        switch('Infant · Brain', '85 modeled pieces')
+        page.get_by_label('Anatomical reference', exact=True).click()
+        expect(page.get_by_role('option')).to_have_text(['Male', 'Female', 'Infant'])
+        page.keyboard.press('Escape')
+        switch('Male', '2,234 modeled pieces')
+        switch('Infant', '94 modeled pieces')
+        assert '91 pieces visible' in page.locator('.panel-foot').inner_text()
+        page.wait_for_timeout(500)
+        shot('infant-combined-desktop')
         search('hippocampus', 'Hippocampus left')
         assert 'dhcp-ga40-aggregate' in page.locator('.provenance').inner_text()
         page.get_by_role('button', name='Isolate structure', exact=True).click()
         page.wait_for_timeout(400)
         shot('infant-isolated')
         page.get_by_role('button', name='Clear selection', exact=True).click()
-        results.append({'desktop': 'three models, search, isolation, provenance download, alignment, catalog', 'canvas': stats})
+        search('heart', 'Heart')
+        assert 'CUH-newborn-thorax-4916863' in page.locator('.provenance').inner_text()
+        assert 'Tyndall' in page.locator('.part-sources').inner_text()
+        with page.expect_download() as download:
+            page.get_by_label('Download structure provenance', exact=True).click()
+        provenance = json.loads(Path(download.value.path()).read_text())
+        assert provenance['display_transform']['type'] == 'approximate display assembly'
+        page.get_by_role('button', name='Isolate structure', exact=True).click()
+        page.wait_for_timeout(400)
+        shot('infant-heart')
+        page.get_by_role('button', name='Clear selection', exact=True).click()
+        page.get_by_role('button', name='All', exact=True).click()
+        assert '94 pieces visible' in page.locator('.panel-foot').inner_text()
+        page.get_by_role('button', name='Assemble and reset', exact=True).click()
+        assert '91 pieces visible' in page.locator('.panel-foot').inner_text()
+        open_sources()
+        assert 'different sources' in page.locator('.about-copy').inner_text()
+        page.keyboard.press('Escape')
+        results.append({'desktop': 'three references, combined infant search, isolation, provenance, defaults and adult review', 'canvas': stats})
         print('Desktop model and review checks passed.', flush=True)
-        for width, height in [(390, 844), (320, 568), (844, 390)]:
+        combined_pixels = '''c=>{const s=document.createElement('canvas');s.width=c.width;s.height=c.height;
+        const ctx=s.getContext('2d');ctx.drawImage(c,0,0);const a=ctx.getImageData(0,0,s.width,s.height).data;
+        let brain=0,chest=0,brainY=0,chestY=0;
+        for(let i=0;i<a.length;i+=4){const [r,g,b]=a.slice(i,i+3),y=Math.floor(i/4/s.width);
+          if(r>g&&r-g<35&&g-b>30){brain++;brainY+=y;}
+          if(r>b+6&&b>g+6){chest++;chestY+=y;}}
+        return {brain,chest,brainY:brainY/brain,chestY:chestY/chest};}'''
+        for width, height, query in [(390, 844, '?model=infant'), (320, 568, '?source=dhcp-neonatal'), (844, 390, '?model=infant-thorax')]:
             page.set_viewport_size({'width': width, 'height': height})
-            page.goto(BASE + '/?source=dhcp-neonatal')
-            ready('85 modeled pieces')
-            page.wait_for_timeout(300)
+            page.goto(BASE + '/' + query)
+            ready('94 modeled pieces')
+            assert page.get_by_label('Anatomical reference', exact=True).inner_text() == 'Infant'
+            page.wait_for_function(f"()=>({pixel_stats})(document.querySelector('.scene canvas')).colored>1000")
+            page.wait_for_timeout(500)
             assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'), 'Horizontal overflow'
-            shot(f'{width}x{height}-infant')
+            combined = canvas.evaluate(combined_pixels)
+            assert combined['brain'] > 100 and combined['chest'] > 100, combined
+            assert combined['brainY'] < combined['chestY'], combined
+            shot(f'{width}x{height}-infant-combined')
+            search('trachea', 'Trachea')
+            page.get_by_role('button', name='Isolate structure', exact=True).click()
+            page.wait_for_timeout(400)
+            shot(f'{width}x{height}-infant-trachea')
+            page.get_by_role('button', name='Clear selection', exact=True).click()
             slider = page.get_by_role('slider')
             slider.focus()
             slider.press('End')
             page.wait_for_timeout(1200)
-            shot(f'{width}x{height}-infant-exploded')
-            results.append({'viewport': [width, height], 'infant': 'assembled and exploded', 'overflow': False})
-            print(f'Viewport {width}x{height} passed.', flush=True)
+            shot(f'{width}x{height}-infant-combined-exploded')
+            results.append({'viewport': [width, height], 'infant': 'brain above chest, trachea isolation and explosion', 'pixels': combined})
+            print(f'Combined infant viewport {width}x{height} passed.', flush=True)
         assert not errors, errors
-    except Exception:
-        shot('failure')
+    except Exception as error:
+        print(f'Browser check failed: {error}', flush=True)
+        try:
+            shot('failure')
+        except Exception as screenshot_error:
+            print(f'Failure screenshot unavailable: {screenshot_error}', flush=True)
         raise
     finally:
         browser.close()

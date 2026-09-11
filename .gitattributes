@@ -4,3 +4,6 @@ public/models/*.bin.gz binary
 
 # Keep the upstream label table byte-for-byte, including its trailing spaces.
 public/infant-sources/structures.txt -text whitespace=-blank-at-eol
+
+# Preserve the published newborn chest README exactly for checksum validation.
+public/infant-sources/thorax/readme.md -text whitespace=-blank-at-eol

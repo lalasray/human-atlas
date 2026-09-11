@@ -24,11 +24,16 @@ and the coverage matrix (individual, grouped and partial coverage kinds; per-sou
 proxy fits, surface-distance evidence and selection recipe. `scripts/qa-geometry.py` and
 `scripts/qa-anatomy.py` measure geometry; `registry/review-status.json` holds human decisions.
 
-The UI loads one of three references: Male, Female · Expanded, and Infant · Brain.
+The UI loads one of three references: Male, Female, and Infant.
 The expanded female combines the composition 0.5 canonical catalog with ten MOOSE
-hand/forearm labels using `scripts/refresh-female-expansion.py`. The neonatal viewer
-uses the dHCP reference with a metric display rotation/translation, without adult
-registration. Source-specific atlases remain inputs to the reproduction pipeline.
+hand/forearm labels using `scripts/refresh-female-expansion.py`. The infant manifest,
+`atlas-infant-expanded.json`, combines all 85 dHCP brain regions and nine Tyndall
+chest tissue groups through `scripts/build-infant-assembly.py`. Brain vertices are
+uniformly scaled and translated above the chest; chest buffers are reused. Source
+geometry, provenance and original metric manifests remain reproducible inputs.
+The display composition is approximate, with matrices and input hashes in
+`public/infant-sources/assembly.json`; it is not anatomical registration.
+Old infant brain/chest URL parameters resolve to the single Infant option.
 
 Selections expose source provenance and downloadable records. Coverage & sources
 provides the base source catalog and alignment review, with optional landmark pairs

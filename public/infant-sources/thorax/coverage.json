@@ -1,0 +1,201 @@
+{
+  "source": "https://zenodo.org/records/4916863",
+  "doi": "10.5281/zenodo.4916863",
+  "license": "CC-BY-4.0",
+  "inputSha256": "7de29df4092f47f702b7a27d0c6c3e147f953dcc6db8d8bc3ddda7fd4d9e77a3",
+  "readmeSha256": "cb85dc094b37a4c60c5de2ed13ca24630cae699c935363d600d43bc65017fe50",
+  "manifestSha256": "65ed8e5fba93c7523cbaebf54dafaee9b553280e8dc30bf856026f0be65b5495",
+  "geometrySha256": "e495e26aa7a249b915eab6701ca7013c7537a48be54e4b3f1b9278de1afd6af8",
+  "sourceNodes": 229363,
+  "sourceTetrahedra": 1356069,
+  "sourceRegionCount": 11,
+  "meshes": 9,
+  "concepts": 9,
+  "triangles": 952150,
+  "regions": [
+    {
+      "id": "tyndall-newborn-thorax:lungs",
+      "sourceRegions": [
+        1,
+        10,
+        11
+      ],
+      "sourceNodes": 44789,
+      "vertices": 59812,
+      "triangles": 119660,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 9,
+      "connected_components": 12,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:bone",
+      "sourceRegions": [
+        2
+      ],
+      "sourceNodes": 2121,
+      "vertices": 23448,
+      "triangles": 45932,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 257,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:cartilage",
+      "sourceRegions": [
+        3
+      ],
+      "sourceNodes": 2021,
+      "vertices": 16241,
+      "triangles": 32382,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 36,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:heart",
+      "sourceRegions": [
+        4
+      ],
+      "sourceNodes": 10225,
+      "vertices": 12062,
+      "triangles": 24116,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 2,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:muscle",
+      "sourceRegions": [
+        5
+      ],
+      "sourceNodes": 99251,
+      "vertices": 147953,
+      "triangles": 296052,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 20,
+      "connected_components": 125,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:artery",
+      "sourceRegions": [
+        6
+      ],
+      "sourceNodes": 2133,
+      "vertices": 11519,
+      "triangles": 23064,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 15,
+      "connected_components": 28,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:fat",
+      "sourceRegions": [
+        7
+      ],
+      "sourceNodes": 33903,
+      "vertices": 119898,
+      "triangles": 240282,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 11,
+      "connected_components": 21,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:skin",
+      "sourceRegions": [
+        8
+      ],
+      "sourceNodes": 33944,
+      "vertices": 80120,
+      "triangles": 160334,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 33,
+      "connected_components": 4,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax:trachea",
+      "sourceRegions": [
+        9
+      ],
+      "sourceNodes": 976,
+      "vertices": 4971,
+      "triangles": 10328,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 148,
+      "connected_components": 6,
+      "degenerate_faces": 0,
+      "self_intersections": "not measured",
+      "anatomical_review": "local conversion unreviewed"
+    }
+  ],
+  "displayTransform": {
+    "id": "tyndall-thorax-mm-to-stage",
+    "matrix": [
+      [
+        -0.001,
+        0.0,
+        0.0,
+        0.0027241500000000016
+      ],
+      [
+        0.0,
+        0.0,
+        0.001,
+        0.136681
+      ],
+      [
+        0.0,
+        0.001,
+        0.0,
+        0.014189450000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "units": "metres",
+    "scale": 1,
+    "registration_to_brain": false,
+    "registration_to_adult": false,
+    "anatomical_orientation": "not verified; source has no orientation header"
+  },
+  "software": {
+    "python": "3.14.6",
+    "numpy": "2.5.3",
+    "h5py": "3.16.0",
+    "vtk": "9.7.0"
+  },
+  "method": "Clip each nodal region indicator at 0.5; extract and triangulate clipped volume surface; weld coincident points, compute consistent normals; no smoothing or simplification.",
+  "remainingGaps": [
+    "Head/skull, arms, hands, pelvis, legs and feet.",
+    "Abdominal and pelvic organs, peripheral nerves and complete blood vessels.",
+    "Individually labeled bones, muscles, lung lobes and fine organ structures.",
+    "No anatomical registration between the separate infant brain and chest references."
+  ]
+}

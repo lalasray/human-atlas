@@ -3,10 +3,10 @@ import {readFile} from 'node:fs/promises';
 import {createExplosionLayout} from '../app/explosion-layout.ts';
 import {PointerTap} from '../app/pointer-tap.ts';
 import {atlasTools} from '../app/agent-tools.ts';
-import {referenceFromSearch,referenceUrl} from '../app/references.ts';
+import {REFERENCES,referenceFromSearch,referenceUrl} from '../app/references.ts';
 import {DEFAULT_VISIBLE,partVisible} from '../app/anatomy.ts';
 
-for (const file of ['atlas.json','atlas-female-expanded.json','atlas-infant.json']) {
+for (const file of ['atlas.json','atlas-female-expanded.json','atlas-infant-expanded.json']) {
   const atlas=JSON.parse(await readFile(new URL(`../public/models/${file}`,import.meta.url)));
   const groups=[atlas.parts,...[...new Set(atlas.parts.map(p=>p.system))].map(system=>atlas.parts.filter(p=>p.system===system))];
   for(const group of groups) for(const aspect of [.46,1,1.7]) {
@@ -24,13 +24,19 @@ for (const file of ['atlas.json','atlas-female-expanded.json','atlas-infant.json
   }
   let selected=null;
   const [find,inspect]=atlasTools(atlas,c=>{selected=c;});
-  const results=find.execute({query:file==='atlas-infant.json'?'hippocampus':'femur'});
+  const results=find.execute({query:file==='atlas-infant-expanded.json'?'hippocampus':'femur'});
   assert.ok(results.length>0);
   inspect.execute({id:results[0].id});
   const previous=selected;
   assert.throws(()=>inspect.execute({id:'nonexistent-structure'}));
   assert.equal(selected,previous);
   assert.throws(()=>find.execute({query:' '}));
+  if(file==='atlas-infant-expanded.json'){
+    for(const query of ['hippocampus','heart','trachea','lungs','chest bones']){
+      const matches=find.execute({query});assert.ok(matches.length>0,query);
+      inspect.execute({id:matches[0].id});assert.ok(selected.elements.every(id=>atlas.parts.some(p=>p.id===id)));
+    }
+  }
   if(file==='atlas-female-expanded.json'){
     for(const query of ['skull','rib','thyroid','adrenal','gastrocnemius','uterus','carpal','finger bones','radius','ulna']){
       const matches=find.execute({query});assert.ok(matches.length>0,query);
@@ -54,6 +60,7 @@ assert.equal(referenceFromSearch('?sex=female'),'female');
 assert.equal(referenceFromSearch('?sex=female&reference=hra'),'female');
 assert.equal(referenceFromSearch('?sex=female&reference=unknown'),'female');
 assert.equal(referenceFromSearch('?model=infant'),'infant');
+assert.deepEqual(REFERENCES.map(r=>r.label),['Male','Female','Infant']);
 for(const id of ['male','female','infant']){
   const url=referenceUrl('http://localhost:3017/?reference=hra&keep=yes#scene',id);
   assert.equal(referenceFromSearch(url.search),id);
@@ -78,3 +85,7 @@ assert.equal(referenceFromSearch('?source=composed'),'female');
 assert.equal(referenceFromSearch('?source=bodyparts3d'),'male');
 assert.equal(referenceFromSearch(referenceUrl('http://localhost/?source=dhcp-neonatal','male').search),'male');
 assert.ok(!DEFAULT_VISIBLE.includes('tissue'));
+
+assert.equal(referenceFromSearch('?model=infant-thorax'),'infant');
+assert.equal(referenceFromSearch('?source=tyndall-newborn-thorax'),'infant');
+assert.equal(referenceFromSearch(referenceUrl('http://localhost/?model=infant-thorax','infant').search),'infant');

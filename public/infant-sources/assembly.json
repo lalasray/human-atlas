@@ -1,0 +1,97 @@
+{
+  "manifestSha256": "ce19dc5e362f97bfd62fad48e200cad8de3f4cc76de86b6a957996545e844888",
+  "meshes": 94,
+  "concepts": 94,
+  "triangles": 1969076,
+  "displayTransforms": [
+    {
+      "id": "dhcp-neonatal-to-infant-display",
+      "source": "dhcp-neonatal",
+      "matrix": [
+        [
+          1.1426207998482552,
+          0,
+          0,
+          0.0
+        ],
+        [
+          0,
+          1.1426207998482552,
+          0,
+          0.10933001206865063
+        ],
+        [
+          0,
+          0,
+          1.1426207998482552,
+          0.0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "scale": 1.1426207998482552,
+      "source_manifest": "/models/atlas-infant.json",
+      "source_manifest_sha256": "f12704fc3c95af092bf1e5ea75a4dd33fdddbeecfaeb71e99a81fd1a4f8333cd",
+      "from": "dHCP GA40 display stage, metres",
+      "to": "infant assembly display stage, metres",
+      "type": "approximate display assembly",
+      "anatomical_registration": false,
+      "review_status": "approximate placement; unreviewed"
+    },
+    {
+      "id": "tyndall-newborn-thorax-to-infant-display",
+      "source": "tyndall-newborn-thorax",
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "scale": 1,
+      "source_manifest": "/models/atlas-infant-thorax.json",
+      "source_manifest_sha256": "65ed8e5fba93c7523cbaebf54dafaee9b553280e8dc30bf856026f0be65b5495",
+      "from": "newborn thorax display stage, metres",
+      "to": "infant assembly display stage, metres",
+      "type": "approximate display assembly",
+      "anatomical_registration": false,
+      "review_status": "approximate placement; unreviewed"
+    }
+  ],
+  "assembly": {
+    "brain_to_chest_width_ratio": 0.78,
+    "brain_scale": 1.1426207998482552,
+    "brain_chest_gap_m": 0.006269220001995563,
+    "anatomical_registration": false,
+    "shared_donor": false,
+    "complete_body": false
+  },
+  "remainingGaps": [
+    "Skull, face, neck, limbs and pelvis.",
+    "Abdominal and pelvic organs.",
+    "Complete peripheral nerves and vessels."
+  ]
+}
